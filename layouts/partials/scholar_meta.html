@@ -1,0 +1,44 @@
+{{- /* Google Scholar / Highwire Press Meta Tags for Academic Papers */ -}}
+{{- if eq .Section "papers" }}
+<!-- Google Scholar Meta Tags -->
+<meta name="citation_title" content="{{ .Title }}">
+{{- range .Params.author }}
+<meta name="citation_author" content="{{ . }}">
+{{- end }}
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+{{- with .Params.editPost }}
+{{- with .Text }}
+<meta name="citation_journal_title" content="{{ . }}">
+{{- end }}
+{{- end }}
+{{- with .Params.doi }}
+<meta name="citation_doi" content="{{ . }}">
+{{- end }}
+{{- with .Params.volume }}
+<meta name="citation_volume" content="{{ . }}">
+{{- end }}
+{{- with .Params.issue }}
+<meta name="citation_issue" content="{{ . }}">
+{{- end }}
+{{- with .Params.firstpage }}
+<meta name="citation_firstpage" content="{{ . }}">
+{{- end }}
+{{- with .Params.lastpage }}
+<meta name="citation_lastpage" content="{{ . }}">
+{{- end }}
+{{- with .Params.pdf_url }}
+<meta name="citation_pdf_url" content="{{ $.Site.BaseURL }}{{ . }}">
+{{- end }}
+
+<!-- Dublin Core Meta Tags (fallback) -->
+<meta name="DC.title" content="{{ .Title }}">
+{{- range .Params.author }}
+<meta name="DC.creator" content="{{ . }}">
+{{- end }}
+<meta name="DC.date" content="{{ .Date.Format "2006-01-02" }}">
+<meta name="DC.type" content="Text">
+<meta name="DC.format" content="text/html">
+{{- with .Description }}
+<meta name="DC.description" content="{{ . }}">
+{{- end }}
+{{- end }}

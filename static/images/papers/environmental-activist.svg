@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+  <!-- Simple bar chart showing pollution reduction -->
+  <rect x="60" y="180" width="280" height="2" fill="#e5e7eb"/>
+  <rect x="60" y="140" width="280" height="1" fill="#e5e7eb" stroke-dasharray="4,4"/>
+  <rect x="60" y="100" width="280" height="1" fill="#e5e7eb" stroke-dasharray="4,4"/>
+  <rect x="60" y="60" width="280" height="1" fill="#e5e7eb" stroke-dasharray="4,4"/>
+
+  <!-- Before bar -->
+  <rect x="100" y="80" width="50" height="100" fill="#94a3b8"/>
+  <text x="125" y="200" text-anchor="middle" font-family="system-ui" font-size="11" fill="#64748b">Before</text>
+
+  <!-- After bar (shorter = less pollution) -->
+  <rect x="220" y="110" width="50" height="70" fill="#00274C"/>
+  <text x="245" y="200" text-anchor="middle" font-family="system-ui" font-size="11" fill="#64748b">After</text>
+
+  <!-- Arrow showing reduction -->
+  <path d="M175 100 L195 100 L195 95 L210 105 L195 115 L195 110 L175 110 Z" fill="#22c55e"/>
+  <text x="192" y="85" text-anchor="middle" font-family="system-ui" font-size="10" fill="#22c55e">-13%</text>
+
+  <text x="200" y="235" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Toxic Chemical Releases</text>
+</svg>

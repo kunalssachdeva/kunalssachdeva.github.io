@@ -1,0 +1,373 @@
+/* Clean Academic Theme - Inspired by rajchetty.com */
+/* White base with minimal accent colors */
+
+:root {
+    /* Base colors - Clean and minimal */
+    --bg-primary: #ffffff;
+    --bg-secondary: #fafafa;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6b7280;
+
+    /* Accent colors - Used sparingly */
+    --accent-blue: #00274C;      /* Michigan Blue - for links and highlights */
+    --accent-gold: #FFCB05;      /* Michigan Maize - for special emphasis only */
+    --accent-teal: #0d9488;      /* For interactive elements */
+
+    /* Borders and dividers */
+    --border-light: #e5e7eb;
+    --border-medium: #d1d5db;
+
+    /* Theme overrides */
+    --theme: var(--bg-primary);
+    --primary: var(--text-primary);
+    --secondary: var(--text-secondary);
+    --content: var(--text-primary);
+    --entry: var(--bg-primary);
+}
+
+/* Reset dark mode - force light */
+body.dark {
+    --theme: var(--bg-primary) !important;
+    --primary: var(--text-primary) !important;
+    --content: var(--text-primary) !important;
+    --entry: var(--bg-primary) !important;
+}
+
+/* Base styles */
+body {
+    background: var(--bg-primary) !important;
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Clean header */
+.header {
+    background: var(--bg-primary) !important;
+    border-bottom: 1px solid var(--border-light);
+    box-shadow: none !important;
+}
+
+.header .logo a {
+    color: var(--text-primary) !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+#menu a {
+    color: var(--text-secondary) !important;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+#menu a:hover,
+#menu a.active {
+    color: var(--accent-blue) !important;
+}
+
+/* Clean profile section */
+.profile {
+    background: var(--bg-primary) !important;
+    padding: 4rem 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Profile subtitle - justified text */
+.profile .profile_inner .headline {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.profile .profile_inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.profile .profile_inner h1 {
+    color: var(--text-primary) !important;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
+}
+
+.profile img {
+    border-radius: 8px;
+    border: none !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile buttons - minimal style */
+.profile .button {
+    background: transparent !important;
+    color: var(--accent-blue) !important;
+    border: 1px solid var(--border-medium) !important;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.profile .button:hover {
+    background: var(--accent-blue) !important;
+    color: white !important;
+    border-color: var(--accent-blue) !important;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Social icons - clean */
+.social-icons a {
+    color: var(--text-muted) !important;
+}
+
+.social-icons a:hover {
+    color: var(--accent-blue) !important;
+}
+
+/* Links - subtle accent */
+a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Content sections */
+.main {
+    background: var(--bg-primary);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+/* Section titles */
+h1, h2, h3, h4 {
+    color: var(--text-primary);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* Paper entries - clean cards */
+.post-entry {
+    background: var(--bg-primary);
+    border: none;
+    border-bottom: 1px solid var(--border-light);
+    border-radius: 0;
+    padding: 2rem 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    transition: none;
+}
+
+.post-entry:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--border-light);
+}
+
+.post-entry:last-child {
+    border-bottom: none;
+}
+
+.post-entry .entry-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.post-entry .entry-header h2 a {
+    color: var(--text-primary);
+}
+
+.post-entry .entry-header h2 a:hover {
+    color: var(--accent-blue);
+}
+
+/* Cover images in list */
+.post-entry .entry-cover {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.post-entry .entry-cover img {
+    transition: none;
+}
+
+/* Tags - minimal */
+.post-tags {
+    margin-top: 0.75rem;
+}
+
+.post-tags a {
+    background: transparent;
+    color: var(--text-muted);
+    padding: 0;
+    font-size: 0.85rem;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.post-tags a::after {
+    content: " · ";
+    color: var(--text-muted);
+}
+
+.post-tags a:last-child::after {
+    content: "";
+}
+
+.post-tags a:hover {
+    color: var(--accent-blue);
+    background: transparent;
+}
+
+/* Journal badges - subtle highlight */
+.edit-post a {
+    color: var(--accent-blue) !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Section headers */
+.archive-year {
+    border-left: 3px solid var(--accent-blue);
+    padding-left: 1rem;
+    margin: 3rem 0 1.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Footer - minimal */
+.footer {
+    background: var(--bg-primary) !important;
+    border-top: 1px solid var(--border-light);
+    color: var(--text-muted);
+    padding: 2rem 0;
+}
+
+.footer a {
+    color: var(--accent-blue) !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.breadcrumbs a {
+    color: var(--text-muted);
+}
+
+/* Single paper page */
+.post-single {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-single h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.post-content {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.post-content h5 {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 0.5rem;
+}
+
+/* Code blocks */
+pre {
+    background: var(--bg-secondary) !important;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+}
+
+/* Lists */
+.post-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.post-content ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.post-content ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-blue);
+}
+
+/* Author list styling */
+.post-meta {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+/* Clean scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-medium);
+    border-radius: 4px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile .profile_inner {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .main {
+        padding: 1.5rem 1rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header, .footer, .social-icons, .post-tags {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+}

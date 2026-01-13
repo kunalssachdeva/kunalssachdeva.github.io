@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Box representing firm -->
+  <rect x="60" y="60" width="120" height="100" fill="#8B4513" rx="4"/>
+  <text x="120" y="115" text-anchor="middle" font-family="system-ui" font-size="12" fill="#ffffff">Firm</text>
+
+  <!-- Arrow -->
+  <path d="M190 110 L230 110" stroke="#00274C" stroke-width="2"/>
+  <polygon points="235,110 225,105 225,115" fill="#00274C"/>
+
+  <!-- Outputs -->
+  <rect x="250" y="50" width="100" height="30" rx="4" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="300" y="70" text-anchor="middle" font-family="system-ui" font-size="9" fill="#22c55e">External electricity</text>
+
+  <rect x="250" y="95" width="100" height="30" rx="4" fill="#f0fdf4" stroke="#22c55e"/>
+  <text x="300" y="115" text-anchor="middle" font-family="system-ui" font-size="9" fill="#22c55e">Higher-margin products</text>
+
+  <rect x="250" y="140" width="100" height="30" rx="4" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="300" y="160" text-anchor="middle" font-family="system-ui" font-size="9" fill="#ef4444">Less variety</text>
+
+  <text x="200" y="215" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">Production responses to</text>
+  <text x="200" y="232" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">environmental regulation</text>
+</svg>

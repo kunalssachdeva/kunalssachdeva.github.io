@@ -1,0 +1,177 @@
+/* Research & Discussions Page Styling - Clean layout like rajchetty.com */
+
+/* Page container */
+.post-content {
+    max-width: 800px;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+/* Section headers */
+.post-content h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #00274C;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #00274C;
+}
+
+.post-content h2:first-of-type {
+    margin-top: 0;
+}
+
+/* Paper entries */
+.post-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
+/* Author line */
+.post-content h3 + p strong {
+    font-weight: 500;
+    color: #4a4a4a;
+    font-size: 0.95rem;
+}
+
+/* Journal line */
+.post-content h3 + p + p em {
+    color: #00274C;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Paper images */
+.post-content img {
+    max-width: 320px;
+    height: auto;
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    border-radius: 6px;
+    background: #f8fafc;
+    box-shadow: 0 2px 8px rgba(0, 39, 76, 0.08);
+    transition: box-shadow 0.2s ease;
+}
+
+.post-content img:hover {
+    box-shadow: 0 4px 16px rgba(0, 39, 76, 0.12);
+}
+
+/* Abstract text */
+.post-content p {
+    color: #4a4a4a;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+}
+
+/* Awards styling */
+.post-content p strong:first-child {
+    color: #00274C;
+}
+
+/* Links at bottom of each paper */
+.post-content p a {
+    color: #00274C;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.post-content p a:hover {
+    border-bottom-color: #00274C;
+}
+
+/* Link separators */
+.post-content p a + a::before {
+    content: "";
+}
+
+/* Horizontal rules between papers */
+.post-content hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 2rem 0;
+    clear: both;
+}
+
+/* Clear floats after each paper section */
+.post-content h3 {
+    clear: both;
+}
+
+/* Responsive - stack on mobile */
+@media (max-width: 768px) {
+    .post-content img {
+        float: none;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+}
+
+/* R&R and status badges in journal line */
+.post-content em {
+    background: none;
+    padding: 0;
+}
+
+/* Make the first paragraph after h3 (authors) smaller */
+.post-content h3 + p {
+    margin-bottom: 0.25rem;
+}
+
+/* Journal/venue paragraph */
+.post-content h3 + p + p {
+    margin-bottom: 1rem;
+}
+
+/* Citation dropdown styling */
+.post-content details {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.post-content details summary {
+    cursor: pointer;
+    color: #00274C;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #00274C;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.post-content details summary:hover {
+    background: #00274C;
+    color: white;
+}
+
+.post-content details[open] summary {
+    margin-bottom: 0.75rem;
+}
+
+.post-content details pre {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 0.8rem;
+    overflow-x: auto;
+    margin: 0;
+}
+
+.post-content details code {
+    font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}

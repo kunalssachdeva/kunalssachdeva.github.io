@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Simple line chart showing survival improvement -->
+  <rect x="60" y="40" width="280" height="160" fill="none" stroke="#e5e7eb"/>
+
+  <!-- Baseline -->
+  <line x1="60" y1="150" x2="340" y2="150" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+
+  <!-- Without wealth access -->
+  <path d="M60 100 Q150 110 200 130 Q250 145 340 148" fill="none" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- With wealth access (life settlement) -->
+  <path d="M60 100 Q150 95 200 90 Q250 88 340 85" fill="none" stroke="#00274C" stroke-width="3"/>
+
+  <!-- Legend -->
+  <line x1="80" y1="215" x2="110" y2="215" stroke="#00274C" stroke-width="3"/>
+  <text x="120" y="218" font-family="system-ui" font-size="10" fill="#374151">With life settlement</text>
+
+  <line x1="220" y1="215" x2="250" y2="215" stroke="#94a3b8" stroke-width="2"/>
+  <text x="260" y="218" font-family="system-ui" font-size="10" fill="#374151">Without</text>
+
+  <text x="30" y="120" text-anchor="middle" font-family="system-ui" font-size="9" fill="#64748b" transform="rotate(-90, 30, 120)">Survival Rate</text>
+  <text x="200" y="235" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Time</text>
+</svg>

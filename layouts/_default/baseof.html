@@ -20,7 +20,7 @@
     {{- if not .IsHome  }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}
-    <main class="main">
+    <main class="main" id="main-content" role="main" tabindex="-1">
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}

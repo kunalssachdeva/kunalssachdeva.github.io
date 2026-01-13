@@ -1,37 +1,33 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://www.kunalsachdeva.com/"
+title: Kunal Sachdeva
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
-  pagerSize: 20
+  pagerSize: 50
 
 taxonomies:
     tag: tags
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Research
+          url: research/
+          weight: 1
+        - name: Discussions
+          url: discussions/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: CV
+          url: cv.pdf
           weight: 3
         - name: Data
           url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: "G-XXXXX"
+    description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on ESG, environmental finance, and financial markets."
+    author: Kunal Sachdeva
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -44,70 +40,67 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["research"]
     ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
+    disableScrollToTop: false
+    TocOpen: false
     ShowWordCount: false
     UseHugoToc: true
     comments: false
     math: true
+
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          title: Kunal Sachdeva
+          subtitle: |
+            I am an Assistant Professor of Finance and Michael R. and Mary Kay Hallman Fellow at the [Ross School of Business](https://michiganross.umich.edu/), University of Michigan.
+
+            My research examines how financial markets shape environmental and social outcomes. I study ESG investing, corporate emissions disclosure, and the real effects of activist investors on pollution reduction. My work on environmental activist investing won the **Moskowitz Prize** for best paper on sustainable investing.
+
+            I received my PhD from Columbia Business School, MFin from MIT Sloan, and BA/BSc from Queen's University.
+          imageUrl: "profile.jpg"
+          imageWidth: 200
+          imageHeight: 200
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Research
+              url: research/
+            - name: Discussions
+              url: discussions/
+            - name: CV
+              url: cv.pdf
+            - name: Google Scholar
+              url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:kunal@umich.edu
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
+        - name: SSRN
+          url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424
 
     assets:
         disableScrollBarStyle: true
+        favicon: "favicon.ico"
+        theme_color: "#ffffff"
+        msapplication_TileColor: "#00274C"
     cover:
-        hiddenInList: false
+        hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
-      iconHeight: 18
+      text: "Kunal Sachdeva"
+      icon: michigan-m.svg
+      iconHeight: 24
+
+    keywords:
+      - finance professor
+      - ESG research
+      - environmental finance
+      - activist investing
+      - University of Michigan
+      - Ross School of Business
+      - corporate emissions
+      - sustainable investing
 
 markup:
     goldmark:
@@ -115,8 +108,13 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: github
     tableOfContents:
         endLevel: 2
         ordered: false
         startLevel: 2
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5

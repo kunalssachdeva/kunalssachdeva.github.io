@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Pie chart showing 60% restated -->
+  <circle cx="200" cy="120" r="70" fill="#e5e7eb"/>
+  <path d="M200 120 L200 50 A70 70 0 1 1 130 120 Z" fill="#00274C"/>
+
+  <!-- Labels -->
+  <text x="200" y="125" text-anchor="middle" font-family="system-ui" font-size="24" font-weight="600" fill="#ffffff">60%</text>
+
+  <text x="200" y="215" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">of disclosures eventually restated</text>
+  <text x="200" y="235" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">276 largest U.S. corporations</text>
+</svg>

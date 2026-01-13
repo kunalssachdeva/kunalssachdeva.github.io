@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Scale/balance visualization -->
+  <line x1="200" y1="60" x2="200" y2="100" stroke="#64748b" stroke-width="3"/>
+  <line x1="100" y1="100" x2="300" y2="100" stroke="#64748b" stroke-width="3"/>
+
+  <!-- Left side - Returns (heavier) -->
+  <line x1="100" y1="100" x2="100" y2="140" stroke="#64748b" stroke-width="2"/>
+  <rect x="60" y="140" width="80" height="50" rx="4" fill="#00274C"/>
+  <text x="100" y="170" text-anchor="middle" font-family="system-ui" font-size="10" fill="#ffffff">Returns</text>
+
+  <!-- Right side - E&S (lighter, higher) -->
+  <line x1="300" y1="100" x2="300" y2="120" stroke="#64748b" stroke-width="2"/>
+  <rect x="260" y="120" width="80" height="50" rx="4" fill="#22c55e" opacity="0.3"/>
+  <text x="300" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#22c55e">E&S Goals</text>
+
+  <text x="200" y="215" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">When uncertain, ESG funds</text>
+  <text x="200" y="232" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">prioritize returns over sustainability</text>
+</svg>

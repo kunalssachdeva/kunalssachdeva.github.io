@@ -151,5 +151,7 @@
 
 {{ if or .Page.Params.math .Site.Params.math }}
 {{- partial "math.html" .}}
-{{ end }} 
+{{ end }}
 
+{{- /* Google Scholar Meta Tags for Academic Papers */ -}}
+{{- partial "scholar_meta.html" . }}

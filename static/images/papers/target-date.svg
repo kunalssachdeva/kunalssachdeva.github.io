@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Timeline -->
+  <line x1="60" y1="120" x2="340" y2="120" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Expected retirement point -->
+  <circle cx="150" cy="120" r="8" fill="#94a3b8"/>
+  <text x="150" y="100" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Expected</text>
+  <text x="150" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Age 62</text>
+
+  <!-- Actual retirement point -->
+  <circle cx="270" cy="120" r="8" fill="#00274C"/>
+  <text x="270" y="100" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Actual</text>
+  <text x="270" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Age 67</text>
+
+  <!-- Gap -->
+  <line x1="160" y1="120" x2="258" y2="120" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="210" y="108" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#ef4444">+4.8 years</text>
+
+  <!-- Wealth loss -->
+  <rect x="140" y="180" width="120" height="40" rx="4" fill="#00274C"/>
+  <text x="200" y="205" text-anchor="middle" font-family="system-ui" font-size="12" fill="#ffffff">-4% Wealth Loss</text>
+
+  <text x="200" y="240" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">at retirement</text>
+</svg>

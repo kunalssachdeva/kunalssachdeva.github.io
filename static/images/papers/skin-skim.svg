@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#f8fafc"/>
+
+  <!-- Scatter plot style visualization -->
+  <rect x="60" y="40" width="280" height="160" fill="none" stroke="#e5e7eb"/>
+
+  <!-- Axis labels -->
+  <text x="200" y="220" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Manager Co-Investment →</text>
+  <text x="30" y="120" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b" transform="rotate(-90, 30, 120)">Performance →</text>
+
+  <!-- Points showing positive relationship -->
+  <circle cx="100" cy="160" r="6" fill="#94a3b8"/>
+  <circle cx="140" cy="140" r="6" fill="#94a3b8"/>
+  <circle cx="180" cy="120" r="6" fill="#94a3b8"/>
+  <circle cx="220" cy="90" r="8" fill="#00274C"/>
+  <circle cx="260" cy="70" r="8" fill="#00274C"/>
+  <circle cx="300" cy="55" r="10" fill="#00274C"/>
+
+  <!-- Trend line -->
+  <line x1="90" y1="165" x2="310" y2="50" stroke="#00274C" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <text x="200" y="235" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Higher co-investment → Better performance</text>
+</svg>
