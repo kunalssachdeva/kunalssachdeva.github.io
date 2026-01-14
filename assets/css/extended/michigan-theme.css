@@ -75,23 +75,22 @@ body {
 /* Clean profile section */
 .profile {
     background: var(--bg-primary) !important;
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
     max-width: 950px;
     margin: 0 auto;
 }
 
-/* Profile layout - image on left, content on right */
+/* Profile layout - image on left, content on right (desktop) */
 .profile .profile_inner {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 2.5rem;
 }
 
-/* Profile image - responsive scaling */
+/* Profile image - desktop scaling */
 .profile img {
-    width: 100%;
-    max-width: 300px;
-    min-width: 200px;
+    width: 280px;
     height: auto !important;
     border-radius: 8px;
     border: none !important;
@@ -418,16 +417,21 @@ pre {
     border-radius: 4px;
 }
 
-/* Responsive */
+/* Responsive - stacked layout on mobile */
 @media (max-width: 768px) {
+    .profile {
+        padding: 2rem 1rem;
+    }
+
     .profile .profile_inner {
         flex-direction: column;
+        align-items: center;
         gap: 1.5rem;
     }
 
     .profile img {
-        max-width: 220px !important;
-        min-width: 180px !important;
+        width: 200px;
+        max-width: 60%;
         margin: 0 auto;
     }
 
@@ -451,6 +455,17 @@ pre {
 
     .main {
         padding: 1.5rem 1rem;
+    }
+}
+
+/* Tablet breakpoint */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .profile img {
+        width: 240px;
+    }
+
+    .profile .profile_inner {
+        gap: 2rem;
     }
 }
 
