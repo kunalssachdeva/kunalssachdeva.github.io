@@ -74,14 +74,15 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Logo banner - top left aligned */
+/* Logo banner - extreme top left */
 .logo-banner {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     text-align: left;
+    background: var(--bg-primary);
 }
 
 .logo-banner img {
-    height: 50px;
+    height: 45px;
     width: auto;
 }
 
@@ -95,6 +96,7 @@ body {
 
 .profile .profile_inner {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 2.5rem;
 }
@@ -102,11 +104,13 @@ body {
 /* Profile image - left side */
 .profile .profile-photo {
     width: 280px;
+    min-width: 280px;
     height: auto;
     border-radius: 4px;
     border: 1px solid var(--border-light) !important;
     box-shadow: none;
     flex-shrink: 0;
+    order: -1;
 }
 
 /* About Me heading */
@@ -139,6 +143,14 @@ body {
 
 .profile .profile_inner .headline a:hover {
     color: var(--accent-blue);
+}
+
+/* Profile buttons container */
+.profile-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 /* Profile buttons - NYT style (understated) */

@@ -61,6 +61,15 @@ params:
           imageUrl: "profile.jpg"
           imageWidth: 280
           imageHeight: 280
+          buttons:
+            - name: Research
+              url: research/
+            - name: Discussions
+              url: discussions/
+            - name: CV
+              url: cv.pdf
+            - name: Google Scholar
+              url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
 
     socialIcons:
         - name: Email

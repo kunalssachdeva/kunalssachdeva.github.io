@@ -38,6 +38,13 @@
         <div class="profile-text">
             <h2 class="about-heading">About Me</h2>
             <span class="headline">{{ .subtitle | markdownify }}</span>
+            {{- if site.Params.profileMode.buttons }}
+            <div class="profile-buttons">
+                {{- range site.Params.profileMode.buttons }}
+                <a class="button" href="{{ .url | absURL }}" rel="noopener" target="_blank">{{ .name }}</a>
+                {{- end }}
+            </div>
+            {{- end }}
         </div>
     </div>
     {{- end}}
