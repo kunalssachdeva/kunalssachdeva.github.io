@@ -53,23 +53,14 @@ params:
           enabled: true
           title: Kunal Sachdeva
           subtitle: |
-            I am an Assistant Professor of Finance and Michael R. and Mary Kay Hallman Fellow at the [Ross School of Business](https://michiganross.umich.edu/), University of Michigan.
+            <span class="affiliation">Assistant Professor of Finance & Michael R. and Mary Kay Hallman Fellow<br>[Ross School of Business](https://michiganross.umich.edu/), University of Michigan</span>
 
-            My research examines how financial markets shape environmental and social outcomes. I study ESG investing, corporate emissions disclosure, and the real effects of activist investors on pollution reduction. My work on environmental activist investing won the **Moskowitz Prize** for best paper on sustainable investing.
+            My research examines how financial markets shape environmental and social outcomes. I study ESG investing, corporate emissions disclosure, and the real effects of activist investors on pollution reduction. My work on environmental activist investing won the Moskowitz Prize for best paper on sustainable investing.
 
             I received my PhD from Columbia Business School, MFin from MIT Sloan, and BA/BSc from Queen's University.
           imageUrl: "profile.jpg"
           imageWidth: 200
           imageHeight: 200
-          buttons:
-            - name: Research
-              url: research/
-            - name: Discussions
-              url: discussions/
-            - name: CV
-              url: cv.pdf
-            - name: Google Scholar
-              url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
 
     socialIcons:
         - name: Email
