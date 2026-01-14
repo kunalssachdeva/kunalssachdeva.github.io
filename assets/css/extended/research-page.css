@@ -96,12 +96,15 @@
     padding: 0.25rem 0.75rem;
     border: 1px solid #00274C;
     border-radius: 4px;
+    background: transparent;
+    box-shadow: none;
     transition: all 0.2s ease;
 }
 
 .paper-links a:hover {
     background: #00274C;
     color: white;
+    box-shadow: none;
 }
 
 /* Regular paragraph links (for author names, etc.) */
@@ -169,6 +172,8 @@
     padding: 0.25rem 0.75rem;
     border: 1px solid #00274C;
     border-radius: 4px;
+    background: transparent;
+    box-shadow: none;
     transition: all 0.2s ease;
     list-style: none;
 }
@@ -180,6 +185,7 @@
 .paper-links details summary:hover {
     background: #00274C;
     color: white;
+    box-shadow: none;
 }
 
 .paper-links details[open] {
