@@ -76,7 +76,7 @@ body {
 .profile {
     background: var(--bg-primary) !important;
     padding: 3rem 0;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -84,41 +84,84 @@ body {
 .profile .profile_inner {
     display: flex;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
-/* Profile image - larger */
+/* Profile image - responsive scaling */
 .profile img {
-    width: 280px !important;
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
     height: auto !important;
     border-radius: 8px;
     border: none !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     flex-shrink: 0;
+    object-fit: cover;
 }
 
 /* Profile name */
 .profile .profile_inner h1 {
     color: var(--text-primary) !important;
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
-    margin-bottom: 0.25rem;
-    letter-spacing: -0.03em;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
     font-family: 'Playfair Display', Georgia, serif;
 }
 
-/* Title and affiliation - styled prominently */
+/* Designation block - separate from bio */
+.profile .profile_inner .headline .designation {
+    color: var(--accent-blue);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.profile .profile_inner .headline .designation strong {
+    font-weight: 600;
+}
+
+.profile .profile_inner .headline .designation em {
+    font-style: italic;
+}
+
+.profile .profile_inner .headline .designation a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.profile .profile_inner .headline .designation a:hover {
+    border-bottom-color: var(--accent-blue);
+}
+
+/* Bio paragraph */
+.profile .profile_inner .headline .bio {
+    text-align: justify;
+    text-justify: inter-word;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.profile .profile_inner .headline .bio em {
+    font-style: italic;
+}
+
+.profile .profile_inner .headline .bio strong {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Legacy headline styles */
 .profile .profile_inner .headline {
     text-align: left;
     line-height: 1.6;
-}
-
-.profile .profile_inner .headline .title-line {
-    color: var(--accent-blue);
-    font-size: 1.15rem;
-    font-weight: 600;
-    margin-bottom: 1.25rem;
-    display: block;
 }
 
 .profile .profile_inner .headline p {
@@ -380,25 +423,30 @@ pre {
     .profile .profile_inner {
         flex-direction: column;
         gap: 1.5rem;
-        text-align: center;
     }
 
     .profile img {
-        width: 200px !important;
+        max-width: 220px !important;
+        min-width: 180px !important;
         margin: 0 auto;
     }
 
     .profile .profile_inner h1 {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        text-align: center;
     }
 
     .profile .profile_inner .headline {
         text-align: left;
     }
 
-    .profile .profile_inner .headline .title-line {
+    .profile .profile_inner .headline .designation {
         text-align: center;
         font-size: 1rem;
+    }
+
+    .profile .profile_inner .headline .bio {
+        font-size: 0.95rem;
     }
 
     .main {
