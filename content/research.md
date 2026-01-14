@@ -19,8 +19,9 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 **Awards:** Moskowitz Prize for Best Paper on Socially Responsible Investing, 2020 · Semi-finalist, John L. Weinberg/IRRCI Research Award · Best Paper in Corporate Finance, FMA European Conference, 2021 · European Investment Forum Research Award, 2021 · ICPM Research Award, Second Place, 2022
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692) · [ECGI](https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692">Paper</a>
+<a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf">ECGI</a>
 <details>
 <summary>Cite</summary>
 
@@ -34,6 +35,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -46,8 +48,8 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 Examining 900 emissions disclosures from 276 of the largest U.S. corporations, we find that 60% of these disclosures are eventually restated. Firms are more likely to understate than overstate their emissions, with the value of understated emissions being more than twice the value of overstated emissions.
 
-[Paper](https://www.nature.com/articles/s41558-023-01679-8)
-
+<div class="paper-links">
+<a href="https://www.nature.com/articles/s41558-023-01679-8">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -61,6 +63,7 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -73,8 +76,8 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 
 We examine Operation Choke Point, a regulatory initiative targeting bank relationships with certain industries. Affected firms fully compensate for lost credit access through non-targeted banks, with no changes in total debt or investment—highlighting challenges of using financial regulation to restrict specific industries.
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S0304405X23000466)
-
+<div class="paper-links">
+<a href="https://www.sciencedirect.com/science/article/pii/S0304405X23000466">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -90,6 +93,7 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -102,8 +106,9 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 
 Funds with greater inside investment outperform on a factor-adjusted basis. We attribute this to capacity constraints: insider funds are smaller and less likely to accept excess inflows, suggesting that managers with "skin in the game" prioritize performance over asset gathering.
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2846892) · [Data](https://skinorskim.org)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2846892">Paper</a>
+<a href="https://skinorskim.org">Data</a>
 <details>
 <summary>Cite</summary>
 
@@ -119,6 +124,7 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -135,8 +141,8 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 
 We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
 
-[Paper](https://www.nber.org/papers/w31592)
-
+<div class="paper-links">
+<a href="https://www.nber.org/papers/w31592">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -151,6 +157,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -165,8 +172,8 @@ ESG reports contain financially material information unique from 10-K filings. T
 
 **Awards:** Best Paper Award, Fox and Haskayne Conference, 2024
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949829)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949829">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -180,6 +187,7 @@ ESG reports contain financially material information unique from 10-K filings. T
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -192,8 +200,8 @@ ESG reports contain financially material information unique from 10-K filings. T
 
 Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates, with effects particularly pronounced for fragile individuals living far from hospitals.
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3305647)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3305647">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -207,6 +215,7 @@ Using the life settlement market as a natural experiment, I find that access to 
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -217,8 +226,8 @@ Using the life settlement market as a natural experiment, I find that access to 
 
 Firms reduce pollution through strategic production choices: sourcing electricity externally and shifting toward higher-margin products. However, aggregate effects include reduced product variety and decreased business formation.
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4088644)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4088644">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -231,6 +240,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -243,8 +253,8 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 **Awards:** Semi-finalist, Best Paper, FMA Annual Conference, 2022
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4190504)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4190504">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -257,6 +267,7 @@ ESG funds are more likely to vote against environmental and social proposals whe
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -267,8 +278,8 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707650)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707650">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -281,6 +292,7 @@ Survey evidence reveals that respondents underestimate their labor force partici
 }
 ```
 </details>
+</div>
 
 ---
 
@@ -291,8 +303,8 @@ Survey evidence reveals that respondents underestimate their labor force partici
 
 Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management, highlighting the importance of considering governance in banking regulation.
 
-[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3726316)
-
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3726316">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -305,3 +317,4 @@ Capital requirements have divergent effects on bank lending depending on the lev
 }
 ```
 </details>
+</div>

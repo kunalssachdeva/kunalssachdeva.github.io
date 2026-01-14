@@ -77,7 +77,34 @@
     color: #00274C;
 }
 
-/* Links at bottom of each paper */
+/* Links at bottom of each paper - styled as bubbles */
+.paper-links {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.paper-links a {
+    color: #00274C;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid #00274C;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.paper-links a:hover {
+    background: #00274C;
+    color: white;
+}
+
+/* Regular paragraph links (for author names, etc.) */
 .post-content p a {
     color: #00274C;
     font-weight: 500;
@@ -88,11 +115,6 @@
 
 .post-content p a:hover {
     border-bottom-color: #00274C;
-}
-
-/* Link separators */
-.post-content p a + a::before {
-    content: "";
 }
 
 /* Horizontal rules between papers */
@@ -133,13 +155,12 @@
     margin-bottom: 1rem;
 }
 
-/* Citation dropdown styling */
-.post-content details {
-    margin-top: 0.75rem;
-    margin-bottom: 1rem;
+/* Citation dropdown styling - inline with paper links */
+.paper-links details {
+    display: inline-block;
 }
 
-.post-content details summary {
+.paper-links details summary {
     cursor: pointer;
     color: #00274C;
     font-weight: 500;
@@ -149,18 +170,27 @@
     border: 1px solid #00274C;
     border-radius: 4px;
     transition: all 0.2s ease;
+    list-style: none;
 }
 
-.post-content details summary:hover {
+.paper-links details summary::-webkit-details-marker {
+    display: none;
+}
+
+.paper-links details summary:hover {
     background: #00274C;
     color: white;
 }
 
-.post-content details[open] summary {
+.paper-links details[open] {
+    flex-basis: 100%;
+}
+
+.paper-links details[open] summary {
     margin-bottom: 0.75rem;
 }
 
-.post-content details pre {
+.paper-links details pre {
     background: #f8fafc;
     border: 1px solid #e5e7eb;
     border-radius: 4px;
@@ -170,7 +200,7 @@
     margin: 0;
 }
 
-.post-content details code {
+.paper-links details code {
     font-family: 'SF Mono', Monaco, 'Courier New', monospace;
     font-size: 0.8rem;
     line-height: 1.5;
