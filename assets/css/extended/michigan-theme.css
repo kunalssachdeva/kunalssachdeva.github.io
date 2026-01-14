@@ -1,22 +1,26 @@
-/* Clean Academic Theme - Inspired by rajchetty.com */
-/* White base with minimal accent colors */
+/* NYT-Inspired Academic Theme */
+/* Elegant serif typography with clean aesthetics */
+
+/* Import fonts - NYT uses Cheltenham, we'll use similar serifs */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-    /* Base colors - Clean and minimal */
+    /* Base colors - High contrast, classic feel */
     --bg-primary: #ffffff;
-    --bg-secondary: #fafafa;
-    --text-primary: #1a1a1a;
-    --text-secondary: #4a4a4a;
-    --text-muted: #6b7280;
+    --bg-secondary: #f7f7f5;
+    --text-primary: #121212;
+    --text-secondary: #363636;
+    --text-muted: #666666;
 
-    /* Accent colors - Used sparingly */
-    --accent-blue: #00274C;      /* Michigan Blue - for links and highlights */
-    --accent-gold: #FFCB05;      /* Michigan Maize - for special emphasis only */
-    --accent-teal: #0d9488;      /* For interactive elements */
+    /* Accent colors */
+    --accent-blue: #326891;      /* NYT link blue */
+    --accent-dark: #121212;
+    --accent-gold: #FFCB05;
 
     /* Borders and dividers */
-    --border-light: #e5e7eb;
-    --border-medium: #d1d5db;
+    --border-light: #e2e2e2;
+    --border-medium: #ccc;
+    --border-dark: #121212;
 
     /* Theme overrides */
     --theme: var(--bg-primary);
@@ -38,29 +42,35 @@ body.dark {
 body {
     background: var(--bg-primary) !important;
     color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    font-size: 17px;
     line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
 }
 
-/* Clean header */
+/* NYT-style header */
 .header {
     background: var(--bg-primary) !important;
-    border-bottom: 1px solid var(--border-light);
+    border-bottom: 2px solid var(--border-dark);
     box-shadow: none !important;
+    padding: 1rem 0;
 }
 
 .header .logo a {
     color: var(--text-primary) !important;
-    font-weight: 600;
-    font-size: 1.25rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.5rem;
     letter-spacing: -0.02em;
 }
 
 #menu a {
-    color: var(--text-secondary) !important;
+    color: var(--text-primary) !important;
+    font-family: 'Inter', -apple-system, sans-serif;
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     transition: color 0.2s ease;
 }
 
@@ -69,58 +79,88 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Clean profile section */
+/* NYT-style profile section */
 .profile {
     background: var(--bg-primary) !important;
-    padding: 4rem 0;
+    padding: 3rem 1.5rem;
     max-width: 900px;
     margin: 0 auto;
-}
-
-/* Profile subtitle - justified text */
-.profile .profile_inner .headline {
-    text-align: justify;
-    text-justify: inter-word;
-    -webkit-hyphens: auto;
-    hyphens: auto;
 }
 
 .profile .profile_inner {
     display: flex;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
+/* Profile image - classic newspaper portrait style */
+.profile img {
+    width: 260px;
+    height: auto;
+    border-radius: 0;
+    border: none !important;
+    box-shadow: none;
+    filter: grayscale(15%);
+    transition: filter 0.3s ease;
+}
+
+.profile img:hover {
+    filter: grayscale(0%);
+}
+
+/* Profile name - bold serif headline */
 .profile .profile_inner h1 {
     color: var(--text-primary) !important;
-    font-size: 2.25rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.75rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.03em;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
 }
 
-.profile img {
-    border-radius: 8px;
-    border: none !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+/* Profile subtitle/bio */
+.profile .profile_inner .headline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: var(--text-secondary);
 }
 
-/* Profile buttons - minimal style */
+.profile .profile_inner .headline p {
+    margin-bottom: 1rem;
+}
+
+.profile .profile_inner .headline a {
+    color: var(--accent-blue);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.profile .profile_inner .headline a:hover {
+    text-decoration-thickness: 2px;
+}
+
+/* Profile buttons - NYT style (understated) */
 .profile .button {
     background: transparent !important;
-    color: var(--accent-blue) !important;
-    border: 1px solid var(--border-medium) !important;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-dark) !important;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0;
+    font-family: 'Inter', -apple-system, sans-serif;
     font-weight: 500;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     transition: all 0.2s ease;
 }
 
 .profile .button:hover {
-    background: var(--accent-blue) !important;
+    background: var(--text-primary) !important;
     color: white !important;
-    border-color: var(--accent-blue) !important;
+    border-color: var(--text-primary) !important;
     transform: none;
     box-shadow: none;
 }
@@ -134,15 +174,17 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Links - subtle accent */
+/* Links - NYT style underline */
 a {
     color: var(--accent-blue);
-    text-decoration: none;
-    transition: opacity 0.2s ease;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: text-decoration-thickness 0.2s ease;
 }
 
 a:hover {
-    opacity: 0.8;
+    text-decoration-thickness: 2px;
 }
 
 /* Content sections */
@@ -153,10 +195,11 @@ a:hover {
     padding: 2rem 1.5rem;
 }
 
-/* Section titles */
+/* Section titles - NYT serif headings */
 h1, h2, h3, h4 {
     color: var(--text-primary);
-    font-weight: 600;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
     letter-spacing: -0.02em;
 }
 
@@ -254,16 +297,23 @@ h1, h2, h3, h4 {
     color: var(--text-primary);
 }
 
-/* Footer - minimal */
+/* Footer - NYT style */
 .footer {
     background: var(--bg-primary) !important;
-    border-top: 1px solid var(--border-light);
+    border-top: 2px solid var(--border-dark);
     color: var(--text-muted);
     padding: 2rem 0;
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 0.85rem;
 }
 
 .footer a {
-    color: var(--accent-blue) !important;
+    color: var(--text-primary) !important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Breadcrumbs */
@@ -351,9 +401,27 @@ pre {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .profile {
+        padding: 2rem 1rem;
+    }
+
     .profile .profile_inner {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem;
+    }
+
+    .profile img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .profile .profile_inner h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .profile .profile_inner .headline {
+        font-size: 1rem;
     }
 
     .main {
