@@ -1,9 +1,6 @@
 /* Clean Academic Theme - Inspired by rajchetty.com */
 /* White base with minimal accent colors */
 
-/* Import Playfair Display for headings */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
-
 :root {
     /* Base colors - Clean and minimal */
     --bg-primary: #ffffff;
@@ -75,114 +72,49 @@ body {
 /* Clean profile section */
 .profile {
     background: var(--bg-primary) !important;
-    padding: 3rem 1.5rem;
-    max-width: 950px;
+    padding: 4rem 0;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-/* Profile layout - image on left, content on right (desktop) */
+/* Profile subtitle - justified text */
+.profile .profile_inner .headline {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
 .profile .profile_inner {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
-/* Profile image - desktop scaling */
-.profile img {
-    width: 280px;
-    height: auto !important;
-    border-radius: 8px;
-    border: none !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
-    object-fit: cover;
-}
-
-/* Profile name */
 .profile .profile_inner h1 {
     color: var(--text-primary) !important;
     font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    letter-spacing: -0.02em;
-    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.03em;
 }
 
-/* Designation block - separate from bio */
-.profile .profile_inner .headline .designation {
-    color: var(--accent-blue);
-    font-size: 1.1rem;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--border-light);
+.profile img {
+    border-radius: 8px;
+    border: none !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
-.profile .profile_inner .headline .designation strong {
-    font-weight: 600;
-}
-
-.profile .profile_inner .headline .designation em {
-    font-style: italic;
-}
-
-.profile .profile_inner .headline .designation a {
-    color: var(--accent-blue);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease;
-}
-
-.profile .profile_inner .headline .designation a:hover {
-    border-bottom-color: var(--accent-blue);
-}
-
-/* Bio paragraph */
-.profile .profile_inner .headline .bio {
-    text-align: justify;
-    text-justify: inter-word;
-    color: var(--text-secondary);
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-}
-
-.profile .profile_inner .headline .bio em {
-    font-style: italic;
-}
-
-.profile .profile_inner .headline .bio strong {
-    font-weight: 600;
-    color: var(--text-primary);
-}
-
-/* Legacy headline styles */
-.profile .profile_inner .headline {
-    text-align: left;
-    line-height: 1.6;
-}
-
-.profile .profile_inner .headline p {
-    text-align: justify;
-    text-justify: inter-word;
-    color: var(--text-secondary);
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-}
-
-/* Profile buttons - flat style matching paper links */
+/* Profile buttons - minimal style */
 .profile .button {
     background: transparent !important;
     color: var(--accent-blue) !important;
-    border: 1px solid var(--accent-blue) !important;
-    padding: 0.4rem 1rem;
+    border: 1px solid var(--border-medium) !important;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     transition: all 0.2s ease;
-    box-shadow: none !important;
 }
 
 .profile .button:hover {
@@ -190,7 +122,7 @@ body {
     color: white !important;
     border-color: var(--accent-blue) !important;
     transform: none;
-    box-shadow: none !important;
+    box-shadow: none;
 }
 
 /* Social icons - clean */
@@ -417,55 +349,15 @@ pre {
     border-radius: 4px;
 }
 
-/* Responsive - stacked layout on mobile */
+/* Responsive */
 @media (max-width: 768px) {
-    .profile {
-        padding: 2rem 1rem;
-    }
-
     .profile .profile_inner {
         flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-    }
-
-    .profile img {
-        width: 200px;
-        max-width: 60%;
-        margin: 0 auto;
-    }
-
-    .profile .profile_inner h1 {
-        font-size: 1.75rem;
-        text-align: center;
-    }
-
-    .profile .profile_inner .headline {
-        text-align: left;
-    }
-
-    .profile .profile_inner .headline .designation {
-        text-align: center;
-        font-size: 1rem;
-    }
-
-    .profile .profile_inner .headline .bio {
-        font-size: 0.95rem;
+        gap: 2rem;
     }
 
     .main {
         padding: 1.5rem 1rem;
-    }
-}
-
-/* Tablet breakpoint */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .profile img {
-        width: 240px;
-    }
-
-    .profile .profile_inner {
-        gap: 2rem;
     }
 }
 
