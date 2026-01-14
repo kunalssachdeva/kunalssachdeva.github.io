@@ -95,6 +95,7 @@ nav.nav {
     padding: 2rem 1.5rem;
     max-width: 1100px;
     margin: 0 auto;
+    display: block;
 }
 
 .profile .profile_inner {
@@ -122,15 +123,17 @@ nav.nav {
     min-width: 0;
 }
 
-/* About Me heading */
+/* Profile heading - above columns */
 .profile .about-heading {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 2rem;
     font-weight: 400;
     font-style: italic;
     color: #00274C;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
     margin-top: 0;
+    width: 100%;
+    display: block;
 }
 
 /* Profile subtitle/bio */
