@@ -74,18 +74,6 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Logo banner - extreme top left */
-.logo-banner {
-    padding: 0.5rem 1rem;
-    text-align: left;
-    background: var(--bg-primary);
-}
-
-.logo-banner img {
-    height: 45px;
-    width: auto;
-}
-
 /* Profile section */
 .profile {
     background: var(--bg-primary) !important;
@@ -410,14 +398,6 @@ pre {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .logo-banner {
-        padding: 1rem;
-    }
-
-    .logo-banner img {
-        height: 45px;
-    }
-
     .profile {
         padding: 1.5rem 1rem;
     }
