@@ -74,19 +74,16 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Home page banner */
-.home-banner {
-    width: 100%;
-    max-height: 300px;
-    overflow: hidden;
-    margin-bottom: 0;
+/* Logo banner - top left */
+.logo-banner {
+    padding: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.home-banner img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
+.logo-banner img {
+    height: 60px;
+    width: auto;
 }
 
 /* Profile section */
@@ -419,8 +416,12 @@ pre {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .home-banner {
-        max-height: 180px;
+    .logo-banner {
+        padding: 1rem;
+    }
+
+    .logo-banner img {
+        height: 45px;
     }
 
     .profile {
