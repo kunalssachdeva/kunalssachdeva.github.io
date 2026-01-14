@@ -53,23 +53,14 @@ params:
           enabled: true
           title: Kunal Sachdeva
           subtitle: |
-            <span class="affiliation">Assistant Professor of Finance & Michael R. and Mary Kay Hallman Fellow<br>[Ross School of Business](https://michiganross.umich.edu/), University of Michigan</span>
+            I am an [assistant professor of finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and Michael R. and Mary Kay Hallman Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/), [University of Michigan](https://umich.edu/).
 
-            My research examines how financial markets shape environmental and social outcomes. I study ESG investing, corporate emissions disclosure, and the real effects of activist investors on pollution reduction. My work on environmental activist investing won the Moskowitz Prize for best paper on sustainable investing.
+            My research interests primarily focus on the real effects of financial markets on households and institutions. For more information, check out my [Google Scholar](https://scholar.google.com/citations?user=lBWscRoAAAAJ) and [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424) pages.
 
-            I received my PhD from Columbia Business School, MFin from MIT Sloan, and BA/BSc from Queen's University.
+            I earned a Ph.D. in Finance from [Columbia Business School](https://business.columbia.edu/). I previously graduated from [MIT Sloan School of Management](https://mitsloan.mit.edu/) with an M.Fin. and [Queen's University](https://www.queensu.ca/) (Canada) with a B.A. and B.Sc. in Economic and Electrical Engineering, respectively. Before joining Ross, I was an Assistant Professor of Finance at the Jesse H. Jones School of Business, Rice University.
           imageUrl: "profile.jpg"
-          imageWidth: 200
-          imageHeight: 200
-          buttons:
-            - name: Research
-              url: research/
-            - name: Discussions
-              url: discussions/
-            - name: CV
-              url: cv.pdf
-            - name: Google Scholar
-              url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
+          imageWidth: 280
+          imageHeight: 280
 
     socialIcons:
         - name: Email
