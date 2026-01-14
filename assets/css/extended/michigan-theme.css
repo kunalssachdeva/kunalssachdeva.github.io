@@ -60,6 +60,13 @@ body {
     font-weight: 600;
     font-size: 1.25rem;
     letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo a img {
+    height: 40px;
+    width: auto;
 }
 
 #menu a {

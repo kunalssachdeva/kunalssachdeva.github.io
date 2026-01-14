@@ -88,9 +88,9 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Kunal Sachdeva"
-      icon: michigan-m.svg
-      iconHeight: 24
+      text: ""
+      icon: images/ross-logo.png
+      iconHeight: 40
 
     keywords:
       - finance professor
