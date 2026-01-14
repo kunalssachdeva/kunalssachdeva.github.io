@@ -48,29 +48,24 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* NYT-style header */
+/* Clean header */
 .header {
     background: var(--bg-primary) !important;
-    border-bottom: 2px solid var(--border-dark);
+    border-bottom: 1px solid var(--border-light);
     box-shadow: none !important;
-    padding: 1rem 0;
 }
 
 .header .logo a {
     color: var(--text-primary) !important;
-    font-family: 'Playfair Display', Georgia, serif;
-    font-weight: 700;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
     letter-spacing: -0.02em;
 }
 
 #menu a {
-    color: var(--text-primary) !important;
-    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text-secondary) !important;
     font-weight: 500;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-size: 0.95rem;
     transition: color 0.2s ease;
 }
 
@@ -133,13 +128,11 @@ body {
 
 .profile .profile_inner .headline a {
     color: var(--accent-blue);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
+    text-decoration: none;
 }
 
 .profile .profile_inner .headline a:hover {
-    text-decoration-thickness: 2px;
+    opacity: 0.8;
 }
 
 /* Profile buttons - NYT style (understated) */
@@ -174,17 +167,15 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Links - NYT style underline */
+/* Links - clean style */
 a {
     color: var(--accent-blue);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 2px;
-    transition: text-decoration-thickness 0.2s ease;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
 a:hover {
-    text-decoration-thickness: 2px;
+    opacity: 0.8;
 }
 
 /* Content sections */
