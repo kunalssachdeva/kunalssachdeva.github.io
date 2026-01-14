@@ -74,15 +74,14 @@ body {
     color: var(--accent-blue) !important;
 }
 
-/* Logo banner - top left */
+/* Logo banner - top left aligned */
 .logo-banner {
-    padding: 1.5rem;
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    text-align: left;
 }
 
 .logo-banner img {
-    height: 60px;
+    height: 50px;
     width: auto;
 }
 
