@@ -98,7 +98,7 @@ layout: "research"
 ---
 
 ### The Rising Tide Lifts Some Interest Rates: Climate Change, Natural Disasters, and Loan Pricing
-**[Ricardo Correa](https://sites.google.com/view/ricardocorrea/home), Ai He, [Christoph Herpfer](http://www.herpfer.com/), [Ugur Lel](https://www.terry.uga.edu/directory/ugur-lel/)**
+**[Ricardo Correa](https://sites.google.com/view/ricardocorrea/home), [Ai He](https://www.aihefinance.com/), [Christoph Herpfer](http://www.herpfer.com/), [Ugur Lel](https://www.terry.uga.edu/directory/ugur-lel/)**
 
 *RCFS Winter Conference* · February 19, 2023
 
@@ -120,7 +120,7 @@ layout: "research"
 ---
 
 ### Silent Activism
-**Tanja Kirmse**
+**[Tanja Kirmse](https://www.tanjakirmse.com/)**
 
 *FMA Europe* · July 12, 2022
 
@@ -129,7 +129,7 @@ layout: "research"
 ---
 
 ### Incentives of Fund Managers and Precautionary Fire Sales
-**Abhishek Bhardwaj, [Kose John](https://pages.stern.nyu.edu/~kjohn/), Saptarshi Mukherjee**
+**[Abhishek Bhardwaj](https://www.abhishek-bhardwaj.com/), [Kose John](https://pages.stern.nyu.edu/~kjohn/), [Saptarshi Mukherjee](https://damore-mckim.northeastern.edu/people/saptarshi-mukherjee/)**
 
 *SFS Cavalcade North America* · May 24, 2022
 
@@ -142,7 +142,7 @@ layout: "research"
 ---
 
 ### How Does Hedge Fund Activism Reengineer Corporate Culture?
-**Pil-Seng Lee**
+**[Pil-Seng Lee](https://hankamer.baylor.edu/person/pil-seng-lee)**
 
 *Financial Management Association* · October 21, 2021
 
@@ -186,7 +186,7 @@ layout: "research"
 ---
 
 ### Institutional Money Manager Mutual Funds
-**William Beggs**
+**[William Beggs](https://www.sandiego.edu/business/faculty-and-research/biography.php?profile_id=8103)**
 
 *Midwest Finance Association* · March 3, 2018
 
