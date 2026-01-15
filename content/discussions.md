@@ -9,7 +9,7 @@ layout: "research"
 ---
 
 ### Corporate Carbon Offsets: Decarbonization or Transition-Washing?
-**Sehoon Kim, Tao Li, Yanbin Wu**
+**[Sehoon Kim](https://sites.google.com/site/sehoonkimfinance/home), [Tao Li](https://site.warrington.ufl.edu/tao-li/), [Yanbin Wu](https://yanbinwu.com/)**
 
 *May 30, 2025*
 
@@ -18,7 +18,7 @@ layout: "research"
 ---
 
 ### The Wealth Draw-down of the Fabulously Rich
-**Changhyun Ahn, Rawley Z. Heimer**
+**[Changhyun Ahn](https://www.ln.edu.hk/fin/people/faculty/prof-changhyun-ahn), [Rawley Z. Heimer](https://www.rawleyheimer.com/)**
 
 *Georgia Tech Atlanta Fed Household Finance Conference* · March 27, 2025
 
@@ -27,7 +27,7 @@ layout: "research"
 ---
 
 ### Custom Proxy Voting Advice
-**Edwin Hu, Nadya Malenko, Jonathon Zytnick**
+**[Edwin Hu](https://edwinhu.github.io/), [Nadya Malenko](https://www.nmalenko.com/), [Jonathon Zytnick](https://www.jonzytnick.com/)**
 
 *Midwest Finance Association* · March 21, 2025
 
@@ -36,7 +36,7 @@ layout: "research"
 ---
 
 ### Beyond the Status Quo: A Critical Assessment of Lifecycle Investment Advice
-**Aizhan Anarkulova, Scott Cederburg, Michael S. O'Doherty**
+**[Aizhan Anarkulova](https://www.anarkulova.com/), [Scott Cederburg](https://sites.google.com/site/cederburg/), [Michael S. O'Doherty](https://business.missouri.edu/departments-faculty/people-directory/michael-odoherty)**
 
 *American Finance Association* · January 4, 2025
 
@@ -49,7 +49,7 @@ layout: "research"
 ---
 
 ### The Emerging Greenium
-**Boyuan Li, Baolian Wang, Jiawei Yu**
+**[Boyuan Li](https://sites.google.com/view/boyuanli/), [Baolian Wang](https://www.wangbaolian.com/), Jiawei Yu**
 
 *Midwest Finance Association* · March 9, 2024
 
@@ -62,7 +62,7 @@ layout: "research"
 ---
 
 ### The Stock Market Valuation of Corporate Social Responsibility
-**Jinyoung Kim**
+**[Jinyoung Kim](https://kimjinyoung.com/)**
 
 *Northern Finance Association* · September 9, 2023
 
@@ -71,7 +71,7 @@ layout: "research"
 ---
 
 ### Disentangling the Effect of Financial Inclusion on Household Well-Being
-**Nandini Gupta, Ashish K. Sedai**
+**[Nandini Gupta](https://sites.google.com/view/nandinigupta/home), [Ashish K. Sedai](https://ashishsedai.com/)**
 
 *Northern Finance Association* · September 8, 2023
 
@@ -80,7 +80,7 @@ layout: "research"
 ---
 
 ### The Shifting Finance of Electricity Generation
-**Aleksandar Andonov, Joshua D. Rauh**
+**[Aleksandar Andonov](http://www.aleksandarandonov.com/), [Joshua D. Rauh](https://www.joshuarauh.com/)**
 
 *34th Mitsui Finance Symposium* · June 10, 2023
 
@@ -89,7 +89,7 @@ layout: "research"
 ---
 
 ### ESG Tilts
-**Luboš Pástor, Robert F. Stambaugh, Lucian A. Taylor**
+**[Luboš Pástor](https://faculty.chicagobooth.edu/lubos-pastor), [Robert F. Stambaugh](https://finance.wharton.upenn.edu/~stambaug/), [Lucian A. Taylor](https://finance-faculty.wharton.upenn.edu/luket/)**
 
 *University of Houston Conference on Energy Finance* · May 19, 2023
 
@@ -98,7 +98,7 @@ layout: "research"
 ---
 
 ### The Rising Tide Lifts Some Interest Rates: Climate Change, Natural Disasters, and Loan Pricing
-**Ricardo Correa, Ai He, Christoph Herpfer, Ugur Lel**
+**[Ricardo Correa](https://sites.google.com/view/ricardocorrea/home), Ai He, [Christoph Herpfer](http://www.herpfer.com/), [Ugur Lel](https://www.terry.uga.edu/directory/ugur-lel/)**
 
 *RCFS Winter Conference* · February 19, 2023
 
@@ -111,7 +111,7 @@ layout: "research"
 ---
 
 ### Carbon Emissions and the Bank-Lending Channel
-**Marcin Kacperczyk, José-Luis Peydró**
+**[Marcin Kacperczyk](https://www.kacperczyk.net/), [José-Luis Peydró](https://www.imperial.ac.uk/people/j.peydro-alcalde)**
 
 *European Finance Association* · August 27, 2022
 
@@ -129,7 +129,7 @@ layout: "research"
 ---
 
 ### Incentives of Fund Managers and Precautionary Fire Sales
-**Abhishek Bhardwaj, Kose John, Saptarshi Mukherjee**
+**Abhishek Bhardwaj, [Kose John](https://pages.stern.nyu.edu/~kjohn/), Saptarshi Mukherjee**
 
 *SFS Cavalcade North America* · May 24, 2022
 
@@ -151,7 +151,7 @@ layout: "research"
 ---
 
 ### Mutual Funds' Strategic Voting on Environmental and Social Issues
-**Roni Michaely, Guillem Ordonez-Calafi, Silvina Rubio**
+**[Roni Michaely](https://www.hkubs.hku.hk/people/roni-michaely/), [Guillem Ordonez-Calafi](https://guillemordonez.weebly.com/), [Silvina Rubio](https://sites.google.com/prod/view/silvinarubio)**
 
 *Financial Management Association* · October 20, 2021
 
@@ -173,7 +173,7 @@ layout: "research"
 ---
 
 ### The Perils of Private Provision of Public Goods
-**Umit G. Gurun, Jordan Nickerson, David H. Solomon**
+**[Umit G. Gurun](https://umitgurun.github.io/), [Jordan Nickerson](https://www.jordannickerson.com/), [David H. Solomon](https://www.davidhsolomon.com)**
 
 *Western Finance Association* · June 21, 2020
 
