@@ -36,7 +36,11 @@
             {{- if site.Params.profileMode.buttons }}
             <div class="profile-buttons">
                 {{- range site.Params.profileMode.buttons }}
-                <a class="button" href="{{ .url | absURL }}" rel="noopener" target="_blank">{{ .name }}</a>
+                {{- if (urls.Parse .url).IsAbs }}
+                <a class="button" href="{{ .url }}" rel="noopener" target="_blank">{{ .name }}</a>
+                {{- else }}
+                <a class="button" href="{{ .url | absURL }}">{{ .name }}</a>
+                {{- end }}
                 {{- end }}
             </div>
             {{- end }}

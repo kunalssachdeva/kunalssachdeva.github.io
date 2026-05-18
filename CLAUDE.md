@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Academic website for Kunal Sachdeva, Assistant Professor of Finance at University of Michigan Ross School of Business. Built with Hugo static site generator using the PaperMod theme, hosted on GitHub Pages.
+Academic website for Kunal Sachdeva, Assistant Professor of Finance at University of Michigan Ross School of Business. Built with Hugo static site generator using the PaperMod theme, hosted on GitHub Pages at https://kunalssachdeva.github.io/ (custom domain via `static/CNAME`).
 
 ## Build Commands
 
 ```bash
-# Install dependencies (first time only)
+# Install Hugo (first time only)
 brew install hugo
 
 # Local development server with live reload
@@ -22,74 +22,92 @@ hugo --gc --minify
 hugo server -D
 ```
 
-## Project Structure
+## Content Layout
+
+All content lives in single Markdown files, not per-item folders. Edit these files directly to add new entries.
 
 ```
 content/
-├── papers/          # Research papers (each paper has its own folder with index.md)
-├── data/            # Code & Data section
-├── discussions/     # Discussion slides
-├── media/           # Media/Press mentions
-└── archive.md       # Archive page
+├── research.md         # All papers (published, accepted, R&R, working) on one page → /research/
+├── discussions.md      # All discussion slides on one page → /discussions/
+└── data/
+    └── _index.md       # Code & data resources → /data/
+
+static/
+├── CNAME               # Custom domain config
+├── cv.pdf              # Linked from nav
+├── profile.jpg         # Homepage portrait
+├── files/slides/       # Discussion slide PDFs (naming convention: YYYY-MM-keyword.pdf)
+└── images/papers/      # Per-paper SVG illustrations referenced from research.md
+
+assets/css/extended/
+├── michigan-theme.css
+├── research-page.css   # Styling for the research and discussions pages
+└── accessibility.css
 
 layouts/
 ├── partials/
-│   ├── scholar_meta.html    # Google Scholar meta tags for papers
-│   └── head.html            # Modified to include SEO features
+│   ├── index_profile.html    # Homepage profile/bio block (subtitle comes from config.yml)
+│   └── head.html             # Modified for SEO meta tags
 └── _default/
-    └── baseof.html          # Base template with accessibility features
-
-assets/css/extended/
-└── accessibility.css        # Custom accessibility styles
-
-static/
-├── CNAME            # Custom domain configuration
-└── cv.pdf           # CV file (to be added)
+    └── baseof.html           # Base template with accessibility features
 ```
 
-## Adding New Content
+The homepage bio is rendered from `params.profileMode.subtitle` in `config.yml`, not from a content file.
 
-### New Research Paper
-Create folder in `content/papers/paper-slug/index.md`:
+## Adding Content
 
-```yaml
----
-title: "Paper Title"
-date: 2024-01-01
-tags: ["Tag1", "Tag2", "Published"]  # or "Working Paper", "R&R"
-author: ["Author One", "Author Two"]
-description: "Brief description for SEO and meta tags"
-summary: "One-line summary for listings"
-editPost:
-    URL: "https://journal-url.com"
-    Text: "Journal Name"
+### New paper
+Edit `content/research.md`. Each entry follows this pattern:
+
+```markdown
+### Paper Title
+**[Author One](https://author1.com/), Kunal Sachdeva, [Author Three](https://author3.com/)**
+
+*Journal Name* (Accepted)   <!-- or "*R&R, Journal Name*" or "*Journal Name* vol (year): pages" -->
+
+![Alt Text](/images/papers/slug.svg)
+
+One- or two-sentence description.
+
+**Awards:** Optional awards line.
+
+<div class="paper-links">
+<a href="https://...">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{...}
+```
+</details>
+</div>
+
 ---
 ```
 
-### Adding Media Mentions
-Edit `content/media/_index.md` and add entries in markdown format.
+Use the author's own academic page when linking — do NOT self-link "Kunal Sachdeva" back to the homepage.
+
+The research page has two sections: "Published & Accepted Papers" (sorted with newest acceptance first) and "Working Papers" (R&Rs first, then plain working papers).
+
+### New discussion
+Edit `content/discussions.md`. Entries are grouped by year (newest first), with the venue and date formatted as `*Conference Name* · Month D, YYYY`. Author links point to faculty pages for professors; PhD students/job-market candidates are listed without a link. Save slides under `static/files/slides/YYYY-MM-keyword.pdf` to match the existing naming convention.
+
+### Code & Data
+Edit `content/data/_index.md` to add a project repo or replication package.
 
 ## Key Configuration
 
-- **config.yml**: Site metadata, navigation, social links, SEO keywords
-- **Theme**: PaperMod (via git submodule in `themes/PaperMod/`)
-- **Custom domain**: www.kunalsachdeva.com (configured in `static/CNAME`)
+- **config.yml**: Site metadata, navigation menu, homepage bio (`params.profileMode.subtitle`), SEO description and keywords, social links.
+- **Theme**: PaperMod (git submodule under `themes/PaperMod/`).
+- **Custom domain**: www.kunalsachdeva.com via `static/CNAME`.
 
 ## Deployment
 
-Automatic deployment via GitHub Actions on push to `main` branch. Workflow defined in `.github/workflows/hugo.yml`.
+Automatic via GitHub Actions on push to `main`. Workflow at `.github/workflows/hugo.yml`. The `gh-pages` build output is published from the `public/` directory (gitignored locally).
 
-## SEO Features
+## Accessibility & SEO
 
-- Google Scholar meta tags (`layouts/partials/scholar_meta.html`) for academic paper pages
-- Sitemap generation enabled
-- Canonical URLs
-- Open Graph and Twitter cards (via theme)
-
-## Accessibility
-
-- Skip-to-content link
-- WCAG-compliant focus indicators
-- Reduced motion support
-- High contrast mode support
-- Semantic HTML structure
+- Skip-to-content link, WCAG-compliant focus indicators, reduced-motion and high-contrast support (`assets/css/extended/accessibility.css`).
+- Sitemap, canonical URLs, Open Graph, Twitter cards (theme defaults).
+- Note: there is currently NO Google Scholar / Highwire Press citation metadata, because all papers live on a single listing page rather than per-paper pages. If Scholar indexing is desired in the future, restructure papers into `content/papers/<slug>/index.md` and re-add a `scholar_meta.html` partial gated on `eq .Section "papers"`.

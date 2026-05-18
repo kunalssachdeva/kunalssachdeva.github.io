@@ -9,7 +9,7 @@ layout: "research"
 ---
 
 ### Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation
-**[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, [Kunal Sachdeva](/)**
+**[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, Kunal Sachdeva**
 
 *Journal of Financial Economics* (Accepted) · NBER Working Paper No. 31592
 
@@ -37,7 +37,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 ---
 
 ### Real Effects of Environmental Activist Investing
-**[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), [Kunal Sachdeva](/), [Varun Sharma](https://www.sharmav.com/)**
+**[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
 *Review of Financial Studies* (Conditionally Accepted)
 
@@ -68,7 +68,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 ---
 
 ### Widespread Revisions of Self-Reported Emissions by Major US Corporations
-**[Lauren Cohen](https://www.laurenhcohen.com/), [Ethan Rouen](https://www.ethanrouen.com/), [Kunal Sachdeva](/)**
+**[Lauren Cohen](https://www.laurenhcohen.com/), [Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva**
 
 *Nature Climate Change* (2025)
 
@@ -96,7 +96,7 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 ---
 
 ### Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?
-**[André F. Silva](https://sites.google.com/view/andrefjsilva/home), [Kunal Sachdeva](/), [Pablo Slutzky](https://pabloslutzky.com/), [Billy Xu](https://www.billyxu.com/)**
+**[André F. Silva](https://sites.google.com/view/andrefjsilva/home), Kunal Sachdeva, [Pablo Slutzky](https://pabloslutzky.com/), [Billy Xu](https://www.billyxu.com/)**
 
 *Journal of Financial Economics* 172 (2025): 104133
 
@@ -126,7 +126,7 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 ---
 
 ### Skin or Skim? Inside Investment and Hedge Fund Performance
-**[Arpit Gupta](http://arpitgupta.info), [Kunal Sachdeva](/)**
+**[Arpit Gupta](http://arpitgupta.info), Kunal Sachdeva**
 
 *Management Science* 71.4 (2025): 3357-3383
 
@@ -161,7 +161,7 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 ---
 
 ### Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance
-**[Ethan Rouen](https://www.ethanrouen.com/), [Kunal Sachdeva](/), [Aaron Yoon](https://www.kellogg.northwestern.edu/faculty/directory/yoon_aaron/)**
+**[Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva, [Aaron Yoon](https://www.kellogg.northwestern.edu/faculty/directory/yoon_aaron/)**
 
 *R&R, The Accounting Review*
 
@@ -191,7 +191,7 @@ ESG reports contain financially material information unique from 10-K filings. T
 ---
 
 ### Can Health State-Contingent Assets Enable Greater Survival Rates?
-**[Kunal Sachdeva](/)**
+**Kunal Sachdeva**
 
 *R&R, Review of Financial Studies*
 
@@ -219,7 +219,7 @@ Using the life settlement market as a natural experiment, I find that access to 
 ---
 
 ### Opening the Brown Box: Production Responses to Environmental Regulation
-**[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), [Kunal Sachdeva](/)**
+**[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
 ![Brown Box](/images/papers/brown-box.svg)
 
@@ -244,7 +244,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 ---
 
 ### Conflicting Objectives of ESG Funds: Evidence from Proxy Voting
-**[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), [Kunal Sachdeva](/)**
+**[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
 ![ESG Proxy Voting](/images/papers/esg-proxy.svg)
 
@@ -270,33 +270,8 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 ---
 
-### Missing the Target? Retirement Expectations and Target-Date Funds
-**[Byeong-Je An](https://sites.google.com/view/byeongje-an), [Kunal Sachdeva](/)**
-
-![Target Date Funds](/images/papers/target-date.svg)
-
-Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
-
-<div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707650">Paper</a>
-<details>
-<summary>Cite</summary>
-
-```bibtex
-@techreport{an2024missing,
-  title={Missing the Target? Retirement Expectations and Target-Date Funds},
-  author={An, Byeong-Je and Sachdeva, Kunal},
-  year={2024},
-  type={Working Paper}
-}
-```
-</details>
-</div>
-
----
-
 ### Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending
-**[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), [Kunal Sachdeva](/)**
+**[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
 ![Bank Governance](/images/papers/bank-governance.svg)
 
@@ -311,6 +286,31 @@ Capital requirements have divergent effects on bank lending depending on the lev
 @techreport{bosshardt2024agency,
   title={Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending},
   author={Bosshardt, Joshua and Kakhbod, Ali and Sachdeva, Kunal},
+  year={2024},
+  type={Working Paper}
+}
+```
+</details>
+</div>
+
+---
+
+### Missing the Target? Retirement Expectations and Target-Date Funds
+**[Byeong-Je An](https://sites.google.com/view/byeongje-an), Kunal Sachdeva**
+
+![Target Date Funds](/images/papers/target-date.svg)
+
+Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707650">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{an2024missing,
+  title={Missing the Target? Retirement Expectations and Target-Date Funds},
+  author={An, Byeong-Je and Sachdeva, Kunal},
   year={2024},
   type={Working Paper}
 }
