@@ -24,7 +24,7 @@ layout: "research"
 ### Corporate Carbon Offsets: Decarbonization or Transition-Washing?
 **[Sehoon Kim](https://sites.google.com/site/sehoonkimfinance/home), [Tao Li](https://site.warrington.ufl.edu/tao-li/), [Yanbin Wu](https://yanbinwu.com/)**
 
-*May 30, 2025*
+*Financial Intermediation Research Society* · May 30, 2025
 
 [Slides](/files/slides/2025-05-carbon-offsets.pdf)
 

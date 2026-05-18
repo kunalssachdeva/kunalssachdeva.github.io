@@ -8,6 +8,34 @@ layout: "research"
 
 ---
 
+### Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation
+**[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, [Kunal Sachdeva](/)**
+
+*Journal of Financial Economics* (Accepted) · NBER Working Paper No. 31592
+
+![Patent Gender Gap](/images/papers/patent-gender.svg)
+
+We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
+
+<div class="paper-links">
+<a href="https://www.nber.org/papers/w31592">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{hochberg2026inventor,
+  title={Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation},
+  author={Hochberg, Yael and Kakhbod, Ali and Li, Peiyao and Sachdeva, Kunal},
+  journal={Journal of Financial Economics},
+  year={2026},
+  note={Accepted}
+}
+```
+</details>
+</div>
+
+---
+
 ### Real Effects of Environmental Activist Investing
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), [Kunal Sachdeva](/), [Varun Sharma](https://www.sharmav.com/)**
 
@@ -129,35 +157,6 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 ---
 
 ## Working Papers
-
----
-
-### Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation
-**[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, [Kunal Sachdeva](/)**
-
-*R&R, Journal of Financial Economics* · NBER Working Paper No. 31592
-
-![Patent Gender Gap](/images/papers/patent-gender.svg)
-
-We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
-
-<div class="paper-links">
-<a href="https://www.nber.org/papers/w31592">Paper</a>
-<details>
-<summary>Cite</summary>
-
-```bibtex
-@techreport{hochberg2023inventor,
-  title={Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation},
-  author={Hochberg, Yael and Kakhbod, Ali and Li, Peiyao and Sachdeva, Kunal},
-  year={2023},
-  institution={National Bureau of Economic Research},
-  type={Working Paper},
-  number={31592}
-}
-```
-</details>
-</div>
 
 ---
 
