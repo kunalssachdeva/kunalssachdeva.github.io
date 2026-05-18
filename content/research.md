@@ -160,36 +160,6 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 
 ---
 
-### Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance
-**[Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva, [Aaron Yoon](https://www.kellogg.northwestern.edu/faculty/directory/yoon_aaron/)**
-
-*R&R, The Accounting Review*
-
-![ESG Reports](/images/papers/esg-substance.svg)
-
-ESG reports contain financially material information unique from 10-K filings. This material information is associated with decreased downside firm risks, suggesting ESG reporting serves a meaningful informational role beyond signaling.
-
-**Awards:** Best Paper Award, Fox and Haskayne Conference, 2024
-
-<div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949829">Paper</a>
-<details>
-<summary>Cite</summary>
-
-```bibtex
-@techreport{rouen2024sustainability,
-  title={Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance},
-  author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
-  year={2024},
-  type={Working Paper},
-  note={R\&R, The Accounting Review}
-}
-```
-</details>
-</div>
-
----
-
 ### Can Health State-Contingent Assets Enable Greater Survival Rates?
 **Kunal Sachdeva**
 
@@ -261,6 +231,33 @@ ESG funds are more likely to vote against environmental and social proposals whe
 @techreport{li2024conflicting,
   title={Conflicting Objectives of ESG Funds: Evidence from Proxy Voting},
   author={Li, Tao and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
+  year={2024},
+  type={Working Paper}
+}
+```
+</details>
+</div>
+
+---
+
+### Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance
+**[Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva, [Aaron Yoon](https://www.kellogg.northwestern.edu/faculty/directory/yoon_aaron/)**
+
+![ESG Reports](/images/papers/esg-substance.svg)
+
+ESG reports contain financially material information unique from 10-K filings. This material information is associated with decreased downside firm risks, suggesting ESG reporting serves a meaningful informational role beyond signaling.
+
+**Awards:** Best Paper Award, Fox and Haskayne Conference, 2024
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949829">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{rouen2024sustainability,
+  title={Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance},
+  author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
   year={2024},
   type={Working Paper}
 }
