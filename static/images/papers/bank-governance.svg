@@ -1,23 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" font-family="Inter, -apple-system, system-ui, sans-serif">
   <rect width="400" height="250" fill="#f8fafc"/>
 
-  <!-- Two paths diverging -->
-  <rect x="160" y="40" width="80" height="40" rx="4" fill="#00274C"/>
-  <text x="200" y="65" text-anchor="middle" font-family="system-ui" font-size="10" fill="#ffffff">Capital Req.</text>
+  <!-- Top label -->
+  <text x="200" y="40" text-anchor="middle" font-size="12" fill="#4a4a4a">Effect of higher capital requirements on lending</text>
 
-  <!-- Diverging lines -->
-  <line x1="180" y1="85" x2="120" y2="140" stroke="#64748b" stroke-width="2"/>
-  <line x1="220" y1="85" x2="280" y2="140" stroke="#64748b" stroke-width="2"/>
+  <!-- Left panel: weak governance (downward) -->
+  <text x="100" y="70" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b">Weak governance</text>
+  <line x1="50" y1="170" x2="150" y2="170" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="50" y1="90" x2="50" y2="170" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="55" y1="100" x2="145" y2="155" stroke="#00274C" stroke-width="2.5"/>
+  <polygon points="145,155 138,150 137,158" fill="#00274C"/>
+  <text x="100" y="200" text-anchor="middle" font-size="11" fill="#00274C">↓ Lending</text>
 
-  <!-- Weak governance -->
-  <rect x="60" y="145" width="120" height="50" rx="4" fill="#fef2f2" stroke="#ef4444"/>
-  <text x="120" y="165" text-anchor="middle" font-family="system-ui" font-size="10" fill="#ef4444">Weak Governance</text>
-  <text x="120" y="182" text-anchor="middle" font-family="system-ui" font-size="9" fill="#ef4444">↓ Lending</text>
+  <!-- Right panel: strong governance (upward) -->
+  <text x="300" y="70" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b">Strong governance</text>
+  <line x1="250" y1="170" x2="350" y2="170" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="250" y1="90" x2="250" y2="170" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="255" y1="155" x2="345" y2="100" stroke="#00274C" stroke-width="2.5"/>
+  <polygon points="345,100 338,102 339,109" fill="#00274C"/>
+  <text x="300" y="200" text-anchor="middle" font-size="11" fill="#00274C">↑ Lending</text>
 
-  <!-- Strong governance -->
-  <rect x="220" y="145" width="120" height="50" rx="4" fill="#f0fdf4" stroke="#22c55e"/>
-  <text x="280" y="165" text-anchor="middle" font-family="system-ui" font-size="10" fill="#22c55e">Strong Governance</text>
-  <text x="280" y="182" text-anchor="middle" font-family="system-ui" font-size="9" fill="#22c55e">↑ Lending</text>
-
-  <text x="200" y="230" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">Divergent effects based on governance</text>
+  <text x="200" y="235" text-anchor="middle" font-size="11" fill="#94a3b8" font-style="italic">Same regulation, opposite effects by governance regime</text>
 </svg>

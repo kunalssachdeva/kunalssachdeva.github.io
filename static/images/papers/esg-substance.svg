@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" font-family="Inter, -apple-system, system-ui, sans-serif">
   <rect width="400" height="250" fill="#f8fafc"/>
 
-  <!-- Venn diagram style -->
-  <circle cx="160" cy="120" r="60" fill="#e5e7eb" opacity="0.8"/>
-  <circle cx="240" cy="120" r="60" fill="#00274C" opacity="0.2"/>
+  <!-- 10-K circle (gray) -->
+  <circle cx="160" cy="115" r="65" fill="#94a3b8" opacity="0.25" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="115" y="80" text-anchor="middle" font-size="12" font-weight="600" fill="#4a4a4a">10-K</text>
 
-  <!-- Labels -->
-  <text x="130" y="120" text-anchor="middle" font-family="system-ui" font-size="11" fill="#64748b">10-K</text>
-  <text x="270" y="120" text-anchor="middle" font-family="system-ui" font-size="11" fill="#00274C">ESG</text>
+  <!-- ESG circle (navy) -->
+  <circle cx="240" cy="115" r="65" fill="#00274C" opacity="0.18" stroke="#00274C" stroke-width="1.5"/>
+  <text x="290" y="80" text-anchor="middle" font-size="12" font-weight="600" fill="#00274C">ESG report</text>
 
-  <!-- Overlap area highlight -->
-  <text x="200" y="115" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Unique</text>
-  <text x="200" y="130" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Material</text>
-  <text x="200" y="145" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Info</text>
+  <!-- Intersection callout (gold lens marker) -->
+  <ellipse cx="200" cy="115" rx="22" ry="55" fill="#FFCB05" opacity="0.55"/>
+  <text x="200" y="112" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">Unique</text>
+  <text x="200" y="126" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">material</text>
 
-  <text x="200" y="215" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">ESG reports contain information</text>
-  <text x="200" y="232" text-anchor="middle" font-family="system-ui" font-size="12" fill="#374151">not in 10-K filings</text>
+  <text x="200" y="220" text-anchor="middle" font-size="12" fill="#4a4a4a">ESG reports add information beyond 10-K filings</text>
+  <text x="200" y="237" text-anchor="middle" font-size="11" fill="#94a3b8" font-style="italic">linked to lower downside risk</text>
 </svg>

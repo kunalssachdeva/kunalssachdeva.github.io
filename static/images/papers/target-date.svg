@@ -1,26 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" font-family="Inter, -apple-system, system-ui, sans-serif">
   <rect width="400" height="250" fill="#f8fafc"/>
 
   <!-- Timeline -->
-  <line x1="60" y1="120" x2="340" y2="120" stroke="#e5e7eb" stroke-width="2"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="#cbd5e1" stroke-width="1.5"/>
 
-  <!-- Expected retirement point -->
-  <circle cx="150" cy="120" r="8" fill="#94a3b8"/>
-  <text x="150" y="100" text-anchor="middle" font-family="system-ui" font-size="10" fill="#64748b">Expected</text>
-  <text x="150" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">Age 62</text>
+  <!-- Expected -->
+  <circle cx="140" cy="120" r="7" fill="#94a3b8"/>
+  <text x="140" y="95" text-anchor="middle" font-size="11" fill="#64748b">Expected</text>
+  <text x="140" y="145" text-anchor="middle" font-size="10" fill="#94a3b8">retirement</text>
 
-  <!-- Actual retirement point -->
-  <circle cx="270" cy="120" r="8" fill="#00274C"/>
-  <text x="270" y="100" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Actual</text>
-  <text x="270" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#00274C">Age 67</text>
+  <!-- Actual -->
+  <circle cx="280" cy="120" r="8" fill="#00274C"/>
+  <text x="280" y="95" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">Actual</text>
+  <text x="280" y="145" text-anchor="middle" font-size="10" fill="#00274C">retirement</text>
 
-  <!-- Gap -->
-  <line x1="160" y1="120" x2="258" y2="120" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,4"/>
-  <text x="210" y="108" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="600" fill="#ef4444">+4.8 years</text>
+  <!-- Gap callout -->
+  <line x1="150" y1="120" x2="270" y2="120" stroke="#FFCB05" stroke-width="3"/>
+  <text x="210" y="113" text-anchor="middle" font-size="13" font-weight="600" fill="#00274C">+4.8 yrs</text>
 
   <!-- Wealth loss -->
-  <rect x="140" y="180" width="120" height="40" rx="4" fill="#00274C"/>
-  <text x="200" y="205" text-anchor="middle" font-family="system-ui" font-size="12" fill="#ffffff">-4% Wealth Loss</text>
+  <text x="200" y="195" text-anchor="middle" font-size="20" font-weight="600" fill="#00274C">−4% wealth at retirement</text>
 
-  <text x="200" y="240" text-anchor="middle" font-family="system-ui" font-size="10" fill="#94a3b8">at retirement</text>
+  <text x="200" y="235" text-anchor="middle" font-size="11" fill="#94a3b8" font-style="italic">Misjudged labor-force exit costs target-date fund holders</text>
 </svg>
