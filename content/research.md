@@ -39,6 +39,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 <div class="paper-links">
 <a href="https://doi.org/10.1016/j.jfineco.2026.104307">Paper</a>
+<a href="https://doi.org/10.17632/zz8g5nznhb.2">Data</a>
 <a href="https://www.nber.org/papers/w31592">NBER</a>
 <details>
 <summary>Cite</summary>

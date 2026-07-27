@@ -7,6 +7,15 @@ Replication packages and data resources from my research projects.
 
 ---
 
+### Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation
+
+Replication data and code for the *Journal of Financial Economics* paper (with Yael Hochberg, Ali Kakhbod, and Peiyao Li): text-based expected citation measures, actual patent citation counts, and inventor gender classifications.
+
++ [Replication data (Mendeley Data)](https://doi.org/10.17632/zz8g5nznhb.2)
++ [Paper](https://doi.org/10.1016/j.jfineco.2026.104307)
+
+---
+
 ### Widespread Revisions of Self-Reported Emissions by Major US Corporations
 
 Code and data behind the *Nature Climate Change* paper on restatements of corporate emissions disclosures (with Lauren Cohen and Ethan Rouen).
