@@ -7,6 +7,15 @@ description: "Conference discussion presentations by Kunal Sachdeva"
 
 ---
 
+### Political Oversight and Public Contractor E&S Behavior
+**[Nickolay Gantchev](https://www.commerce.virginia.edu/faculty/wvv9nd), [Jim Goldman](https://sites.google.com/site/goldmanjim/), [Shu Zhang](https://experts.exeter.ac.uk/41385-shu-zhang/)**
+
+*Financial Intermediation Research Society* · May 28, 2026
+
+[Slides](/files/slides/2026-05-political-oversight.pdf)
+
+---
+
 ### Reproductive Rights and Female Inventor Productivity
 **Alex Chen, [Iftekhar Hasan](https://www.fordham.edu/gabelli-school-of-business/faculty/full-time-faculty/iftekhar-hasan/), [Incheol Kim](https://webapps.utrgv.edu/aa/dm/index.cfm?action=profile&user=incheol.kim), [Ronald Masulis](https://www.unsw.edu.au/staff/ronald-masulis)**
 

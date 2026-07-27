@@ -37,7 +37,11 @@
             <div class="profile-buttons">
                 {{- range site.Params.profileMode.buttons }}
                 {{- if (urls.Parse .url).IsAbs }}
-                <a class="button" href="{{ .url }}" rel="noopener" target="_blank">{{ .name }}</a>
+                <a class="button" href="{{ .url }}" rel="noopener noreferrer" target="_blank">{{ .name }}</a>
+                {{- else if strings.HasSuffix (lower .url) ".pdf" }}
+                {{- /* cv.pdf is relative, so it fell through to the plain branch
+                       and navigated the reader off the homepage. */ -}}
+                <a class="button" href="{{ .url | absURL }}" target="_blank">{{ .name }}</a>
                 {{- else }}
                 <a class="button" href="{{ .url | absURL }}">{{ .name }}</a>
                 {{- end }}

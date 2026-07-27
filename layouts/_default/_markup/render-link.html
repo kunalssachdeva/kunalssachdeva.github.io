@@ -1,1 +1,8 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{- .Text | safeHTML -}}</a>
+{{- /* Open external links AND PDFs in a new tab, so a paper or a slide deck
+       never navigates the reader off the site. rel guards the external ones
+       against reverse-tabnabbing. Same-page anchors (#...) stay in place. */ -}}
+{{- $ext := strings.HasPrefix .Destination "http" -}}
+{{- $pdf := strings.HasSuffix (lower .Destination) ".pdf" -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}
+  {{- if or $ext $pdf }} target="_blank"{{ end }}
+  {{- if $ext }} rel="noopener noreferrer"{{ end }}>{{- .Text | safeHTML -}}</a>

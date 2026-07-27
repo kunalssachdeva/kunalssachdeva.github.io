@@ -135,7 +135,12 @@
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             <li>
+                {{- /* Google Scholar and cv.pdf both used to navigate the reader
+                       off the site; send external links and PDFs to a new tab. */ -}}
+                {{- $ext_nav := findRE "://" .URL }}
+                {{- $pdf_nav := strings.HasSuffix (lower .URL) ".pdf" }}
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
+                {{- if or $ext_nav $pdf_nav }} target="_blank"{{ end }}{{ if $ext_nav }} rel="noopener noreferrer"{{ end }}
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
