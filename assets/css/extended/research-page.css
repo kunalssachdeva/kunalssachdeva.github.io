@@ -12,7 +12,7 @@
 .paper-index {
     margin: 0 0 2.5rem;
     padding: 1.25rem 1.5rem;
-    border: 1px solid #e5e7eb;
+    border: 1px solid var(--border-light);
     font-size: 0.95rem;
 }
 
@@ -22,7 +22,7 @@
     font-size: 0.78rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #4a4a4a;
+    color: var(--text-body);
 }
 
 .paper-index ol {
@@ -44,11 +44,11 @@
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #121212;
+    color: var(--text-primary);
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #121212;
+    border-bottom: 2px solid var(--text-primary);
 }
 
 .post-content h2:first-of-type {
@@ -59,7 +59,7 @@
 .post-content h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #1a1a1a;
+    color: var(--text-primary);
     margin-top: 0;
     margin-bottom: 0.25rem;
     line-height: 1.4;
@@ -68,13 +68,13 @@
 /* Author line */
 .post-content h3 + p strong {
     font-weight: 500;
-    color: #4a4a4a;
+    color: var(--text-body);
     font-size: 0.95rem;
 }
 
 /* Journal line */
 .post-content h3 + p + p em {
-    color: #00274C;
+    color: var(--accent-navy);
     font-style: normal;
     font-weight: 500;
 }
@@ -90,13 +90,14 @@
     height: auto;
     float: right;
     margin: 0 0 1rem 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-light);
+    border-radius: 0;
 }
 
 /* Abstract text */
 .post-content p {
-    color: #4a4a4a;
+    color: var(--text-body);
     font-size: 0.95rem;
     line-height: 1.7;
     margin-bottom: 0.75rem;
@@ -104,7 +105,7 @@
 
 /* Awards styling */
 .post-content p strong:first-child {
-    color: #00274C;
+    color: var(--accent-navy);
 }
 
 /* Links at bottom of each paper - NYT style */
@@ -118,7 +119,7 @@
 }
 
 .paper-links a {
-    color: #121212;
+    color: var(--text-primary);
     font-family: 'Inter', -apple-system, sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
@@ -127,7 +128,7 @@
     text-decoration: none;
     display: inline-block;
     padding: 0.35rem 0.85rem;
-    border: 1px solid #121212;
+    border: 1px solid var(--text-primary);
     border-radius: 0;
     background: transparent;
     box-shadow: none;
@@ -135,18 +136,18 @@
 }
 
 .paper-links a:hover {
-    background: #121212;
+    background: var(--text-primary);
     color: white;
     box-shadow: none;
 }
 
 /* Regular paragraph links (for author names, etc.).
-   The rest-state border must stay visible: #00274C on #4a4a4a body text is only
+   The rest-state border must stay visible: var(--accent-navy) on var(--text-body) body text is only
    1.70:1, so a colour-only link fails WCAG 1.4.1. The muted underline is the
    non-colour cue; hover darkens it. */
 .post-content p a,
 .post-content li a {
-    color: #00274C;
+    color: var(--accent-navy);
     font-weight: 500;
     text-decoration: none;
     border-bottom: 1px solid rgba(0, 39, 76, 0.4);
@@ -155,13 +156,13 @@
 
 .post-content p a:hover,
 .post-content li a:hover {
-    border-bottom-color: #00274C;
+    border-bottom-color: var(--accent-navy);
 }
 
 /* Horizontal rules between papers */
 .post-content hr {
     border: none;
-    border-top: 1px solid #e5e7eb;
+    border-top: 1px solid var(--border-light);
     margin: 2rem 0;
     clear: both;
 }
@@ -204,7 +205,7 @@
 
 .paper-links details summary {
     cursor: pointer;
-    color: #121212;
+    color: var(--text-primary);
     font-family: 'Inter', -apple-system, sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
@@ -212,7 +213,7 @@
     letter-spacing: 0.03em;
     display: inline-block;
     padding: 0.35rem 0.85rem;
-    border: 1px solid #121212;
+    border: 1px solid var(--text-primary);
     border-radius: 0;
     background: transparent;
     box-shadow: none;
@@ -225,7 +226,7 @@
 }
 
 .paper-links details summary:hover {
-    background: #121212;
+    background: var(--text-primary);
     color: white;
     box-shadow: none;
 }
@@ -239,8 +240,8 @@
 }
 
 .paper-links details pre {
-    background: #f8fafc;
-    border: 1px solid #e5e7eb;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-light);
     border-radius: 4px;
     padding: 1rem;
     font-size: 0.8rem;
