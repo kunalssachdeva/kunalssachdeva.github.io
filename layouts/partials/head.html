@@ -145,6 +145,13 @@
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
 
+{{/* Site-wide link-preview image. The theme only emits one from page-bundle
+     resources or cover.image, and this site's content is flat .md files, so
+     without this every shared link renders as a text-only card. Portrait photo
+     pairs with the theme's twitter:card=summary (square thumbnail). */}}
+<meta property="og:image" content="{{ "profile.jpg" | absURL }}">
+<meta name="twitter:image" content="{{ "profile.jpg" | absURL }}">
+
 {{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
 {{- partial "analytics.html" . }}
 {{ end }}

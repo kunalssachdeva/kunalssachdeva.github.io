@@ -62,19 +62,6 @@ button:focus-visible {
     }
 }
 
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-    :root {
-        --primary: #000;
-        --content: #000;
-    }
-
-    .dark {
-        --primary: #fff;
-        --content: #fff;
-    }
-}
-
 /* Screen reader only class - for additional context */
 .sr-only {
     position: absolute;

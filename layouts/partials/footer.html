@@ -42,7 +42,8 @@
         }
     }
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    // Skip link excluded: preventDefault() would kill the native fragment focus move (WCAG 2.4.1).
+    document.querySelectorAll('a[href^="#"]:not(.skip-link)').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
