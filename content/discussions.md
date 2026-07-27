@@ -1,7 +1,6 @@
 ---
 title: "Discussion Slides"
 description: "Conference discussion presentations by Kunal Sachdeva"
-layout: "research"
 ---
 
 ## 2026
@@ -49,7 +48,7 @@ layout: "research"
 ---
 
 ### Beyond the Status Quo: A Critical Assessment of Lifecycle Investment Advice
-**[Aizhan Anarkulova](https://www.anarkulova.com/), [Scott Cederburg](https://sites.google.com/site/cederburg/), [Michael S. O'Doherty](https://business.missouri.edu/departments-faculty/people-directory/michael-odoherty)**
+**[Aizhan Anarkulova](https://www.anarkulova.com/), [Scott Cederburg](https://sites.google.com/site/cederburg/), [Michael S. O'Doherty](https://business.missouri.edu/directory/odoherty)**
 
 *American Finance Association* · January 4, 2025
 
@@ -75,7 +74,7 @@ layout: "research"
 ---
 
 ### The Stock Market Valuation of Corporate Social Responsibility
-**[Jinyoung Kim](https://kimjinyoung.com/)**
+**Jinyoung Kim**
 
 *Northern Finance Association* · September 9, 2023
 
@@ -84,7 +83,7 @@ layout: "research"
 ---
 
 ### Disentangling the Effect of Financial Inclusion on Household Well-Being
-**[Nandini Gupta](https://sites.google.com/view/nandinigupta/home), [Ashish K. Sedai](https://ashishsedai.com/)**
+**[Nandini Gupta](https://sites.google.com/view/nandinigupta/home), Ashish K. Sedai**
 
 *Northern Finance Association* · September 8, 2023
 
