@@ -4,28 +4,33 @@
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* Design tokens. Add colours HERE, not as literals in a rule - the site had
+   42 raw hex literals against 62 token uses, which is how it ended up with two
+   blues, three body greys, three rule greys and two off-whites. */
 :root {
-    /* Base colors - High contrast, classic feel */
+    /* Surfaces */
     --bg-primary: #ffffff;
     --bg-secondary: #f7f7f5;
-    --text-primary: #121212;
-    --text-secondary: #363636;
-    --text-muted: #666666;
 
-    /* Accent colors */
-    --accent-blue: #326891;      /* NYT link blue */
+    /* Ink. 18.73:1 / 8.86:1 / 5.74:1 on white. */
+    --text-primary: #121212;     /* headings */
+    --text-body: #4a4a4a;        /* body copy - was an undeclared literal */
+    --text-muted: #666666;       /* captions, meta */
+
+    /* Brand. Navy was used 7x as a literal and had no token, while
+       --accent-blue (#326891, "NYT link blue") was used exactly once. */
+    --accent-navy: #00274C;      /* 15.06:1 */
+    --accent-gold: #FFCB05;      /* 1.52:1 - FILL ONLY, navy text on top (9.89:1) */
     --accent-dark: #121212;
-    --accent-gold: #FFCB05;
 
-    /* Borders and dividers */
-    --border-light: #e2e2e2;
-    --border-medium: #ccc;
+    /* Borders. One hairline value: the one the page actually draws. */
+    --border-light: #e5e7eb;
     --border-dark: #121212;
 
     /* Theme overrides */
     --theme: var(--bg-primary);
     --primary: var(--text-primary);
-    --secondary: var(--text-secondary);
+    --secondary: var(--text-body);
     --content: var(--text-primary);
     --entry: var(--bg-primary);
 }
@@ -78,7 +83,7 @@ nav.nav {
 }
 
 #menu a {
-    color: var(--text-secondary) !important;
+    color: var(--text-body) !important;
     font-weight: 500;
     font-size: 0.95rem;
     transition: color 0.2s ease;
@@ -86,7 +91,7 @@ nav.nav {
 
 #menu a:hover,
 #menu a.active {
-    color: var(--accent-blue) !important;
+    color: var(--accent-navy) !important;
 }
 
 /* Profile section */
@@ -127,7 +132,7 @@ nav.nav {
     font-size: 2.5rem;
     font-weight: 400;
     font-style: italic;
-    color: #00274C;
+    color: var(--accent-navy);
     margin-bottom: 1.25rem;
     margin-top: 0;
 }
@@ -145,12 +150,12 @@ nav.nav {
 }
 
 .profile .profile_inner .headline a {
-    color: #00274C;
+    color: var(--accent-navy);
     text-decoration: underline;
 }
 
 .profile .profile_inner .headline a:hover {
-    color: var(--accent-blue);
+    color: var(--accent-navy);
 }
 
 /* Profile buttons container */
@@ -190,12 +195,12 @@ nav.nav {
 }
 
 .social-icons a:hover {
-    color: var(--accent-blue) !important;
+    color: var(--accent-navy) !important;
 }
 
 /* Links - clean style */
 a {
-    color: var(--accent-blue);
+    color: var(--accent-navy);
     text-decoration: none;
     transition: opacity 0.2s ease;
 }
@@ -254,7 +259,7 @@ h1, h2, h3, h4 {
 }
 
 .post-entry .entry-header h2 a:hover {
-    color: var(--accent-blue);
+    color: var(--accent-navy);
 }
 
 /* Cover images in list */
@@ -292,13 +297,13 @@ h1, h2, h3, h4 {
 }
 
 .post-tags a:hover {
-    color: var(--accent-blue);
+    color: var(--accent-navy);
     background: transparent;
 }
 
 /* Journal badges - subtle highlight */
 .edit-post a {
-    color: var(--accent-blue) !important;
+    color: var(--accent-navy) !important;
     font-style: normal;
     font-weight: 500;
     font-size: 0.9rem;
@@ -306,7 +311,7 @@ h1, h2, h3, h4 {
 
 /* Section headers */
 .archive-year {
-    border-left: 3px solid var(--accent-blue);
+    border-left: 3px solid var(--accent-navy);
     padding-left: 1rem;
     margin: 3rem 0 1.5rem 0;
     font-size: 1.1rem;
@@ -357,7 +362,7 @@ h1, h2, h3, h4 {
 .post-content {
     font-size: 1rem;
     line-height: 1.8;
-    color: var(--text-secondary);
+    color: var(--text-body);
 }
 
 .post-content h5 {
@@ -393,7 +398,7 @@ pre {
     content: "→";
     position: absolute;
     left: 0;
-    color: var(--accent-blue);
+    color: var(--accent-navy);
 }
 
 /* Author list styling */
@@ -412,7 +417,7 @@ pre {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--border-medium);
+    background: var(--border-light);
     border-radius: 4px;
 }
 
