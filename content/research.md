@@ -251,7 +251,7 @@ ESG funds are more likely to vote against environmental and social proposals whe
 **Awards:** Semi-finalist, Best Paper, FMA Annual Conference, 2022
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4190504">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3760753">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -278,7 +278,7 @@ ESG reports contain financially material information unique from 10-K filings. T
 **Awards:** Best Paper Award, Fox and Haskayne Conference, 2024
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3949829">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4227934">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -303,7 +303,7 @@ ESG reports contain financially material information unique from 10-K filings. T
 Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management, highlighting the importance of considering governance in banking regulation.
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3726316">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -328,7 +328,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3707650">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4763984">Paper</a>
 <details>
 <summary>Cite</summary>
 
