@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" font-family="Inter, -apple-system, system-ui, sans-serif">
-  <defs><clipPath id="esgOnly"><circle cx="196" cy="92" r="56"/></clipPath><mask id="notTenK"><rect x="0" y="0" width="320" height="200" fill="#fff"/><circle cx="138" cy="92" r="56" fill="#000"/></mask></defs>
-  <circle cx="196" cy="92" r="56" fill="#FFCB05" clip-path="url(#esgOnly)" mask="url(#notTenK)"/>
-  <circle cx="138" cy="92" r="56" fill="none" stroke="#7A93AC" stroke-width="1.5"/>
-  <circle cx="196" cy="92" r="56" fill="none" stroke="#00274C" stroke-width="1.5"/>
-  <text x="110" y="28" text-anchor="middle" font-size="12" font-weight="600" fill="#666666">10-K</text>
-  <text x="224" y="28" text-anchor="middle" font-size="12" font-weight="600" fill="#00274C">ESG report</text>
-  <text x="222" y="88" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">unique</text>
-  <text x="222" y="102" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">material</text>
-  <text x="160" y="168" text-anchor="middle" font-size="12" fill="#4a4a4a">Material information the 10-K does not carry</text>
-  <text x="160" y="190" text-anchor="middle" font-size="11" fill="#666666">Linked to lower downside risk</text>
+  <text x="160.0" y="20" text-anchor="middle" font-size="11" fill="#666666">Material information in ESG reports vs. 10-Ks</text>
+  <defs><clipPath id="esgR"><circle cx="184" cy="96" r="42"/></clipPath></defs>
+<circle cx="184" cy="96" r="42" fill="#FFCB05"/>
+<circle cx="136" cy="96" r="42" fill="#ffffff" clip-path="url(#esgR)"/>
+<circle cx="136" cy="96" r="42" fill="none" stroke="#7A93AC" stroke-width="1.5"/>
+<circle cx="184" cy="96" r="42" fill="none" stroke="#00274C" stroke-width="1.5"/>
+<text x="112" y="46" text-anchor="middle" font-size="11" fill="#4a4a4a">10-K</text>
+<text x="212" y="46" text-anchor="middle" font-size="11" font-weight="600" fill="#00274C">ESG report</text>
+<text x="199" y="93" text-anchor="middle" font-size="11" font-weight="700" fill="#00274C">unique</text>
+<text x="199" y="106" text-anchor="middle" font-size="11" font-weight="700" fill="#00274C">material</text>
+  <text x="160.0" y="186" text-anchor="middle" font-size="11" fill="#666666">Unique material content, linked to lower downside risk</text>
+  
 </svg>
