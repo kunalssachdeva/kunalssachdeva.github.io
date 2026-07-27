@@ -56,6 +56,24 @@
 }
 
 /* Paper entries */
+/* Paper titles link to the paper itself. They keep heading ink rather than
+   link colour so the page still reads as a list of papers, not a wall of
+   links; the affordance is the underline on hover/focus. Safe under WCAG
+   1.4.1 because the whole heading is the link - there is no surrounding
+   non-link text to distinguish it from - and the "Paper" button below
+   repeats the destination with a visible label. */
+.post-content h3 a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.post-content h3 a:hover,
+.post-content h3 a:focus-visible {
+    color: var(--accent-navy);
+    border-bottom-color: var(--accent-navy);
+}
+
 .post-content h3 {
     font-size: 1.1rem;
     font-weight: 600;
