@@ -1,34 +1,57 @@
 ---
 title: "Research"
 description: "Research papers by Kunal Sachdeva on environmental finance, ESG, household finance, and financial markets"
-layout: "research"
 ---
+
+<div class="paper-index">
+
+**Published & accepted (5)**
+
+1. [Are Patents with Female Inventors Under-Cited?](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation) — *Journal of Financial Economics*, 2026
+2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing) — *Review of Financial Studies*, conditionally accepted
+3. [Widespread Revisions of Self-Reported Emissions](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations) — *Nature Climate Change*, 2026
+4. [Defunding Controversial Industries](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms) — *Journal of Financial Economics*, 2025
+5. [Skin or Skim?](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2025
+
+**Working papers (6)**
+
+1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates) — R&R, *Review of Financial Studies*
+2. [Opening the Brown Box](#opening-the-brown-box-production-responses-to-environmental-regulation)
+3. [Conflicting Objectives of ESG Funds](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
+4. [Sustainability Meets Substance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
+5. [Agency Meets Stability](#agency-meets-stability-corporate-governance-and-capital-requirements-on-bank-lending)
+6. [Missing the Target?](#missing-the-target-retirement-expectations-and-target-date-funds)
+
+</div>
 
 ## Published & Accepted Papers
 
 ---
 
-### Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation
+### Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation
 **[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, Kunal Sachdeva**
 
-*Journal of Financial Economics* (Accepted) · NBER Working Paper No. 31592
+*Journal of Financial Economics* 183 (2026): 104307 · NBER Working Paper No. 31592
 
-![Patent Gender Gap](/images/papers/patent-gender.svg)
+![Male-equivalent patents receive 12% more citations than otherwise identical female-invented patents.](/images/papers/patent-gender.svg)
 
 We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
 
 <div class="paper-links">
-<a href="https://www.nber.org/papers/w31592">Paper</a>
+<a href="https://doi.org/10.1016/j.jfineco.2026.104307">Paper</a>
+<a href="https://www.nber.org/papers/w31592">NBER</a>
 <details>
 <summary>Cite</summary>
 
 ```bibtex
-@article{hochberg2026inventor,
-  title={Inventor Gender and Patent Undercitation: Evidence from Causal Text Estimation},
+@article{hochberg2026patents,
+  title={Are patents with female inventors under-cited? Evidence from text estimation},
   author={Hochberg, Yael and Kakhbod, Ali and Li, Peiyao and Sachdeva, Kunal},
   journal={Journal of Financial Economics},
+  volume={183},
+  pages={104307},
   year={2026},
-  note={Accepted}
+  doi={10.1016/j.jfineco.2026.104307}
 }
 ```
 </details>
@@ -41,7 +64,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 *Review of Financial Studies* (Conditionally Accepted)
 
-![Environmental Activist Investing](/images/papers/environmental-activist.svg)
+![Toxic chemical releases at targeted firms fall 13% after environmental activist campaigns.](/images/papers/environmental-activist.svg)
 
 We examine how environmental activist investors drive firms to reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution. Plants of targeted firms reduce their total toxic chemical releases by 13% on average through preventative efforts rather than end-of-pipe treatments. These improvements have real implications for local air quality and public health.
 
@@ -68,26 +91,29 @@ We examine how environmental activist investors drive firms to reduce their toxi
 ---
 
 ### Widespread Revisions of Self-Reported Emissions by Major US Corporations
-**[Lauren Cohen](https://www.laurenhcohen.com/), [Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva**
+**[Lauren Cohen](https://www.laurenhcohen.com/), [Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva**
 
-*Nature Climate Change* (2025)
+*Nature Climate Change* 16 (2026): 33–36
 
-![Corporate Emissions Revisions](/images/papers/emissions-revisions.svg)
+![60% of emissions disclosures by 276 large U.S. corporations are later restated, with understatements outweighing overstatements two to one.](/images/papers/emissions-revisions.svg)
 
 Examining 900 emissions disclosures from 276 of the largest U.S. corporations, we find that 60% of these disclosures are eventually restated. Firms are more likely to understate than overstate their emissions, with the value of understated emissions being more than twice the value of overstated emissions.
 
 <div class="paper-links">
-<a href="https://www.nature.com/articles/s41558-023-01679-8">Paper</a>
+<a href="https://doi.org/10.1038/s41558-025-02494-9">Paper</a>
 <details>
 <summary>Cite</summary>
 
 ```bibtex
-@article{cohen2025emissions,
-  title={Widespread Revisions of Self-Reported Emissions by Major US Corporations},
+@article{cohen2026emissions,
+  title={Widespread revisions of self-reported emissions by major US corporations},
   author={Cohen, Lauren and Rouen, Ethan and Sachdeva, Kunal},
   journal={Nature Climate Change},
-  year={2025},
-  doi={10.1038/s41558-023-01679-8}
+  volume={16},
+  number={1},
+  pages={33--36},
+  year={2026},
+  doi={10.1038/s41558-025-02494-9}
 }
 ```
 </details>
@@ -96,28 +122,28 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 ---
 
 ### Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?
-**[André F. Silva](https://sites.google.com/view/andrefjsilva/home), Kunal Sachdeva, [Pablo Slutzky](https://pabloslutzky.com/), [Billy Xu](https://www.billyxu.com/)**
+**Kunal Sachdeva, [André F. Silva](https://sites.google.com/view/andrefjsilva/home), [Pablo Slutzky](https://pabloslutzky.com/), [Billy Xu](https://www.billyxu.com/)**
 
 *Journal of Financial Economics* 172 (2025): 104133
 
-![Defunding Industries](/images/papers/defunding.svg)
+![Firms fully replace lost targeted-bank credit through non-targeted banks, leaving total debt unchanged.](/images/papers/defunding.svg)
 
 We examine Operation Choke Point, a regulatory initiative targeting bank relationships with certain industries. Affected firms fully compensate for lost credit access through non-targeted banks, with no changes in total debt or investment—highlighting challenges of using financial regulation to restrict specific industries.
 
 <div class="paper-links">
-<a href="https://www.sciencedirect.com/science/article/pii/S0304405X23000466">Paper</a>
+<a href="https://doi.org/10.1016/j.jfineco.2025.104133">Paper</a>
 <details>
 <summary>Cite</summary>
 
 ```bibtex
-@article{silva2025defunding,
-  title={Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?},
-  author={Silva, Andr{\'e} F. and Sachdeva, Kunal and Slutzky, Pablo and Xu, Billy},
+@article{sachdeva2025defunding,
+  title={Defunding controversial industries: Can targeted credit rationing choke firms?},
+  author={Sachdeva, Kunal and Silva, Andr{\'e} F. and Slutzky, Pablo and Xu, Billy},
   journal={Journal of Financial Economics},
   volume={172},
   pages={104133},
   year={2025},
-  doi={10.1016/j.jfineco.2023.104133}
+  doi={10.1016/j.jfineco.2025.104133}
 }
 ```
 </details>
@@ -130,13 +156,13 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 
 *Management Science* 71.4 (2025): 3357-3383
 
-![Skin or Skim](/images/papers/skin-skim.svg)
+![Hedge funds with more manager inside investment deliver higher performance.](/images/papers/skin-skim.svg)
 
 Funds with greater inside investment outperform on a factor-adjusted basis. We attribute this to capacity constraints: insider funds are smaller and less likely to accept excess inflows, suggesting that managers with "skin in the game" prioritize performance over asset gathering.
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2846892">Paper</a>
-<a href="https://skinorskim.org">Data</a>
+<a href="https://doi.org/10.1287/mnsc.2024.4984">Paper</a>
+<a href="https://www.skinorskim.org">Data</a>
 <details>
 <summary>Cite</summary>
 
@@ -148,7 +174,8 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
   volume={71},
   number={4},
   pages={3357--3383},
-  year={2025}
+  year={2025},
+  doi={10.1287/mnsc.2024.4984}
 }
 ```
 </details>
@@ -165,12 +192,12 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 
 *R&R, Review of Financial Studies*
 
-![Health Contingent Assets](/images/papers/health-assets.svg)
+![Survival probability over time is higher for individuals with life-settlement access than for those without.](/images/papers/health-assets.svg)
 
 Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates, with effects particularly pronounced for fragile individuals living far from hospitals.
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3305647">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -191,12 +218,12 @@ Using the life settlement market as a natural experiment, I find that access to 
 ### Opening the Brown Box: Production Responses to Environmental Regulation
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-![Brown Box](/images/papers/brown-box.svg)
+![Regulated firms outsource power and shift product mix, reducing product variety.](/images/papers/brown-box.svg)
 
 Firms reduce pollution through strategic production choices: sourcing electricity externally and shifting toward higher-margin products. However, aggregate effects include reduced product variety and decreased business formation.
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4088644">Paper</a>
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581">Paper</a>
 <details>
 <summary>Cite</summary>
 
@@ -216,7 +243,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 ### Conflicting Objectives of ESG Funds: Evidence from Proxy Voting
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-![ESG Proxy Voting](/images/papers/esg-proxy.svg)
+![When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals.](/images/papers/esg-proxy.svg)
 
 ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain, suggesting they prioritize short-term returns over sustainability goals when the two conflict.
 
@@ -241,9 +268,9 @@ ESG funds are more likely to vote against environmental and social proposals whe
 ---
 
 ### Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance
-**[Ethan Rouen](https://www.ethanrouen.com/), Kunal Sachdeva, [Aaron Yoon](https://www.kellogg.northwestern.edu/faculty/directory/yoon_aaron/)**
+**[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
-![ESG Reports](/images/papers/esg-substance.svg)
+![ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk.](/images/papers/esg-substance.svg)
 
 ESG reports contain financially material information unique from 10-K filings. This material information is associated with decreased downside firm risks, suggesting ESG reporting serves a meaningful informational role beyond signaling.
 
@@ -270,7 +297,7 @@ ESG reports contain financially material information unique from 10-K filings. T
 ### Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending
 **[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
-![Bank Governance](/images/papers/bank-governance.svg)
+![Higher capital requirements cut lending at weakly governed banks but raise it at strongly governed banks.](/images/papers/bank-governance.svg)
 
 Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management, highlighting the importance of considering governance in banking regulation.
 
@@ -295,7 +322,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 ### Missing the Target? Retirement Expectations and Target-Date Funds
 **[Byeong-Je An](https://sites.google.com/view/byeongje-an), Kunal Sachdeva**
 
-![Target Date Funds](/images/papers/target-date.svg)
+![Respondents leave the labour force 4.8 years later than expected, costing 4% of wealth at retirement.](/images/papers/target-date.svg)
 
 Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
 

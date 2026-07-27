@@ -429,6 +429,7 @@ pre {
 
     .profile .profile-photo {
         width: 200px;
+        min-width: auto;
         margin: 0 auto;
     }
 

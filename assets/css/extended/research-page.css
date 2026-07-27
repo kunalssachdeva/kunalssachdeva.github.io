@@ -1,12 +1,42 @@
 /* Research & Discussions Page Styling - Clean layout like rajchetty.com */
 
-/* Page container */
+/* Page container.
+   Not justified: a floated illustration narrows this 800px column to ~460px,
+   which is exactly the width where inter-word justification opens rivers. */
 .post-content {
     max-width: 800px;
-    text-align: justify;
-    text-justify: inter-word;
-    -webkit-hyphens: auto;
-    hyphens: auto;
+}
+
+/* At-a-glance index at the top of /research/ — lets a reader answer
+   "published where, when" without scrolling five screens. */
+.paper-index {
+    margin: 0 0 2.5rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #e5e7eb;
+    font-size: 0.95rem;
+}
+
+.paper-index strong {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #4a4a4a;
+}
+
+.paper-index ol {
+    margin: 0 0 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.paper-index ol:last-child {
+    margin-bottom: 0;
+}
+
+.paper-index li {
+    margin-bottom: 0.3rem;
+    line-height: 1.45;
 }
 
 /* Section headers */
@@ -111,16 +141,21 @@
     box-shadow: none;
 }
 
-/* Regular paragraph links (for author names, etc.) */
-.post-content p a {
+/* Regular paragraph links (for author names, etc.).
+   The rest-state border must stay visible: #00274C on #4a4a4a body text is only
+   1.70:1, so a colour-only link fails WCAG 1.4.1. The muted underline is the
+   non-colour cue; hover darkens it. */
+.post-content p a,
+.post-content li a {
     color: #00274C;
     font-weight: 500;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid rgba(0, 39, 76, 0.4);
     transition: border-color 0.2s ease;
 }
 
-.post-content p a:hover {
+.post-content p a:hover,
+.post-content li a:hover {
     border-bottom-color: #00274C;
 }
 
@@ -144,6 +179,7 @@
         max-width: 100%;
         margin: 1rem 0;
     }
+
 }
 
 /* R&R and status badges in journal line */

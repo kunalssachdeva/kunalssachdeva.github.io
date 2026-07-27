@@ -7,8 +7,9 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 50
 
-taxonomies:
-    tag: tags
+# No taxonomies. Omitting this key entirely does NOT disable them — Hugo falls
+# back to its defaults and generates empty /tags/ and /categories/ pages.
+taxonomies: {}
 
 menu:
     main:
@@ -50,7 +51,8 @@ params:
     ShowWordCount: false
     UseHugoToc: true
     comments: false
-    math: true
+    # math: set per-page in front matter when a page needs it. Site-wide it pulled
+    # 79KB of render-blocking KaTeX from a CDN onto every page, and no page has math.
 
     profileMode:
           enabled: true
@@ -60,6 +62,7 @@ params:
 
             His research studies the real effects of financial markets, with a focus on climate finance, environmental regulation, and financial intermediation. Recent work examines responses to environmental risk and regulatory change, as well as the role of financial markets in the transition to a more sustainable economy. His research has been published in the *Journal of Financial Economics*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research and the Arnold M. and Linda T. Jacob Faculty Fellow Award.
           imageUrl: "profile.jpg"
+          imageTitle: "Kunal Sachdeva"
           imageWidth: 280
           imageHeight: 280
           buttons:
@@ -73,6 +76,15 @@ params:
               url: cv.pdf
             - name: Google Scholar
               url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
+
+    # JSON-LD identity. Without publisherType the theme declares the homepage an
+    # Organization and puts a mailto: in sameAs, neither of which is true here.
+    schema:
+        publisherType: Person
+        sameAs:
+            - "https://scholar.google.com/citations?user=lBWscRoAAAAJ"
+            - "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424"
+            - "https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva"
 
     socialIcons:
         - name: Email
