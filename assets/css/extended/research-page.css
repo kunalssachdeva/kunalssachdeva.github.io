@@ -79,20 +79,19 @@
     font-weight: 500;
 }
 
-/* Paper images */
+/* Paper illustrations.
+   White surface, not #f8fafc: the figures' lightest data colour (#7A93AC) is
+   3.18:1 on white but only 3.04:1 on the tinted panel, and 3:1 is the floor for
+   a graphical object. Hairline border instead of a rounded drop-shadow card so
+   the figures match the page's own rules rather than sitting on it like a
+   pasted screenshot. The SVGs carry no background of their own. */
 .post-content img {
     max-width: 320px;
     height: auto;
     float: right;
     margin: 0 0 1rem 1.5rem;
-    border-radius: 6px;
-    background: #f8fafc;
-    box-shadow: 0 2px 8px rgba(0, 39, 76, 0.08);
-    transition: box-shadow 0.2s ease;
-}
-
-.post-content img:hover {
-    box-shadow: 0 4px 16px rgba(0, 39, 76, 0.12);
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
 }
 
 /* Abstract text */

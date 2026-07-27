@@ -100,6 +100,17 @@ One- or two-sentence description.
 
 Use the author's own academic page when linking — do NOT self-link "Kunal Sachdeva" back to the homepage.
 
+### Paper illustrations (`static/images/papers/*.svg`)
+
+One visual system, and the rules are load-bearing:
+
+- **Geometry must encode the number it prints.** If a figure says "+12%", the taller bar is exactly 1.12x the shorter one. The original patent-gender.svg drew a 31% gap while labelling it 12%.
+- **`viewBox="0 0 320 200"`** — matches the CSS display width, so `font-size: 11` renders as 11px. Never go below 11.
+- **Palette**: `#00274C` navy (data), `#7A93AC` tint (comparison/reference; 3.18:1 on white, so the surface must stay white), `#4a4a4a` labels, `#666` caption, `#d8dde3` rules.
+- **Maize `#FFCB05` is a fill, never a stroke.** It is 1.52:1 on white — invisible as a line — but navy on maize is 9.89:1, so it works as a highlight block with navy text on it.
+- **No background rect.** `.post-content img` in research-page.css owns the surface and border.
+- Alt text states the *finding*, not the paper title (the title is already in the adjacent `h3`).
+
 The research page has two sections: "Published & Accepted Papers" (sorted with newest acceptance first) and "Working Papers" (R&Rs first, then plain working papers).
 
 ### New discussion
