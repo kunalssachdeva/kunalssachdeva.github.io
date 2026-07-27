@@ -15,7 +15,7 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 **Working papers (6)**
 
-1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates) — R&R, *Review of Financial Studies*
+1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates)
 2. [Opening the Brown Box](#opening-the-brown-box-production-responses-to-environmental-regulation)
 3. [Conflicting Objectives of ESG Funds](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
 4. [Sustainability Meets Substance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
@@ -191,8 +191,6 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 ### [Can Health State-Contingent Assets Enable Greater Survival Rates?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564)
 **Kunal Sachdeva**
 
-*R&R, Review of Financial Studies*
-
 ![Survival probability over time is higher for individuals with life-settlement access than for those without.](/images/papers/health-assets.svg)
 
 Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates, with effects particularly pronounced for fragile individuals living far from hospitals.
@@ -207,8 +205,7 @@ Using the life settlement market as a natural experiment, I find that access to 
   title={Can Health State-Contingent Assets Enable Greater Survival Rates?},
   author={Sachdeva, Kunal},
   year={2024},
-  type={Working Paper},
-  note={R\&R, Review of Financial Studies}
+  type={Working Paper}
 }
 ```
 </details>
