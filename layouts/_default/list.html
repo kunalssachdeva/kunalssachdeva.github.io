@@ -31,6 +31,12 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
+{{- /* Only paginate when there is actually something to list. /data/, /media/
+       and /teaching/ are section pages whose whole content is _index.md, so the
+       listing below is empty - but calling .Paginate on an empty set still made
+       Hugo emit a /page/1/ URL that returned 200 and canonical-tagged itself
+       back to the section. Three junk URLs, one per section. */ -}}
+{{- if $pages }}
 {{- $paginator := .Paginate $pages }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
@@ -101,6 +107,7 @@
   </nav>
 </footer>
 {{- end }}
+{{- end }}{{/* end: only paginate when there is something to list */}}
 
 {{- end }}{{/* end profileMode */}}
 

@@ -9,6 +9,13 @@ pagination:
 
 # No taxonomies. Omitting this key entirely does NOT disable them — Hugo falls
 # back to its defaults and generates empty /tags/ and /categories/ pages.
+# No RSS. The feed only ever contained /research/ and /discussions/ - the two
+# regular pages - and neither carries a date, so every pubDate rendered as
+# "Mon, 01 Jan 0001 00:00:00 +0000", which is an invalid date. There is no
+# updating content stream here to feed. Delete these three lines to restore it.
+outputs:
+    home: [HTML]
+
 taxonomies: {}
 
 menu:
