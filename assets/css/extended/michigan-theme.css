@@ -163,9 +163,9 @@ nav.nav {
    line - well past the 45-75 that reads comfortably. Capping the measure is what
    actually fixes that; justification only works here BECAUSE of the cap, since
    browsers justify greedily and a 92-character line would open visible gaps.
-   hyphens:auto earns its place for the same reason - it gives the justifier
-   somewhere to put the slack instead of the word spaces. Ragged right returns
-   under 768px, where the stacked column is too narrow to justify cleanly. */
+   No hyphenation: broken words read worse than the slightly wider word spaces
+   they would save. Ragged right returns under 768px, where the stacked column is
+   too narrow to justify cleanly. */
 .profile .profile_inner .headline {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 1rem;
@@ -174,8 +174,6 @@ nav.nav {
     max-width: 34rem;
     text-align: justify;
     text-justify: inter-word;
-    -webkit-hyphens: auto;
-    hyphens: auto;
 }
 
 .profile .profile_inner .headline p {
@@ -480,8 +478,6 @@ pre {
         font-size: 0.95rem;
         max-width: none;
         text-align: left;
-        -webkit-hyphens: manual;
-        hyphens: manual;
     }
 
     .main {
