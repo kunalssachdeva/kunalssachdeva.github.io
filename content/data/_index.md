@@ -37,6 +37,6 @@ Data and code for the *Management Science* paper on manager inside investment an
 
 ### Additional Resources
 
-Replication code and data for other papers are available upon request. Please [contact me](mailto:kunal@umich.edu) for access.
+Replication code and data for other papers are available upon request. Please [contact me](mailto:ksach@umich.edu) for access.
 
 ---

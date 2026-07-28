@@ -8,10 +8,10 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 **Published & accepted (5)**
 
 1. [Are Patents with Female Inventors Under-Cited?](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation) — *Journal of Financial Economics*, 2026
-2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing) — *Review of Financial Studies*, conditionally accepted
+2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing) — *Review of Financial Studies*, accepted
 3. [Widespread Revisions of Self-Reported Emissions](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations) — *Nature Climate Change*, 2026
 4. [Defunding Controversial Industries](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms) — *Journal of Financial Economics*, 2025
-5. [Skin or Skim?](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2025
+5. [Skin or Skim?](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2024
 
 **Working papers (6)**
 
@@ -63,7 +63,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 ### [Real Effects of Environmental Activist Investing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692)
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
-*Review of Financial Studies* (Conditionally Accepted)
+*Review of Financial Studies* (Accepted)
 
 ![Toxic chemical releases at targeted firms fall 13% after environmental activist campaigns.](/images/papers/environmental-activist.svg)
 
@@ -83,7 +83,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
   author={Naaraayanan, S. Lakshmi and Sachdeva, Kunal and Sharma, Varun},
   journal={Review of Financial Studies},
   year={2024},
-  note={Conditionally Accepted}
+  note={Accepted}
 }
 ```
 </details>
@@ -155,7 +155,7 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 ### [Skin or Skim? Inside Investment and Hedge Fund Performance](https://doi.org/10.1287/mnsc.2024.4984)
 **[Arpit Gupta](http://arpitgupta.info), Kunal Sachdeva**
 
-*Management Science* 71.4 (2025): 3357-3383
+*Management Science* 71.4 (2024): 3357-3383
 
 ![Hedge funds with more manager inside investment deliver higher performance.](/images/papers/skin-skim.svg)
 
@@ -168,14 +168,14 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 <summary>Cite</summary>
 
 ```bibtex
-@article{gupta2025skin,
+@article{gupta2024skin,
   title={Skin or Skim? Inside Investment and Hedge Fund Performance},
   author={Gupta, Arpit and Sachdeva, Kunal},
   journal={Management Science},
   volume={71},
   number={4},
   pages={3357--3383},
-  year={2025},
+  year={2024},
   doi={10.1287/mnsc.2024.4984}
 }
 ```
