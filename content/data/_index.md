@@ -16,6 +16,15 @@ Replication data and code for the *Journal of Financial Economics* paper (with Y
 
 ---
 
+### Real Effects of Environmental Activist Investing
+
+Replication data and code for the *Review of Financial Studies* paper (with S. Lakshmi Naaraayanan and Varun Sharma) on how environmental shareholder campaigns change plant-level toxic releases.
+
++ [Replication data (Harvard Dataverse)](https://doi.org/10.7910/DVN/IRDH3L)
++ [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692)
+
+---
+
 ### Widespread Revisions of Self-Reported Emissions by Major US Corporations
 
 Code and data behind the *Nature Climate Change* paper on restatements of corporate emissions disclosures (with Lauren Cohen and Ethan Rouen).

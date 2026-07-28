@@ -65,7 +65,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ### [Missing the Target? Retirement Expectations and Target-Date Funds](/research/#missing-the-target-retirement-expectations-and-target-date-funds)
 
-+ [Rice Business](https://business.rice.edu/news/what-happens-if-you-pick-wrong-date-your-target-date-fund) — What happens if you pick the wrong date on your target-date fund?
++ [MarketWatch](https://www.marketwatch.com/story/picking-the-wrong-date-on-your-target-date-fund-could-cost-you-a-lot-of-money-11643162714) — What happens if you pick the wrong date on your target-date fund?
 + [Bryn Mawr Trust](https://www.bmt.com/news-insights-events/why-understanding-target-date-funds-matters-more-than-ever/) — Why Understanding Target Date Funds Matters More Than Ever
 
 ---
