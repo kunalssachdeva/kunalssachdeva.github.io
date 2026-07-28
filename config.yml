@@ -91,7 +91,7 @@ params:
 
     socialIcons:
         - name: Email
-          url: mailto:kunal@umich.edu
+          url: mailto:ksach@umich.edu
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
         - name: SSRN
