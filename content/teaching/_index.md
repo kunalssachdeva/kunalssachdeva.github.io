@@ -1,9 +1,9 @@
 ---
 title: "Teaching"
-description: "MBA and executive education courses taught by Kunal Sachdeva at Michigan Ross and Rice Jones, and PhD advising"
+description: "MBA and executive education courses taught by Kunal Sachdeva at Michigan Ross and Rice Jones"
 ---
 
-MBA and executive education, and doctoral advising.
+MBA and executive education.
 
 ---
 
@@ -34,16 +34,5 @@ Recognized with the Teaching Excellence Award, Jones Graduate School of Business
 **Financial Education for Interns** — LSH Partners, 2015–2017
 
 **Columbia Executive Education for Debevoise & Plimpton** — head teaching assistant, 2015 and 2017
-
----
-
-### Doctoral advising
-
-Committee member for four doctoral students, with first placements:
-
-+ **Natasha Boreyko** — University of Michigan, Ross School of Business. Graduated 2026; University of Virginia (post-doctoral).
-+ **Billy Xu** — Rice University, Finance. Graduated 2023; University of Rochester.
-+ **Igor Westphal** — Rice University, Economics (external examiner). Graduated 2023; ENGIE.
-+ **Minchen Zheng** — Columbia Business School, Finance (external examiner). Graduated 2019; Man Group.
 
 ---
