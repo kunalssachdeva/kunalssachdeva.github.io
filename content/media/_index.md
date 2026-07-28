@@ -9,6 +9,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ### [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/research/#widespread-revisions-of-self-reported-emissions-by-major-us-corporations)
 
++ [USA Today](https://www.usatoday.com/story/opinion/2025/12/26/climate-change-corporate-emissions-data/87832492007/) — Climate change could be worse than we know
 + [Harvard Business School — Institute for Business in Global Society](https://www.hbs.edu/bigs/harvard-study-74-percent-sp-500-companies-revise-emissions-data) — Harvard study: 74% of S&P 500 companies revised emissions data
 + [HBS Working Knowledge](https://www.library.hbs.edu/working-knowledge/one-chart-many-companies-quietly-revise-their-emissions-data) — Many Companies Quietly Revise Their Emissions Data: One Chart
 
