@@ -85,12 +85,40 @@ params:
 
     # JSON-LD identity. Without publisherType the theme declares the homepage an
     # Organization and puts a mailto: in sameAs, neither of which is true here.
+    # JSON-LD identity, rendered by layouts/partials/templates/schema_json.html.
+    # sameAs is the disambiguation signal: OpenAlex and Semantic Scholar have both
+    # merged this author with a computer-science namesake, and there are a BCG
+    # principal and a playback singer on the same name. Every URL here was fetched
+    # and confirmed to be his before being listed. LinkedIn is deliberately absent
+    # - it returns 999 to any automated request, so it could not be verified.
     schema:
         publisherType: Person
+        jobTitle: "Assistant Professor of Finance"
+        worksFor:
+            name: "Stephen M. Ross School of Business, University of Michigan"
+            url: "https://michiganross.umich.edu/"
+        affiliation:
+            name: "Erb Institute for Global Sustainable Enterprise"
+            url: "https://erb.umich.edu/"
+        alumniOf:
+            name: "Columbia Business School"
+            url: "https://business.columbia.edu/"
+        knowsAbout:
+            - "Climate finance"
+            - "Environmental regulation"
+            - "Financial intermediation"
+            - "Corporate finance"
+            - "Sustainable investing"
         sameAs:
+            - "https://orcid.org/0000-0002-7739-0073"
             - "https://scholar.google.com/citations?user=lBWscRoAAAAJ"
             - "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424"
+            - "https://ideas.repec.org/f/psa1819.html"
+            - "https://openalex.org/A5077915577"
+            - "https://www.nber.org/people/kunal_sachdeva"
             - "https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva"
+            - "https://erb.umich.edu/kunal-sachdeva"
+            - "https://x.com/KunalSSachdeva"
 
     socialIcons:
         - name: Email
