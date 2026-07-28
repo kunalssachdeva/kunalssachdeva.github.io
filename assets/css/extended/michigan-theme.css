@@ -102,6 +102,14 @@ nav.nav {
     margin: 0 auto;
 }
 
+/* PaperMod pins the profile to min-height:100vh and vertically centres it, so
+   the homepage was exactly one screen with dead space above and below the bio
+   and nothing beneath it. Top-align and let the page be as tall as its content. */
+.main .profile {
+    min-height: auto;
+    align-items: flex-start;
+}
+
 .profile .profile_inner {
     display: flex;
     flex-direction: row;
