@@ -7,11 +7,11 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 **Published & accepted (5)**
 
-1. [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation) — *Journal of Financial Economics*, 2026
-2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing) — *Review of Financial Studies*, accepted
-3. [Widespread Revisions of Self-Reported Emissions by Major US Corporations](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations) — *Nature Climate Change*, 2026
-4. [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms) — *Journal of Financial Economics*, 2025
-5. [Skin or Skim? Inside Investment and Hedge Fund Performance](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2024
+1. [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation)<br><span class="venue">*Journal of Financial Economics*, 2026</span>
+2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing)<br><span class="venue">*Review of Financial Studies*, accepted</span>
+3. [Widespread Revisions of Self-Reported Emissions by Major US Corporations](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations)<br><span class="venue">*Nature Climate Change*, 2026</span>
+4. [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms)<br><span class="venue">*Journal of Financial Economics*, 2025</span>
+5. [Skin or Skim? Inside Investment and Hedge Fund Performance](#skin-or-skim-inside-investment-and-hedge-fund-performance)<br><span class="venue">*Management Science*, 2024</span>
 
 **Working papers (6)**
 
