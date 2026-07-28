@@ -25,15 +25,12 @@ menu:
         - name: Code & Data
           url: data/
           weight: 4
-        - name: Bio
-          url: bio/
-          weight: 5
         - name: CV
           url: cv.pdf
-          weight: 6
+          weight: 5
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
-          weight: 7
+          weight: 6
 
 params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
@@ -64,11 +61,13 @@ params:
           enabled: true
           title: Kunal Sachdeva
           subtitle: |
-            Kunal Sachdeva studies how firms and financial markets respond to environmental regulation and climate risk — and whether those responses are real. Recent work asks whether shareholder campaigns actually cut pollution, whether large corporations report emissions accurately, and how credit and governance shape firm behavior.
+            Kunal Sachdeva studies how firms and financial markets respond to environmental regulation and climate risk — and whether those responses are real. His work sits at the intersection of corporate finance, sustainable investing, and financial intermediation, asking whether shareholder campaigns actually cut pollution, whether large corporations report their emissions accurately, and how credit and governance shape what firms do.
 
-            His research is published or forthcoming in the *Journal of Financial Economics*, the *Review of Financial Studies*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research and the Arnold M. and Linda T. Jacob Faculty Fellow Award.
+            His research is published or forthcoming in the *Journal of Financial Economics*, the *Review of Financial Studies*, *Management Science*, and *Nature Climate Change*. It has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research, the Arnold M. and Linda T. Jacob Faculty Fellow Award, and best paper awards at major finance conferences, and has been cited in the *Financial Times*, *Bloomberg*, and *Reuters*.
 
-            He is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), a faculty affiliate of the [Erb Institute](https://erb.umich.edu/), and was previously on the finance faculty at Rice. His PhD in Finance is from [Columbia Business School](https://business.columbia.edu/).
+            He is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), and a faculty affiliate of the [Erb Institute](https://erb.umich.edu/). Before joining Michigan in 2024 he was on the finance faculty at Rice University's Jones Graduate School of Business. He holds a PhD in Finance from [Columbia Business School](https://business.columbia.edu/), an M.Fin. from [MIT Sloan](https://mitsloan.mit.edu/), and undergraduate degrees in Economics and Electrical Engineering from [Queen's University](https://www.queensu.ca/).
+
+            He has received multiple Teaching Excellence Awards for MBA core finance and for electives in sustainable finance and financial markets, and contributes to the profession through editorial service, conference organization, and doctoral advising. Before academia he worked at BlackRock, researching hedge fund investment strategies, and at Bloomberg LP, building trading systems.
           imageUrl: "profile.jpg"
           imageTitle: "Kunal Sachdeva"
           imageWidth: 280
