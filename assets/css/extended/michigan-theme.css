@@ -94,6 +94,19 @@ nav.nav {
     color: var(--accent-navy) !important;
 }
 
+/* The theme scrolls the nav horizontally (overflow-x:auto; white-space:nowrap)
+   and the footer script restores its scroll position from localStorage, so with
+   seven items a phone could load with the first item clipped off the left. Wrap
+   to a second line instead - nothing gets hidden. */
+@media (max-width: 768px) {
+    #menu {
+        flex-wrap: wrap;
+        overflow-x: visible;
+        white-space: normal;
+        row-gap: 0.35rem;
+    }
+}
+
 /* Profile section */
 .profile {
     background: var(--bg-primary) !important;
