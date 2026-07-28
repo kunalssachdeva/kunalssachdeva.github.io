@@ -81,12 +81,12 @@ We examine how environmental activist investors drive firms to reduce their toxi
 <summary>Cite</summary>
 
 ```bibtex
-@article{naaraayanan2024environmental,
-  title={Real Effects of Environmental Activist Investing},
+@article{naaraayanan2026real,
+  title={The Real Effects of Environmental Activist Investing},
   author={Naaraayanan, S. Lakshmi and Sachdeva, Kunal and Sharma, Varun},
   journal={Review of Financial Studies},
-  year={2024},
-  note={Accepted}
+  year={2026},
+  note={Forthcoming}
 }
 ```
 </details>
@@ -110,7 +110,7 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 
 ```bibtex
 @article{cohen2026emissions,
-  title={Widespread revisions of self-reported emissions by major US corporations},
+  title={Widespread revisions of self-reported emissions by major {US} corporations},
   author={Cohen, Lauren and Rouen, Ethan and Sachdeva, Kunal},
   journal={Nature Climate Change},
   volume={16},
@@ -210,7 +210,10 @@ Using the life settlement market as a natural experiment, I find that access to 
   title={Can Health State-Contingent Assets Enable Greater Survival Rates?},
   author={Sachdeva, Kunal},
   year={2020},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={3620564},
+  doi={10.2139/ssrn.3620564}
 }
 ```
 </details>
@@ -237,7 +240,10 @@ Firms reduce pollution through strategic production choices: sourcing electricit
   title={Opening the Brown Box: Production Responses to Environmental Regulation},
   author={De Simone, Rebecca and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
   year={2024},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4707581},
+  doi={10.2139/ssrn.4707581}
 }
 ```
 </details>
@@ -263,10 +269,13 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 ```bibtex
 @techreport{li2021conflicting,
-  title={Conflicting Objectives of ESG Funds: Evidence from Proxy Voting},
+  title={Conflicting Objectives of {ESG} Funds: Evidence from Proxy Voting},
   author={Li, Tao and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
   year={2021},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={3760753},
+  doi={10.2139/ssrn.3760753}
 }
 ```
 </details>
@@ -292,10 +301,13 @@ ESG reports contain financially material information unique from 10-K filings. T
 
 ```bibtex
 @techreport{rouen2022sustainability,
-  title={Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance},
+  title={Sustainability Meets Substance: Evaluating {ESG} Reports in Context of {10-K}s and Firm Performance},
   author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
   year={2022},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4227934},
+  doi={10.2139/ssrn.4227934}
 }
 ```
 </details>
@@ -322,7 +334,10 @@ Capital requirements have divergent effects on bank lending depending on the lev
   title={Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending},
   author={Bosshardt, Joshua and Kakhbod, Ali and Sachdeva, Kunal},
   year={2023},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4342126},
+  doi={10.2139/ssrn.4342126}
 }
 ```
 </details>
@@ -349,7 +364,10 @@ Survey evidence reveals that respondents underestimate their labor force partici
   title={Missing the Target? Retirement Expectations and Target-Date Funds},
   author={An, Byeong-Je and Sachdeva, Kunal},
   year={2024},
-  type={Working Paper}
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4763984},
+  doi={10.2139/ssrn.4763984}
 }
 ```
 </details>
