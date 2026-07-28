@@ -61,24 +61,24 @@ params:
           enabled: true
           title: Kunal Sachdeva
           subtitle: |
-            Kunal Sachdeva is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/). He is also a faculty affiliate of the [Erb Institute](https://erb.umich.edu/) and received his PhD in Finance from [Columbia Business School](https://business.columbia.edu/).
+            Kunal Sachdeva studies how firms and financial markets respond to environmental regulation and climate risk — and whether those responses are real. Recent work asks whether shareholder campaigns actually cut pollution, whether large corporations report emissions accurately, and how credit and governance shape firm behavior.
 
-            His research studies the real effects of financial markets, with a focus on climate finance, environmental regulation, and financial intermediation. Recent work examines responses to environmental risk and regulatory change, as well as the role of financial markets in the transition to a more sustainable economy. His research has been published in the *Journal of Financial Economics*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research and the Arnold M. and Linda T. Jacob Faculty Fellow Award.
+            His research is published or forthcoming in the *Journal of Financial Economics*, the *Review of Financial Studies*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research and the Arnold M. and Linda T. Jacob Faculty Fellow Award.
+
+            He is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), a faculty affiliate of the [Erb Institute](https://erb.umich.edu/), and was previously on the finance faculty at Rice. His PhD in Finance is from [Columbia Business School](https://business.columbia.edu/).
           imageUrl: "profile.jpg"
           imageTitle: "Kunal Sachdeva"
           imageWidth: 280
           imageHeight: 280
+          # Two, not five. The nav above already carries all five destinations in
+          # the same viewport, so a five-button row repeated them verbatim and
+          # added weight without adding information. These are the two highest
+          # intent for a first-time visitor.
           buttons:
             - name: Research
               url: research/
-            - name: Discussions
-              url: discussions/
-            - name: Code & Data
-              url: data/
             - name: CV
               url: cv.pdf
-            - name: Google Scholar
-              url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
 
     # JSON-LD identity. Without publisherType the theme declares the homepage an
     # Organization and puts a mailto: in sameAs, neither of which is true here.
