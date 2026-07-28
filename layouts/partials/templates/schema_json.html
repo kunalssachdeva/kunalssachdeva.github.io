@@ -1,0 +1,40 @@
+{{- /*
+  Replaces PaperMod's 128-line schema_json.html with ~25 lines, and fixes three
+  things it got wrong on this site:
+
+    1. It used params.assets.favicon as the Person image, so the structured data
+       advertised a 16px favicon as the photo of a person.
+    2. It truncated the description to 180 characters, mid-word, ellipsis and all.
+    3. On every non-home page it emitted a BlogPosting with
+       datePublished/dateModified of "0001-01-01T00:00:00Z" - these pages carry no
+       front-matter date - which is an invalid date that can invalidate the whole
+       block. It also inlined the entire page text into articleBody, ~8KB on
+       /research/.
+
+  Non-home pages now emit nothing. A BreadcrumbList on a six-page site with
+  breadcrumbs disabled, and a BlogPosting for a listing page that is not a blog
+  post, were both describing things that are not true.
+
+  The Person block is the one that has to be right: this author shares a name
+  with a computer scientist, a BCG principal and a playback singer, and sameAs
+  is the signal that disambiguation actually consumes. Built as a map and passed
+  through jsonify so the output cannot be malformed.
+*/ -}}
+{{- if .IsHome -}}
+{{- $s := site.Params.schema -}}
+{{- $person := dict
+      "@context" "https://schema.org"
+      "@type" "Person"
+      "name" site.Title
+      "url" site.Home.Permalink
+      "description" (site.Params.description | plainify)
+-}}
+{{- with site.Params.profileMode.imageUrl }}{{ $person = merge $person (dict "image" (. | absURL)) }}{{ end -}}
+{{- with $s.jobTitle }}{{ $person = merge $person (dict "jobTitle" .) }}{{ end -}}
+{{- with $s.knowsAbout }}{{ $person = merge $person (dict "knowsAbout" .) }}{{ end -}}
+{{- with $s.sameAs }}{{ $person = merge $person (dict "sameAs" .) }}{{ end -}}
+{{- with $s.worksFor }}{{ $person = merge $person (dict "worksFor" (dict "@type" "CollegeOrUniversity" "name" .name "url" .url)) }}{{ end -}}
+{{- with $s.affiliation }}{{ $person = merge $person (dict "affiliation" (dict "@type" "Organization" "name" .name "url" .url)) }}{{ end -}}
+{{- with $s.alumniOf }}{{ $person = merge $person (dict "alumniOf" (dict "@type" "CollegeOrUniversity" "name" .name "url" .url)) }}{{ end -}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- end -}}
