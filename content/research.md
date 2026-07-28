@@ -7,20 +7,20 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 **Published & accepted (5)**
 
-1. [Are Patents with Female Inventors Under-Cited?](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation) — *Journal of Financial Economics*, 2026
+1. [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](#are-patents-with-female-inventors-under-cited-evidence-from-text-estimation) — *Journal of Financial Economics*, 2026
 2. [Real Effects of Environmental Activist Investing](#real-effects-of-environmental-activist-investing) — *Review of Financial Studies*, accepted
-3. [Widespread Revisions of Self-Reported Emissions](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations) — *Nature Climate Change*, 2026
-4. [Defunding Controversial Industries](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms) — *Journal of Financial Economics*, 2025
-5. [Skin or Skim?](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2024
+3. [Widespread Revisions of Self-Reported Emissions by Major US Corporations](#widespread-revisions-of-self-reported-emissions-by-major-us-corporations) — *Nature Climate Change*, 2026
+4. [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms) — *Journal of Financial Economics*, 2025
+5. [Skin or Skim? Inside Investment and Hedge Fund Performance](#skin-or-skim-inside-investment-and-hedge-fund-performance) — *Management Science*, 2024
 
 **Working papers (6)**
 
 1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates)
-2. [Opening the Brown Box](#opening-the-brown-box-production-responses-to-environmental-regulation)
-3. [Conflicting Objectives of ESG Funds](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
-4. [Sustainability Meets Substance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
-5. [Agency Meets Stability](#agency-meets-stability-corporate-governance-and-capital-requirements-on-bank-lending)
-6. [Missing the Target?](#missing-the-target-retirement-expectations-and-target-date-funds)
+2. [Opening the Brown Box: Production Responses to Environmental Regulation](#opening-the-brown-box-production-responses-to-environmental-regulation)
+3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
+4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
+5. [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](#agency-meets-stability-corporate-governance-and-capital-requirements-on-bank-lending)
+6. [Missing the Target? Retirement Expectations and Target-Date Funds](#missing-the-target-retirement-expectations-and-target-date-funds)
 
 </div>
 
@@ -75,6 +75,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
 <details>
 <summary>Cite</summary>
