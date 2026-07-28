@@ -25,12 +25,15 @@ menu:
         - name: Code & Data
           url: data/
           weight: 4
+        - name: Bio
+          url: bio/
+          weight: 5
         - name: CV
           url: cv.pdf
-          weight: 5
+          weight: 6
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
-          weight: 6
+          weight: 7
 
 params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
