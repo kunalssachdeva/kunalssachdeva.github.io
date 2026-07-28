@@ -6,20 +6,19 @@
     {{- else }}
     <span>&copy; {{ now.Year }} {{ site.Title }}</span>
     {{- end }}
-    {{- print " · "}}
     {{- end }}
 
-    {{- with site.Params.footer.text }}
-    {{ . | markdownify }}
-    {{- print " · "}}
-    {{- end }}
-    <span>
-        <a href="/data/">Data</a>
-    </span>
-    {{- /* "Powered by Hugo & PaperMod" removed. PaperMod is MIT licensed and the
+    {{- /* Separator lives with the thing it precedes, so it cannot dangle. The
+           footer previously printed "·" after the copyright unconditionally,
+           which left a trailing bullet once the Data link and the
+           "Powered by Hugo & PaperMod" credit were both removed.
+
+           The credit is gone deliberately: PaperMod is MIT licensed and the
            licence requires the notice travel with the source, which it does at
-           themes/PaperMod/LICENSE - it does not require a credit on the rendered
-           page. */ -}}
+           themes/PaperMod/LICENSE, not on the rendered page. */ -}}
+    {{- with site.Params.footer.text }}
+    {{- print " · " }}{{ . | markdownify }}
+    {{- end }}
 </footer>
 {{- end }}
 
