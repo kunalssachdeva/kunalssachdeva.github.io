@@ -9,11 +9,20 @@
 
 /* At-a-glance index at the top of /research/ — lets a reader answer
    "published where, when" without scrolling five screens. */
+/* 0.9rem, not 0.95: the longest title here is 95 characters, which needs
+   ~102 characters of line to clear in the 800px column. At 0.95rem it fits in
+   96 and wraps. The venue sits on its own line underneath for the same reason
+   - sharing a line with the title is what pushed titles onto two lines. */
 .paper-index {
     margin: 0 0 2.5rem;
     padding: 1.25rem 1.5rem;
     border: 1px solid var(--border-light);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+}
+
+.paper-index .venue {
+    font-size: 0.8rem;
+    color: var(--text-muted);
 }
 
 .paper-index strong {
@@ -35,8 +44,8 @@
 }
 
 .paper-index li {
-    margin-bottom: 0.3rem;
-    line-height: 1.45;
+    margin-bottom: 0.45rem;
+    line-height: 1.4;
 }
 
 /* Section headers */
