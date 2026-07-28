@@ -15,12 +15,12 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 **Working papers (6)**
 
-1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates)
-2. [Opening the Brown Box: Production Responses to Environmental Regulation](#opening-the-brown-box-production-responses-to-environmental-regulation)
-3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
-4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
-5. [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](#agency-meets-stability-corporate-governance-and-capital-requirements-on-bank-lending)
-6. [Missing the Target? Retirement Expectations and Target-Date Funds](#missing-the-target-retirement-expectations-and-target-date-funds)
+1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](#can-health-state-contingent-assets-enable-greater-survival-rates)<br><span class="venue">Working paper, 2020</span>
+2. [Opening the Brown Box: Production Responses to Environmental Regulation](#opening-the-brown-box-production-responses-to-environmental-regulation)<br><span class="venue">Working paper, 2024</span>
+3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)<br><span class="venue">Working paper, 2021</span>
+4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)<br><span class="venue">Working paper, 2022</span>
+5. [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](#agency-meets-stability-corporate-governance-and-capital-requirements-on-bank-lending)<br><span class="venue">Working paper, 2023</span>
+6. [Missing the Target? Retirement Expectations and Target-Date Funds](#missing-the-target-retirement-expectations-and-target-date-funds)<br><span class="venue">Working paper, 2024</span>
 
 </div>
 
@@ -194,6 +194,8 @@ Funds with greater inside investment outperform on a factor-adjusted basis. We a
 ### [Can Health State-Contingent Assets Enable Greater Survival Rates?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564)
 **Kunal Sachdeva**
 
+*Working paper, 2020*
+
 ![Survival probability over time is higher for individuals with life-settlement access than for those without.](/images/papers/health-assets.svg)
 
 Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates, with effects particularly pronounced for fragile individuals living far from hospitals.
@@ -204,10 +206,10 @@ Using the life settlement market as a natural experiment, I find that access to 
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{sachdeva2024health,
+@techreport{sachdeva2020health,
   title={Can Health State-Contingent Assets Enable Greater Survival Rates?},
   author={Sachdeva, Kunal},
-  year={2024},
+  year={2020},
   type={Working Paper}
 }
 ```
@@ -218,6 +220,8 @@ Using the life settlement market as a natural experiment, I find that access to 
 
 ### [Opening the Brown Box: Production Responses to Environmental Regulation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581)
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
+
+*Working paper, 2024*
 
 ![Regulated firms outsource power and shift product mix, reducing product variety.](/images/papers/brown-box.svg)
 
@@ -244,6 +248,8 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 ### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3760753)
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
+*Working paper, 2021*
+
 ![When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals.](/images/papers/esg-proxy.svg)
 
 ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain, suggesting they prioritize short-term returns over sustainability goals when the two conflict.
@@ -256,10 +262,10 @@ ESG funds are more likely to vote against environmental and social proposals whe
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{li2024conflicting,
+@techreport{li2021conflicting,
   title={Conflicting Objectives of ESG Funds: Evidence from Proxy Voting},
   author={Li, Tao and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
-  year={2024},
+  year={2021},
   type={Working Paper}
 }
 ```
@@ -270,6 +276,8 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 ### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4227934)
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
+
+*Working paper, 2022*
 
 ![ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk.](/images/papers/esg-substance.svg)
 
@@ -283,10 +291,10 @@ ESG reports contain financially material information unique from 10-K filings. T
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{rouen2024sustainability,
+@techreport{rouen2022sustainability,
   title={Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance},
   author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
-  year={2024},
+  year={2022},
   type={Working Paper}
 }
 ```
@@ -298,6 +306,8 @@ ESG reports contain financially material information unique from 10-K filings. T
 ### [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126)
 **[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
+*Working paper, 2023*
+
 ![Higher capital requirements cut lending at weakly governed banks but raise it at strongly governed banks.](/images/papers/bank-governance.svg)
 
 Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management, highlighting the importance of considering governance in banking regulation.
@@ -308,10 +318,10 @@ Capital requirements have divergent effects on bank lending depending on the lev
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{bosshardt2024agency,
+@techreport{bosshardt2023agency,
   title={Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending},
   author={Bosshardt, Joshua and Kakhbod, Ali and Sachdeva, Kunal},
-  year={2024},
+  year={2023},
   type={Working Paper}
 }
 ```
@@ -322,6 +332,8 @@ Capital requirements have divergent effects on bank lending depending on the lev
 
 ### [Missing the Target? Retirement Expectations and Target-Date Funds](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4763984)
 **[Byeong-Je An](https://sites.google.com/view/byeongje-an), Kunal Sachdeva**
+
+*Working paper, 2024*
 
 ![Respondents leave the labour force 4.8 years later than expected, costing 4% of wealth at retirement.](/images/papers/target-date.svg)
 
