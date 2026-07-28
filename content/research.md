@@ -37,6 +37,8 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
 
+**Awards:** AI Institutes at Michigan, Empowering Research with AI Award, 2026
+
 <div class="paper-links">
 <a href="https://doi.org/10.1016/j.jfineco.2026.104307" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="https://doi.org/10.17632/zz8g5nznhb.2" target="_blank" rel="noopener noreferrer">Data</a>
