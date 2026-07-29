@@ -152,10 +152,14 @@
 <meta property="og:image" content="{{ "profile.jpg" | absURL }}">
 <meta name="twitter:image" content="{{ "profile.jpg" | absURL }}">
 
-{{ if and (hugo.IsProduction) (.Site.Params.googleAnalyticsID) }}
+{{- /* analytics.html self-gates on params.analytics.goatcounter and emits
+       nothing when unset, so the only gate needed here is "not a local build". */ -}}
+{{ if hugo.IsProduction }}
 {{- partial "analytics.html" . }}
 {{ end }}
 
-{{ if or .Page.Params.math .Site.Params.math }}
-{{- partial "math.html" .}}
-{{ end }}
+{{- /* The math partial was deleted when KaTeX came out - no page has math, and
+       it was pulling a render-blocking CDN stylesheet onto every page. The call
+       stayed behind a gate that never fires, which meant setting math:true in
+       any front matter would have failed the build with a missing partial.
+       Removed rather than left as a landmine. */ -}}
