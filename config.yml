@@ -65,12 +65,26 @@ params:
     UseHugoToc: true
     comments: false
 
-    # Analytics. Cookieless and IP-free, so no consent banner is required and no
-    # third-party script loads until this is filled in. Put your GoatCounter site
-    # code here - for kunalsachdeva.goatcounter.com the code is "kunalsachdeva".
-    # Empty means no analytics script is emitted at all.
+    # Analytics. Both are optional and independently gated - blank means no script
+    # is emitted, and with both blank the site loads no third-party requests at
+    # all. They answer different questions, so running both is a pairing rather
+    # than duplication.
+    #
+    #   goatcounter  cookieless, stores no IP, keeps full history. Country-level
+    #                location plus referrers. Needs no consent notice. Site code
+    #                only: "kunalsachdeva" for kunalsachdeva.goatcounter.com
+    #
+    #   statcounter  stores IPs and sets a cookie, which is how it shows the
+    #                per-visitor feed with ISP/organisation. Free tier keeps only
+    #                the last 500 pageviews. ENABLING THIS CREATES A CONSENT
+    #                OBLIGATION for EU/UK visitors - see the note in
+    #                layouts/partials/analytics.html. Both values come from the
+    #                StatCounter install snippet (sc_project, sc_security).
     analytics:
         goatcounter: ""
+        statcounter:
+            project: ""
+            security: ""
     # math: set per-page in front matter when a page needs it. Site-wide it pulled
     # 79KB of render-blocking KaTeX from a CDN onto every page, and no page has math.
 

@@ -1,22 +1,36 @@
 {{- /*
-  Cookieless analytics. Emits nothing at all unless params.analytics.goatcounter
-  is set, so the site keeps its zero-third-party-request profile until the owner
-  opts in.
+  Two independent, independently-gated analytics beacons. Each emits nothing
+  unless its own key is set, so with both blank - as shipped - the site keeps a
+  zero-third-party-request profile.
 
-  GoatCounter replaces the Google Analytics snippet that was here: it sets no
-  cookies and stores no IP addresses, so no consent banner is required for EU/UK
-  visitors. That matters on this site, which is read from Europe - IPE, the FT
-  and an LBS co-author all point at it.
+  They are not redundant, they answer different questions:
 
-  Deliberately NOT collected: individual visitor IP addresses. No cookieless
-  tool provides them, by design. The signal that replaces them is the referrer,
-  which tells you who linked to you, plus Search Console for query data.
+    GoatCounter   cookieless, stores no IP, keeps full aggregate history.
+                  Country-level location, referrers, browser. Free.
+    StatCounter   stores the IP and sets a cookie, which is how it can show the
+                  per-visitor feed with ISP/organisation and city. The free tier
+                  retains only the last 500 pageviews, so it is a live window,
+                  not an archive.
 
-  The <noscript> pixel keeps the count honest for readers who block scripts.
-  To move to Plausible instead, swap the two lines below for their snippet; the
-  surrounding gate does not change.
+  Running BOTH is a deliberate pairing: StatCounter for the live forensic feed,
+  GoatCounter for the durable long-run trend the free StatCounter tier discards.
+
+  COMPLIANCE, once StatCounter is enabled: it stores IP addresses and sets a
+  cookie, so EU/UK visitors need a consent notice, and the beacon should not
+  fire before consent. GoatCounter alone needs none. Enabling StatCounter is
+  what creates that obligation - adding GoatCounter alongside does not change
+  it either way.
 */ -}}
+
 {{- with site.Params.analytics.goatcounter }}
 <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <noscript><img src="https://{{ . }}.goatcounter.com/count?p={{ $.RelPermalink }}" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
+{{- end }}
+
+{{- with site.Params.analytics.statcounter }}
+{{- if and .project .security }}
+<script>var sc_project={{ .project }};var sc_invisible=1;var sc_security="{{ .security }}";</script>
+<script async src="https://www.statcounter.com/counter/counter.js"></script>
+<noscript><img src="https://c.statcounter.com/{{ .project }}/0/{{ .security }}/1/" alt="" referrerpolicy="no-referrer-when-downgrade" style="display:none"></noscript>
+{{- end }}
 {{- end -}}
