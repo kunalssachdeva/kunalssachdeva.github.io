@@ -62,7 +62,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 ---
 
-### [Real Effects of Environmental Activist Investing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692)
+### [Real Effects of Environmental Activist Investing](https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag073/8761699)
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
 *Review of Financial Studies* (Accepted)
@@ -74,7 +74,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 **Awards:** Moskowitz Prize for Best Paper on Socially Responsible Investing, 2020 · Semi-finalist, John L. Weinberg/IRRCI Research Award · Best Paper in Corporate Finance, FMA European Conference, 2021 · European Investment Forum Research Award, 2021 · ICPM Research Award, Second Place, 2022
 
 <div class="paper-links">
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3483692" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag073/8761699" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
 <details>
