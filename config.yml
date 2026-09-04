@@ -7,12 +7,15 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 50
 
-# No RSS. The feed only ever contained /research/ and /discussions/ - the two
-# regular pages - and neither carries a date, so every pubDate rendered as
-# "Mon, 01 Jan 0001 00:00:00 +0000", which is an invalid date. There is no
-# updating content stream here to feed. Delete these two lines to restore it.
+# No RSS. Every feed here carried undated entries, so each pubDate rendered as
+# "Mon, 01 Jan 0001 00:00:00 +0000" - an invalid date - and there is no updating
+# content stream to feed anyway. `home` alone left three stray section feeds
+# (/data/, /media/, /teaching/index.xml), which also kept alive rss.xml's call to
+# the deprecated .Language.LanguageCode. `section: [HTML]` closes both. Restore
+# RSS by deleting these output overrides.
 outputs:
     home: [HTML]
+    section: [HTML]
 
 # No taxonomies. Omitting this key entirely does NOT disable them — Hugo falls
 # back to its defaults and generates empty /tags/ and /categories/ pages.
@@ -91,6 +94,11 @@ params:
     profileMode:
           enabled: true
           title: Kunal Sachdeva
+          # One-line orientation under the name, before the prose bio. The three
+          # fields mirror the top of params.schema.knowsAbout, so a first-time
+          # visitor gets the research areas at a glance without reading four
+          # paragraphs. Rendered by layouts/partials/index_profile.html.
+          tagline: "Climate finance · Environmental regulation · Financial intermediation"
           subtitle: |
             Kunal Sachdeva is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), and a faculty affiliate of the [Erb Institute](https://erb.umich.edu/).
 

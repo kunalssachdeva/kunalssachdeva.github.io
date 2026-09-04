@@ -29,6 +29,13 @@ description: "Conference discussion presentations by Kunal Sachdeva"
 
 ---
 
+### Unsafe Waters: The Hidden Costs of Seasonal Drinking Water Contamination in Ecuador
+**Lorena Moreno**
+
+*Northeast Universities Development Consortium (NEUDC)* · November 8, 2025
+
+---
+
 ### Corporate Carbon Offsets: Decarbonization or Transition-Washing?
 **[Sehoon Kim](https://sites.google.com/site/sehoonkimfinance/home), [Tao Li](https://site.warrington.ufl.edu/tao-li/), [Yanbin Wu](https://yanbinwu.com/)**
 

@@ -158,6 +158,19 @@ nav.nav {
     margin-top: 0;
 }
 
+/* One-line research tagline under the name. Uppercase letter-spaced label to
+   match the site's button/paper-link treatment; the negative top margin tucks
+   it just under the italic name rather than floating a full line below it. */
+.profile .profile-tagline {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-navy);
+    margin: -0.75rem 0 1.5rem;
+}
+
 /* Profile subtitle/bio */
 /* The bio column is 732px next to the 280px photo, which is ~92 characters a
    line - well past the 45-75 that reads comfortably. Capping the measure is what
@@ -472,6 +485,11 @@ pre {
     .profile .about-heading {
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .profile .profile-tagline {
+        text-align: center;
+        margin-top: -0.25rem;
     }
 
     .profile .profile_inner .headline {

@@ -1,0 +1,20 @@
+{{- /*
+  Per-paper landing page (/research/<slug>/). The Google Scholar / Highwire
+  citation_* tags are emitted from head.html via partial "scholar_meta.html".
+  The visible body reuses the same .post-content markup the research listing
+  uses, so the paper renders consistently; the title links out to the paper
+  itself (paperURL), matching the "titles link to the paper" convention, while
+  the listing's title links here.
+*/ -}}
+{{- define "main" }}
+<article class="post-single">
+  <div class="post-content paper-detail">
+    <p class="paper-detail-back"><a href="{{ "research/" | absURL }}">&larr; All research</a></p>
+    <h3 class="paper-detail-title" id="{{ anchorize .Title }}">
+      {{- with .Params.paperURL }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Title }}</a>
+      {{- else }}{{ .Title }}{{ end -}}
+    </h3>
+    {{ .Content }}
+  </div>
+</article>
+{{- end }}{{/* end main */}}
