@@ -16,9 +16,9 @@ authors:
 
 *Management Science* 71.4 (2024): 3357-3383
 
-![Hedge funds with more manager inside investment deliver higher performance.](/images/papers/skin-skim.svg)
+![Within a fund family, performance rises with the share of manager inside investment.](/images/papers/skin-skim.svg)
 
-Funds with greater inside investment outperform on a factor-adjusted basis. We attribute this to capacity constraints: insider funds are smaller and less likely to accept excess inflows, suggesting that managers with "skin in the game" prioritize performance over asset gathering.
+Funds with more inside investment outperform other funds within the same family. This is driven by managers placing their own capital in their least-scalable strategies and restricting the entry of new outside money into those funds, suggesting that insider capital may work as a rent-extraction mechanism at the expense of outside investors.
 
 <div class="paper-links">
 <a href="https://doi.org/10.1287/mnsc.2024.4984" target="_blank" rel="noopener noreferrer">Paper</a>
