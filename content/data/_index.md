@@ -7,7 +7,7 @@ Replication packages and data resources from my research projects.
 
 ---
 
-### Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation
+### [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)
 
 Replication data and code for the *Journal of Financial Economics* paper (with Yael Hochberg, Ali Kakhbod, and Peiyao Li): text-based expected citation measures, actual patent citation counts, and inventor gender classifications.
 
@@ -16,7 +16,7 @@ Replication data and code for the *Journal of Financial Economics* paper (with Y
 
 ---
 
-### Real Effects of Environmental Activist Investing
+### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 
 Replication data and code for the *Review of Financial Studies* paper (with S. Lakshmi Naaraayanan and Varun Sharma) on how environmental shareholder campaigns change plant-level toxic releases.
 
@@ -25,16 +25,17 @@ Replication data and code for the *Review of Financial Studies* paper (with S. L
 
 ---
 
-### Widespread Revisions of Self-Reported Emissions by Major US Corporations
+### [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)
 
 Code and data behind the *Nature Climate Change* paper on restatements of corporate emissions disclosures (with Lauren Cohen and Ethan Rouen).
 
 + [Replication repository](https://github.com/kunalssachdeva/correctingcarbon)
++ [Archived release (Zenodo)](https://doi.org/10.5281/zenodo.17237196)
 + [Paper](https://doi.org/10.1038/s41558-025-02494-9)
 
 ---
 
-### Skin or Skim? Inside Investment and Hedge Fund Performance
+### [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)
 
 Data and code for the *Management Science* paper on manager inside investment and hedge fund performance (with Arpit Gupta).
 

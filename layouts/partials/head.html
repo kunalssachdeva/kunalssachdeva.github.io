@@ -144,6 +144,10 @@
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
+{{- if eq .Section "papers" }}
+{{- partial "scholar_meta.html" . }}
+{{- end }}
+
 
 {{/* Site-wide link-preview image. The theme only emits one from page-bundle
      resources or cover.image, and this site's content is flat .md files, so
