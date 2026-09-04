@@ -21,7 +21,7 @@ Replication data and code for the *Journal of Financial Economics* paper (with Y
 Replication data and code for the *Review of Financial Studies* paper (with S. Lakshmi Naaraayanan and Varun Sharma) on how environmental shareholder campaigns change plant-level toxic releases.
 
 + [Replication data (Harvard Dataverse)](https://doi.org/10.7910/DVN/IRDH3L)
-+ [Paper](https://academic.oup.com/rfs/advance-article/doi/10.1093/rfs/hhag073/8761699)
++ [Paper](https://doi.org/10.1093/rfs/hhag073)
 
 ---
 
