@@ -94,6 +94,11 @@ params:
     profileMode:
           enabled: true
           title: Kunal Sachdeva
+          # One-line orientation under the name, before the prose bio. The three
+          # fields mirror the top of params.schema.knowsAbout, so a first-time
+          # visitor gets the research areas at a glance without reading four
+          # paragraphs. Rendered by layouts/partials/index_profile.html.
+          tagline: "Climate finance · Environmental regulation · Financial intermediation"
           subtitle: |
             Kunal Sachdeva is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), and a faculty affiliate of the [Erb Institute](https://erb.umich.edu/).
 
