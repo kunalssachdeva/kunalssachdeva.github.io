@@ -15,9 +15,9 @@ authors:
 
 *Working paper, 2024*
 
-![Respondents leave the labour force 4.8 years later than expected, costing 4% of wealth at retirement.](/images/papers/target-date.svg)
+![Respondents leave the labour force 4.8 years later than expected; model calibrations put the cost at 4% of wealth at retirement.](/images/papers/target-date.svg)
 
-Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average. This mismatch leads to a median 4% wealth loss at retirement due to suboptimal asset allocation.
+Survey evidence reveals that respondents underestimate their long-run labor force participation by 4.8 years on average. Calibrations of a life-cycle model of target-date funds suggest these errors compound over time, costing the median respondent 4% of wealth at retirement, or about 0.2% a year.
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4763984" target="_blank" rel="noopener noreferrer">Paper</a>

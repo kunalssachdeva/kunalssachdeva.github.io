@@ -19,7 +19,7 @@ authors:
 
 ![Toxic chemical releases at targeted firms fall 13% after environmental activist campaigns.](/images/papers/environmental-activist.svg)
 
-We examine how environmental activist investors drive firms to reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution. Plants of targeted firms reduce their total toxic chemical releases by 13% on average through preventative efforts rather than end-of-pipe treatments. These improvements have real implications for local air quality and public health.
+Using plant-level data in a quasi-experimental setting, we find that firms targeted by environmental activist investors reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution through preventative efforts rather than end-of-pipe treatment, with total toxic chemical releases at targeted plants falling 13% on average. Air quality improves within a mile of those plants, suggesting potentially important externalities for local economies, though the abatement spending weighs on targeted firms' own financial performance.
 
 **Awards:** Moskowitz Prize for Best Paper on Socially Responsible Investing, 2020 · Semi-finalist, John L. Weinberg/IRRCI Research Award · Best Paper in Corporate Finance, FMA European Conference, 2021 · European Investment Forum Research Award, 2021 · ICPM Research Award, Second Place, 2022
 

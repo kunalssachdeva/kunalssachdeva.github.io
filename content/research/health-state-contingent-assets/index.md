@@ -16,7 +16,7 @@ authors:
 
 ![Survival probability over time is higher for individuals with life-settlement access than for those without.](/images/papers/health-assets.svg)
 
-Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates, with effects particularly pronounced for fragile individuals living far from hospitals.
+Using transaction-level data from the life settlement market in a quasi-experimental setting, I find that wealth in particularly poor states of health leads to a significant increase in survival rates, with the relationship strongest for people in fragile health and those living furthest from hospitals.
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564" target="_blank" rel="noopener noreferrer">Paper</a>
