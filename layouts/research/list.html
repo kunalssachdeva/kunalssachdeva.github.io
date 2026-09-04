@@ -1,0 +1,58 @@
+{{- /*
+  Research section landing (/research/). Renders the same post-single structure
+  the page used when it was a single content file, then GENERATES the at-a-glance
+  index and the two paper sections from the child paper pages under
+  content/research/<slug>/. Each paper's display markup (authors, venue, figure,
+  abstract, awards, links, BibTeX) is that child page's own .Content, so the
+  rendered entries are identical to hand-written markdown - only the wrappers
+  (index box, section headers, and the title link, which now points at the
+  paper's own page) are produced here.
+*/ -}}
+{{- define "main" }}
+{{- $papers := .Pages }}
+{{- $published := sort (where $papers "Params.status" "published") "Weight" }}
+{{- $working := sort (where $papers "Params.status" "working") "Weight" }}
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+
+    <div class="paper-index">
+      <p><strong>Published &amp; accepted ({{ len $published }})</strong></p>
+      <ol>
+      {{- range $published }}
+        <li><a href="#{{ anchorize .Title }}">{{ .Title }}</a><br><span class="venue">{{ (replaceRE "</?p>" "" (.Params.indexVenue | markdownify)) | safeHTML }}</span></li>
+      {{- end }}
+      </ol>
+      <p><strong>Working papers ({{ len $working }})</strong></p>
+      <ol>
+      {{- range $working }}
+        <li><a href="#{{ anchorize .Title }}">{{ .Title }}</a><br><span class="venue">{{ (replaceRE "</?p>" "" (.Params.indexVenue | markdownify)) | safeHTML }}</span></li>
+      {{- end }}
+      </ol>
+    </div>
+
+    <h2 id="published--accepted-papers">Published &amp; Accepted Papers</h2>
+    {{- range $published }}
+    <hr>
+    <h3 id="{{ anchorize .Title }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ .Content }}
+    {{- end }}
+    <hr>
+    <h2 id="working-papers">Working Papers</h2>
+    {{- range $working }}
+    <hr>
+    <h3 id="{{ anchorize .Title }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ .Content }}
+    {{- end }}
+  </div>
+</article>
+{{- end }}{{/* end main */}}

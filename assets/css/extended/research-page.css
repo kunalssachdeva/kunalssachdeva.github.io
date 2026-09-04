@@ -199,6 +199,21 @@
     clear: both;
 }
 
+/* Per-paper landing page (/research/<slug>/). Reuses every entry selector above
+   by keeping the same h3 + p (authors) + p (venue) + img + abstract structure;
+   only the title size and the "back" link are page-specific. */
+.paper-detail-back {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.5rem;
+}
+
+.post-content h3.paper-detail-title {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Responsive - stack on mobile */
 @media (max-width: 768px) {
     .post-content img {

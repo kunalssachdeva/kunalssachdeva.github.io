@@ -145,6 +145,11 @@
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
 
+{{- /* Google Scholar / Highwire citation metadata on per-paper pages only.
+       Requires per-paper pages under content/research/<slug>/ - hence the
+       section restructure. See CLAUDE.md's note on Scholar indexing. */ -}}
+{{- partial "scholar_meta.html" . }}
+
 {{/* Site-wide link-preview image. The theme only emits one from page-bundle
      resources or cover.image, and this site's content is flat .md files, so
      without this every shared link renders as a text-only card. Portrait photo
