@@ -143,6 +143,7 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     align-items: flex-start;
+    clear: both;
 }
 
 .paper-links a {
@@ -213,6 +214,30 @@
 .post-content em {
     background: none;
     padding: 0;
+}
+
+/* Paper detail pages: the title is the page h1, so authors/venue are the
+   first two paragraphs rather than h3 siblings. .post-single is shared
+   with /research/, but that page's first child is the index <div>, so
+   these child-position rules do not fire there. */
+.post-single .post-content > p:first-child {
+    margin-bottom: 0.25rem;
+}
+
+.post-single .post-content > p:first-child strong {
+    font-weight: 500;
+    color: var(--text-body);
+    font-size: 0.95rem;
+}
+
+.post-single .post-content > p:nth-child(2) {
+    margin-bottom: 1rem;
+}
+
+.post-single .post-content > p:nth-child(2) em {
+    color: var(--accent-navy);
+    font-style: normal;
+    font-weight: 500;
 }
 
 /* Make the first paragraph after h3 (authors) smaller */

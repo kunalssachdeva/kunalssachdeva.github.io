@@ -7,7 +7,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/research/#widespread-revisions-of-self-reported-emissions-by-major-us-corporations)
+### [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)
 
 *The two figures quoted below measure different things: 74% is the share of firms that revised at least once, while the 60% on the research page is the share of individual disclosures restated.*
 
@@ -17,14 +17,14 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](/research/#defunding-controversial-industries-can-targeted-credit-rationing-choke-firms)
+### [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](/papers/defunding-controversial-industries/)
 
 + [University of Rochester Newscenter](https://www.rochester.edu/newscenter/operation-choke-point-industry-loans-credit-rationing-669402/) — When Washington tried to starve industries of loans — and failed · September 26, 2025
 + [Maryland Smith](https://www.prnewswire.com/news-releases/study-shows-ineffectiveness-of-targeted-credit-rationing-in-banking-302140610.html) — Study Shows Ineffectiveness of Targeted Credit Rationing in Banking · May 9, 2024
 
 ---
 
-### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/research/#sustainability-meets-substance-evaluating-esg-reports-in-context-of-10-ks-and-firm-performance)
+### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
 
 + [ProMarket (Stigler Center)](https://www.promarket.org/2023/03/24/history-shows-that-voluntary-esg-standards-lead-to-a-more-focused-esg-disclosure/) — History Shows that Voluntary ESG Standards Lead to a More Focused ESG Disclosure · March 24, 2023
 + [HBS Working Knowledge](https://www.library.hbs.edu/working-knowledge/are-companies-actually-greener-or-are-they-all-talk-esg-greenwashing) — Are Companies Actually Greener — or Are They All Talk? · January 13, 2023
@@ -32,14 +32,14 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/research/#conflicting-objectives-of-esg-funds-evidence-from-proxy-voting)
+### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)
 
 + [Principles for Responsible Investment (UNPRI)](https://www.unpri.org/academic-blogs/do-financial-incentives-drive-the-voting-behaviour-of-esg-funds/11838.article) — Do financial incentives drive the voting behaviour of ESG funds? · October 12, 2023
 + [WealthManagement.com](https://www.wealthmanagement.com/etfs/esg-funds-do-they-walk-the-talk-) — ESG Funds: Do They Walk the Talk? · July 25, 2023
 
 ---
 
-### [Real Effects of Environmental Activist Investing](/research/#real-effects-of-environmental-activist-investing)
+### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 
 + [Investment & Pensions Europe (IPE)](https://www.ipe.com/news/academics-find-positive-effects-of-investor-environmental-campaigns/10050908.article) — Academics find positive effects of investor environmental campaigns · March 4, 2021
 + [Rice Business Wisdom](https://business.rice.edu/wisdom/features/how-activist-investors-can-reduce-pollution) — Clearing the Air: How Activist Investors Can Reduce Pollution · December 1, 2020
@@ -52,7 +52,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Skin or Skim? Inside Investment and Hedge Fund Performance](/research/#skin-or-skim-inside-investment-and-hedge-fund-performance)
+### [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)
 
 + [MoneyWeek](https://moneyweek.com/519920/how-to-find-a-contrarian-fund-manager) — How to find a contrarian fund manager · December 27, 2019
 + [Institutional Investor](https://www.institutionalinvestor.com/article/b1gmpq8qt3hc7d/Hedge-Fund-Managers-With-Skin-in-the-Game-Outperform-But-They-re-Also-Less-Likely-to-Take-Your-Money) — Hedge Fund Managers With 'Skin in the Game' Outperform — But They're Also Less Likely to Take Your Money · August 8, 2019
@@ -66,7 +66,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Missing the Target? Retirement Expectations and Target-Date Funds](/research/#missing-the-target-retirement-expectations-and-target-date-funds)
+### [Missing the Target? Retirement Expectations and Target-Date Funds](/papers/missing-the-target/)
 
 + [Bryn Mawr Trust](https://www.bmt.com/news-insights-events/why-understanding-target-date-funds-matters-more-than-ever/) — Why Understanding Target Date Funds Matters More Than Ever · July 3, 2025
 + [MarketWatch](https://www.marketwatch.com/story/picking-the-wrong-date-on-your-target-date-fund-could-cost-you-a-lot-of-money-11643162714) — What happens if you pick the wrong date on your target-date fund? · January 26, 2022

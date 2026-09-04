@@ -1,0 +1,36 @@
+{{- /* Highwire Press tags so Google Scholar can index per-paper pages.
+       Omitted fields stay omitted — do not emit empty citation_* tags. */ -}}
+{{- with .Params.citation }}
+<meta name="citation_title" content="{{ $.Title }}">
+{{- range .authors }}
+<meta name="citation_author" content="{{ . }}">
+{{- end }}
+{{- with .publication_date }}
+<meta name="citation_publication_date" content="{{ . }}">
+{{- end }}
+{{- with .journal }}
+<meta name="citation_journal_title" content="{{ . }}">
+{{- end }}
+{{- with .volume }}
+<meta name="citation_volume" content="{{ . }}">
+{{- end }}
+{{- with .issue }}
+<meta name="citation_issue" content="{{ . }}">
+{{- end }}
+{{- with .firstpage }}
+<meta name="citation_firstpage" content="{{ . }}">
+{{- end }}
+{{- with .lastpage }}
+<meta name="citation_lastpage" content="{{ . }}">
+{{- end }}
+{{- with .doi }}
+<meta name="citation_doi" content="{{ . }}">
+{{- end }}
+<meta name="citation_fulltext_html_url" content="{{ $.Permalink }}">
+{{- with .technical_report_institution }}
+<meta name="citation_technical_report_institution" content="{{ . }}">
+{{- end }}
+{{- with .technical_report_number }}
+<meta name="citation_technical_report_number" content="{{ . }}">
+{{- end }}
+{{- end }}
