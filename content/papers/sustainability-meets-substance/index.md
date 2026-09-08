@@ -1,7 +1,7 @@
 ---
 title: "Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance"
 description: "ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk."
-date: 2022-01-01
+date: 2026-01-01
 draft: false
 weight: 9
 citation:
@@ -9,7 +9,7 @@ citation:
     - "Rouen, Ethan"
     - "Sachdeva, Kunal"
     - "Yoon, Aaron"
-  publication_date: "2022"
+  publication_date: "2026"
   doi: "10.2139/ssrn.4227934"
   technical_report_institution: "Social Science Research Network"
   technical_report_number: "4227934"
@@ -17,7 +17,7 @@ citation:
 
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
-*Working paper, 2022*
+*Working paper, 2026*
 
 ![ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk.](/images/papers/esg-substance.svg)
 
@@ -31,10 +31,10 @@ ESG reports contain financially material information unique from 10-K filings. T
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{rouen2022sustainability,
+@techreport{rouen2026sustainability,
   title={Sustainability Meets Substance: Evaluating {ESG} Reports in Context of {10-K}s and Firm Performance},
   author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
-  year={2022},
+  year={2026},
   type={SSRN Working Paper},
   institution={Social Science Research Network},
   number={4227934},

@@ -16,9 +16,9 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 **Working papers (6)**
 
 1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](/papers/health-state-contingent-assets/)<br><span class="venue">Working paper, 2020</span>
-2. [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)<br><span class="venue">Working paper, 2024</span>
-3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)<br><span class="venue">Working paper, 2021</span>
-4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)<br><span class="venue">Working paper, 2022</span>
+2. [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)<br><span class="venue">Working paper, 2026</span>
+3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)<br><span class="venue">Working paper, 2023</span>
+4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)<br><span class="venue">Working paper, 2026</span>
 5. [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)<br><span class="venue">Working paper, 2023</span>
 6. [Missing the Target? Retirement Expectations and Target-Date Funds](/papers/missing-the-target/)<br><span class="venue">Working paper, 2024</span>
 
@@ -89,7 +89,7 @@ Using the life settlement market as a natural experiment, I find that access to 
 ### [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2024*
+*Working paper, 2026*
 
 Firms reduce pollution through strategic production choices: sourcing electricity externally and shifting toward higher-margin products.
 
@@ -98,7 +98,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 ### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2021*
+*Working paper, 2023*
 
 ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain.
 
@@ -107,7 +107,7 @@ ESG funds are more likely to vote against environmental and social proposals whe
 ### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
-*Working paper, 2022*
+*Working paper, 2026*
 
 ESG reports contain financially material information unique from 10-K filings.
 

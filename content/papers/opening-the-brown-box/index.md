@@ -1,7 +1,7 @@
 ---
 title: "Opening the Brown Box: Production Responses to Environmental Regulation"
 description: "Regulated firms outsource power and shift product mix, reducing product variety."
-date: 2024-01-01
+date: 2026-01-01
 draft: false
 weight: 7
 citation:
@@ -9,7 +9,7 @@ citation:
     - "De Simone, Rebecca"
     - "Naaraayanan, S. Lakshmi"
     - "Sachdeva, Kunal"
-  publication_date: "2024"
+  publication_date: "2026"
   doi: "10.2139/ssrn.4707581"
   technical_report_institution: "Social Science Research Network"
   technical_report_number: "4707581"
@@ -17,7 +17,7 @@ citation:
 
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2024*
+*Working paper, 2026*
 
 ![Regulated firms outsource power and shift product mix, reducing product variety.](/images/papers/brown-box.svg)
 
@@ -29,10 +29,10 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{desimone2024brown,
+@techreport{desimone2026brown,
   title={Opening the Brown Box: Production Responses to Environmental Regulation},
   author={De Simone, Rebecca and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
-  year={2024},
+  year={2026},
   type={SSRN Working Paper},
   institution={Social Science Research Network},
   number={4707581},

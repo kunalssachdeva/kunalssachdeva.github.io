@@ -1,7 +1,7 @@
 ---
 title: "Conflicting Objectives of ESG Funds: Evidence from Proxy Voting"
 description: "When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals."
-date: 2021-01-01
+date: 2023-01-01
 draft: false
 weight: 8
 citation:
@@ -9,7 +9,7 @@ citation:
     - "Li, Tao"
     - "Naaraayanan, S. Lakshmi"
     - "Sachdeva, Kunal"
-  publication_date: "2021"
+  publication_date: "2023"
   doi: "10.2139/ssrn.3760753"
   technical_report_institution: "Social Science Research Network"
   technical_report_number: "3760753"
@@ -17,7 +17,7 @@ citation:
 
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2021*
+*Working paper, 2023*
 
 ![When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals.](/images/papers/esg-proxy.svg)
 
@@ -31,10 +31,10 @@ ESG funds are more likely to vote against environmental and social proposals whe
 <summary>Cite</summary>
 
 ```bibtex
-@techreport{li2021conflicting,
+@techreport{li2023conflicting,
   title={Conflicting Objectives of {ESG} Funds: Evidence from Proxy Voting},
   author={Li, Tao and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
-  year={2021},
+  year={2023},
   type={SSRN Working Paper},
   institution={Social Science Research Network},
   number={3760753},
