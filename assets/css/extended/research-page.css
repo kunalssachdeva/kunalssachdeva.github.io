@@ -13,41 +13,6 @@
    ~102 characters of line to clear in the 800px column. At 0.95rem it fits in
    96 and wraps. The venue sits on its own line underneath for the same reason
    - sharing a line with the title is what pushed titles onto two lines. */
-.paper-index {
-    margin: 0 0 2.5rem;
-    padding: 1.25rem 1.5rem;
-    border: 1px solid var(--border-light);
-    font-size: 0.9rem;
-}
-
-.paper-index .venue {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-}
-
-.paper-index strong {
-    display: block;
-    margin-bottom: 0.4rem;
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--text-body);
-}
-
-.paper-index ol {
-    margin: 0 0 1.25rem;
-    padding-left: 1.25rem;
-}
-
-.paper-index ol:last-child {
-    margin-bottom: 0;
-}
-
-.paper-index li {
-    margin-bottom: 0.45rem;
-    line-height: 1.4;
-}
-
 /* Section headers */
 .post-content h2 {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

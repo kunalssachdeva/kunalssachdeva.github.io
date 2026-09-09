@@ -3,27 +3,6 @@ title: "Research"
 description: "Research papers by Kunal Sachdeva on environmental finance, ESG, household finance, and financial markets"
 ---
 
-<div class="paper-index">
-
-**Published & accepted (5)**
-
-1. [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)<br><span class="venue">*Journal of Financial Economics*, 2026</span>
-2. [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)<br><span class="venue">*Review of Financial Studies*, forthcoming</span>
-3. [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)<br><span class="venue">*Nature Climate Change*, 2026</span>
-4. [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](/papers/defunding-controversial-industries/)<br><span class="venue">*Journal of Financial Economics*, 2025</span>
-5. [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)<br><span class="venue">*Management Science*, 2024</span>
-
-**Working papers (6)**
-
-1. [Can Health State-Contingent Assets Enable Greater Survival Rates?](/papers/health-state-contingent-assets/)<br><span class="venue">Working paper, 2020</span>
-2. [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)<br><span class="venue">Working paper, 2026</span>
-3. [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)<br><span class="venue">Working paper, 2023</span>
-4. [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)<br><span class="venue">Working paper, 2026</span>
-5. [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)<br><span class="venue">Working paper, 2023</span>
-6. [Missing the Target? Retirement Expectations and Target-Date Funds](/papers/missing-the-target/)<br><span class="venue">Working paper, 2024</span>
-
-</div>
-
 ## Published & Accepted Papers
 
 ---
@@ -35,6 +14,12 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
 
+<div class="paper-links">
+<a href="https://doi.org/10.1016/j.jfineco.2026.104307" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://doi.org/10.17632/zz8g5nznhb.2" target="_blank" rel="noopener noreferrer">Data</a>
+<a href="https://www.nber.org/papers/w31592" target="_blank" rel="noopener noreferrer">NBER</a>
+</div>
+
 ---
 
 ### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
@@ -43,6 +28,12 @@ We document systematic undercitation of women inventors in the patent system. Us
 *Review of Financial Studies*, forthcoming (published online August 2026)
 
 We examine how environmental activist investors drive firms to reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution.
+
+<div class="paper-links">
+<a href="https://doi.org/10.1093/rfs/hhag073" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
+<a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
+</div>
 
 ---
 
@@ -53,6 +44,12 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 Examining 900 emissions disclosures from 276 of the largest U.S. corporations, we find that 60% of these disclosures are eventually restated.
 
+<div class="paper-links">
+<a href="https://doi.org/10.1038/s41558-025-02494-9" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://doi.org/10.5281/zenodo.17237196" target="_blank" rel="noopener noreferrer">Data</a>
+<a href="https://github.com/kunalssachdeva/correctingcarbon" target="_blank" rel="noopener noreferrer">Code</a>
+</div>
+
 ---
 
 ### [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](/papers/defunding-controversial-industries/)
@@ -61,6 +58,10 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 *Journal of Financial Economics* 172 (2025): 104133
 
 We examine Operation Choke Point, a regulatory initiative targeting bank relationships with certain industries. Affected firms fully compensate for lost credit access through non-targeted banks.
+
+<div class="paper-links">
+<a href="https://doi.org/10.1016/j.jfineco.2025.104133" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
 
 ---
 
@@ -71,18 +72,14 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 
 Funds with greater inside investment outperform on a factor-adjusted basis.
 
+<div class="paper-links">
+<a href="https://doi.org/10.1287/mnsc.2024.4984" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="https://www.skinorskim.org" target="_blank" rel="noopener noreferrer">Data</a>
+</div>
+
 ---
 
 ## Working Papers
-
----
-
-### [Can Health State-Contingent Assets Enable Greater Survival Rates?](/papers/health-state-contingent-assets/)
-**Kunal Sachdeva**
-
-*Working paper, 2020*
-
-Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates.
 
 ---
 
@@ -93,14 +90,9 @@ Using the life settlement market as a natural experiment, I find that access to 
 
 Firms reduce pollution through strategic production choices: sourcing electricity externally and shifting toward higher-margin products.
 
----
-
-### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)
-**[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
-
-*Working paper, 2023*
-
-ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain.
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
 
 ---
 
@@ -111,14 +103,9 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 ESG reports contain financially material information unique from 10-K filings.
 
----
-
-### [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)
-**[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
-
-*Working paper, 2023*
-
-Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management.
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4227934" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
 
 ---
 
@@ -128,5 +115,48 @@ Capital requirements have divergent effects on bank lending depending on the lev
 *Working paper, 2024*
 
 Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average.
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4763984" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
+
+---
+
+### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)
+**[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
+
+*Working paper, 2023*
+
+ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain.
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3760753" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
+
+---
+
+### [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)
+**[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
+
+*Working paper, 2023*
+
+Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management.
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
+
+---
+
+### [Can Health State-Contingent Assets Enable Greater Survival Rates?](/papers/health-state-contingent-assets/)
+**Kunal Sachdeva**
+
+*Working paper, 2020*
+
+Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates.
+
+<div class="paper-links">
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564" target="_blank" rel="noopener noreferrer">Paper</a>
+</div>
 
 ---
