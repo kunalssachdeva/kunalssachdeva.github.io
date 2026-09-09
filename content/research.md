@@ -22,7 +22,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 ---
 
-### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
+### [The Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
 *Review of Financial Studies*, forthcoming (published online August 2026)
@@ -96,7 +96,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 
 ---
 
-### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
+### [Sustainability Meets Substance: Evaluating ESG Reports in the Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
 *Working paper, 2026*
@@ -135,7 +135,7 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 ---
 
-### [Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)
+### [Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)
 **[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
 *Working paper, 2023*

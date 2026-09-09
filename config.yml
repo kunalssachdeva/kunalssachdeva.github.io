@@ -45,6 +45,7 @@ menu:
 params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
     author: Kunal Sachdeva
+    hideMeta: true
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false

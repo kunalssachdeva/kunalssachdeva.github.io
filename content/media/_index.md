@@ -24,7 +24,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Sustainability Meets Substance: Evaluating ESG Reports in Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
+### [Sustainability Meets Substance: Evaluating ESG Reports in the Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
 
 + [ProMarket (Stigler Center)](https://www.promarket.org/2023/03/24/history-shows-that-voluntary-esg-standards-lead-to-a-more-focused-esg-disclosure/) — History Shows that Voluntary ESG Standards Lead to a More Focused ESG Disclosure · March 24, 2023
 + [HBS Working Knowledge](https://www.library.hbs.edu/working-knowledge/are-companies-actually-greener-or-are-they-all-talk-esg-greenwashing) — Are Companies Actually Greener — or Are They All Talk? · January 13, 2023
@@ -39,7 +39,7 @@ Press coverage and interviews, grouped by the paper each piece covers.
 
 ---
 
-### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
+### [The Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 
 + [Investment & Pensions Europe (IPE)](https://www.ipe.com/news/academics-find-positive-effects-of-investor-environmental-campaigns/10050908.article) — Academics find positive effects of investor environmental campaigns · March 4, 2021
 + [Rice Business Wisdom](https://business.rice.edu/wisdom/features/how-activist-investors-can-reduce-pollution) — Clearing the Air: How Activist Investors Can Reduce Pollution · December 1, 2020

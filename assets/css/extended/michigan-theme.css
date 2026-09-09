@@ -103,7 +103,15 @@ nav.nav {
         flex-wrap: wrap;
         overflow-x: visible;
         white-space: normal;
-        row-gap: 0.35rem;
+        gap: 0.35rem 1rem;
+    }
+
+    #menu li + li {
+        margin-inline-start: 0;
+    }
+
+    #menu a {
+        font-size: 0.85rem;
     }
 }
 

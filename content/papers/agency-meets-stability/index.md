@@ -1,5 +1,5 @@
 ---
-title: "Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending"
+title: "Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending"
 description: "Higher capital requirements cut lending at weakly governed banks but raise it at strongly governed banks."
 date: 2023-01-01
 draft: false
@@ -30,7 +30,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 
 ```bibtex
 @techreport{bosshardt2023agency,
-  title={Agency Meets Stability: Corporate Governance and Capital Requirements on Bank Lending},
+  title={Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending},
   author={Bosshardt, Joshua and Kakhbod, Ali and Sachdeva, Kunal},
   year={2023},
   type={SSRN Working Paper},

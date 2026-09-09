@@ -17,7 +17,7 @@ Replication data and code for the *Journal of Financial Economics* paper (with Y
 
 ---
 
-### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
+### [The Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 
 Replication data and code for the *Review of Financial Studies* paper (with S. Lakshmi Naaraayanan and Varun Sharma) on how environmental shareholder campaigns change plant-level toxic releases.
 
