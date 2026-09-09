@@ -4,6 +4,7 @@ description: "Toxic chemical releases at targeted firms fall 13% after environme
 draft: false
 weight: 2
 citation:
+  pdf: /papers/real-effects-environmental-activist-investing.pdf
   authors:
     - "Naaraayanan, S. Lakshmi"
     - "Sachdeva, Kunal"
@@ -25,6 +26,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 <div class="paper-links">
 <a href="https://doi.org/10.1093/rfs/hhag073" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/real-effects-environmental-activist-investing.pdf">PDF</a>
 <a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
 <details>

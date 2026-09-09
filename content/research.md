@@ -14,6 +14,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 <div class="paper-links">
 <a href="https://doi.org/10.1016/j.jfineco.2026.104307" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/patents-female-inventors-undercitation.pdf">PDF</a>
 <a href="https://doi.org/10.17632/zz8g5nznhb.2" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.nber.org/papers/w31592" target="_blank" rel="noopener noreferrer">NBER</a>
 </div>
@@ -29,6 +30,7 @@ We examine how environmental activist investors drive firms to reduce their toxi
 
 <div class="paper-links">
 <a href="https://doi.org/10.1093/rfs/hhag073" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/real-effects-environmental-activist-investing.pdf">PDF</a>
 <a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
 </div>
@@ -88,6 +90,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/opening-the-brown-box.pdf">PDF</a>
 </div>
 
 ---
@@ -140,6 +143,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/agency-meets-stability.pdf">PDF</a>
 </div>
 
 ---

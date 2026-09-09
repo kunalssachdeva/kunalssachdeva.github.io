@@ -4,6 +4,7 @@ description: "Higher capital requirements cut lending at weakly governed banks b
 draft: false
 weight: 10
 citation:
+  pdf: /papers/agency-meets-stability.pdf
   authors:
     - "Bosshardt, Joshua"
     - "Kakhbod, Ali"
@@ -24,6 +25,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/agency-meets-stability.pdf">PDF</a>
 <details>
 <summary>Cite</summary>
 

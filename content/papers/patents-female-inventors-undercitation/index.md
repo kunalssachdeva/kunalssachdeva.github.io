@@ -4,6 +4,7 @@ description: "Male-equivalent patents receive 12% more citations than otherwise 
 draft: false
 weight: 1
 citation:
+  pdf: /papers/patents-female-inventors-undercitation.pdf
   authors:
     - "Hochberg, Yael"
     - "Kakhbod, Ali"
@@ -28,6 +29,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 
 <div class="paper-links">
 <a href="https://doi.org/10.1016/j.jfineco.2026.104307" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/patents-female-inventors-undercitation.pdf">PDF</a>
 <a href="https://doi.org/10.17632/zz8g5nznhb.2" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.nber.org/papers/w31592" target="_blank" rel="noopener noreferrer">NBER</a>
 <details>

@@ -134,4 +134,4 @@ Automatic via GitHub Actions on push to `main`. Workflow at `.github/workflows/h
 
 - Skip-to-content link, WCAG-compliant focus indicators, reduced-motion and high-contrast support (`assets/css/extended/accessibility.css`).
 - Sitemap, canonical URLs, Open Graph, Twitter cards (theme defaults).
-- Google Scholar / Highwire Press `citation_*` tags are emitted on `/papers/<slug>/` pages by `layouts/partials/scholar_meta.html` from each page's `citation:` front matter. No `citation_pdf_url` yet: the site hosts no PDFs.
+- Google Scholar / Highwire Press `citation_*` tags are emitted on `/papers/<slug>/` pages by `layouts/partials/scholar_meta.html` from each page's `citation:` front matter. `citation_pdf_url` is emitted when the page sets `citation.pdf` (a file under `static/papers/<slug>.pdf`); Scholar requires the PDF on the same site.

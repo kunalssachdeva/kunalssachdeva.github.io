@@ -4,6 +4,7 @@ description: "Regulated firms outsource power and shift product mix, reducing pr
 draft: false
 weight: 7
 citation:
+  pdf: /papers/opening-the-brown-box.pdf
   authors:
     - "De Simone, Rebecca"
     - "Naaraayanan, S. Lakshmi"
@@ -24,6 +25,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581" target="_blank" rel="noopener noreferrer">Paper</a>
+<a href="/papers/opening-the-brown-box.pdf">PDF</a>
 <details>
 <summary>Cite</summary>
 

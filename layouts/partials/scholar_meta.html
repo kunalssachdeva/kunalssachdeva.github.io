@@ -26,6 +26,9 @@
 {{- with .doi }}
 <meta name="citation_doi" content="{{ . }}">
 {{- end }}
+{{- with .pdf }}
+<meta name="citation_pdf_url" content="{{ . | absURL }}">
+{{- end }}
 <meta name="citation_fulltext_html_url" content="{{ $.Permalink }}">
 {{- with .technical_report_institution }}
 <meta name="citation_technical_report_institution" content="{{ . }}">
