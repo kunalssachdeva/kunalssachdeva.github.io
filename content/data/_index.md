@@ -1,6 +1,7 @@
 ---
 title: "Code & Data"
 description: "Replication code and datasets from Kunal Sachdeva's research"
+aliases: ["/code-and-data/"]
 ---
 
 Replication packages and data resources from my research projects.

@@ -8,7 +8,7 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 **Published & accepted (5)**
 
 1. [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)<br><span class="venue">*Journal of Financial Economics*, 2026</span>
-2. [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)<br><span class="venue">*Review of Financial Studies*, accepted</span>
+2. [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)<br><span class="venue">*Review of Financial Studies*, forthcoming</span>
 3. [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)<br><span class="venue">*Nature Climate Change*, 2026</span>
 4. [Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?](/papers/defunding-controversial-industries/)<br><span class="venue">*Journal of Financial Economics*, 2025</span>
 5. [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)<br><span class="venue">*Management Science*, 2024</span>
@@ -40,7 +40,7 @@ We document systematic undercitation of women inventors in the patent system. Us
 ### [Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
-*Review of Financial Studies* (Accepted)
+*Review of Financial Studies*, forthcoming (published online August 2026)
 
 We examine how environmental activist investors drive firms to reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution.
 

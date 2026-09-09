@@ -16,7 +16,7 @@ citation:
 
 **[S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva, [Varun Sharma](https://www.sharmav.com/)**
 
-*Review of Financial Studies* (Accepted)
+*Review of Financial Studies*, forthcoming (published online August 2026)
 
 ![Toxic chemical releases at targeted firms fall 13% after environmental activist campaigns.](/images/papers/environmental-activist.svg)
 
@@ -37,7 +37,8 @@ We examine how environmental activist investors drive firms to reduce their toxi
   author={Naaraayanan, S. Lakshmi and Sachdeva, Kunal and Sharma, Varun},
   journal={Review of Financial Studies},
   year={2026},
-  note={Forthcoming}
+  doi={10.1093/rfs/hhag073},
+  note={Advance article, hhag073}
 }
 ```
 </details>

@@ -58,7 +58,7 @@ None. No background jobs running.
 ## 3. Decisions
 
 Made and ratified this session:
-- **Stay on `kunalssachdeva.github.io` for now**; DNS deferred by owner.
+- **DNS moved (verified 2026-09-08)**: the site serves at `www.kunalsachdeva.com`; apex and github.io redirect to it. Custom domain is set in GitHub Pages settings (no `static/CNAME` needed with the Actions deploy). Aliases added for the old Google Sites paths `/home`, `/discussion-slides`, `/code-and-data`, and a static redirect for `/cv`.
 - **The CV is authoritative** where CV and site disagreed → RFS "Accepted", Skin or Skim 2024, email `ksach@umich.edu`.
 - **No separate bio page** — the long bio lives on the homepage instead (a `/bio/` page was built, then removed).
 - **Affiliation leads the homepage bio**, reversing an earlier research-first ordering.
@@ -70,7 +70,7 @@ Made and ratified this session:
 
 ### Open / deferred — must re-surface on resume
 - **The R&R question.** The owner asked to remove "R&R, *Review of Financial Studies*" from *Can Health State-Contingent Assets…*. A later codex review, wearing a tenure-committee hat, called its absence "a material self-inflicted downgrade" because it is the clearest solo-authored top-journal signal in the record. Not re-added. Owner's call.
-- **`year={2026}`** on the forthcoming RFS BibTeX entry is a forward-looking placeholder; correct it when a volume is assigned.
+- **RFS paper published online 2026-08-14** as advance article hhag073 (no volume yet). Site says "forthcoming (published online August 2026)"; add volume/issue/pages when assigned.
 - **`static/cv.pdf` page 1 carries personal contact details and citizenship status.** It is a crawlable PDF on a public domain. Decide whether to publish a web-safe version.
 - **Financial Times media item** has no recoverable date or headline (403 to all automated access).
 - **60% vs 74% emissions figures** — reconciled with a note on `/media/`; no firm-level figure was added to `/research/` because Crossref carries no abstract to source it from.

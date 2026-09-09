@@ -1,6 +1,7 @@
 ---
 title: "Discussion Slides"
 description: "Conference discussion presentations by Kunal Sachdeva"
+aliases: ["/discussion-slides/"]
 ---
 
 ## 2026
