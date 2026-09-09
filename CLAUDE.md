@@ -134,4 +134,4 @@ Automatic via GitHub Actions on push to `main`. Workflow at `.github/workflows/h
 
 - Skip-to-content link, WCAG-compliant focus indicators, reduced-motion and high-contrast support (`assets/css/extended/accessibility.css`).
 - Sitemap, canonical URLs, Open Graph, Twitter cards (theme defaults).
-- Note: there is currently NO Google Scholar / Highwire Press citation metadata, because all papers live on a single listing page rather than per-paper pages. If Scholar indexing is desired in the future, restructure papers into `content/papers/<slug>/index.md` and re-add a `scholar_meta.html` partial gated on `eq .Section "papers"`.
+- Google Scholar / Highwire Press `citation_*` tags are emitted on `/papers/<slug>/` pages by `layouts/partials/scholar_meta.html` from each page's `citation:` front matter. No `citation_pdf_url` yet: the site hosts no PDFs.

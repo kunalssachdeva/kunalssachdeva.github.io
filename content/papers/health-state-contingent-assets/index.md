@@ -1,7 +1,6 @@
 ---
 title: "Can Health State-Contingent Assets Enable Greater Survival Rates?"
 description: "Survival probability over time is higher for individuals with life-settlement access than for those without."
-date: 2020-01-01
 draft: false
 weight: 6
 citation:

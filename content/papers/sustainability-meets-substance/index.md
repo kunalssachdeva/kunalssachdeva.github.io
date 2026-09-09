@@ -1,7 +1,6 @@
 ---
 title: "Sustainability Meets Substance: Evaluating ESG Reports in the Context of 10-Ks and Firm Performance"
 description: "ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk."
-date: 2026-01-01
 draft: false
 weight: 9
 citation:

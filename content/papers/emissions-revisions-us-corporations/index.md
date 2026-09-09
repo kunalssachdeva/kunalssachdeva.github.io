@@ -1,7 +1,6 @@
 ---
 title: "Widespread Revisions of Self-Reported Emissions by Major US Corporations"
 description: "60% of emissions disclosures by 276 large U.S. corporations are later restated, with understatements outweighing overstatements two to one."
-date: 2026-01-01
 draft: false
 weight: 3
 citation:

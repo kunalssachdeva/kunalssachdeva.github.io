@@ -1,7 +1,6 @@
 ---
 title: "Conflicting Objectives of ESG Funds: Evidence from Proxy Voting"
 description: "When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals."
-date: 2023-01-01
 draft: false
 weight: 8
 citation:

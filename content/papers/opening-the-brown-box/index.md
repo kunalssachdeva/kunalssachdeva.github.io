@@ -1,7 +1,6 @@
 ---
 title: "Opening the Brown Box: Production Responses to Environmental Regulation"
 description: "Regulated firms outsource power and shift product mix, reducing product variety."
-date: 2026-01-01
 draft: false
 weight: 7
 citation:

@@ -1,7 +1,6 @@
 ---
 title: "Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation"
 description: "Male-equivalent patents receive 12% more citations than otherwise identical female-invented patents."
-date: 2026-01-01
 draft: false
 weight: 1
 citation:

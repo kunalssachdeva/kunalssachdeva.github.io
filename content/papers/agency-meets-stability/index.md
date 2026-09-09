@@ -1,7 +1,6 @@
 ---
 title: "Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending"
 description: "Higher capital requirements cut lending at weakly governed banks but raise it at strongly governed banks."
-date: 2023-01-01
 draft: false
 weight: 10
 citation:

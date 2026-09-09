@@ -1,7 +1,6 @@
 ---
 title: "Missing the Target? Retirement Expectations and Target-Date Funds"
 description: "Respondents leave the labour force 4.8 years later than expected, costing 4% of wealth at retirement."
-date: 2024-01-01
 draft: false
 weight: 11
 citation:

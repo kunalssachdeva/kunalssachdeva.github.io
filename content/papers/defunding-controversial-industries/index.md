@@ -1,7 +1,6 @@
 ---
 title: "Defunding Controversial Industries: Can Targeted Credit Rationing Choke Firms?"
 description: "Firms fully replace lost targeted-bank credit through non-targeted banks, leaving total debt unchanged."
-date: 2025-01-01
 draft: false
 weight: 4
 citation:

@@ -1,7 +1,6 @@
 ---
 title: "Skin or Skim? Inside Investment and Hedge Fund Performance"
 description: "Hedge funds with more manager inside investment deliver higher performance."
-date: 2024-01-01
 draft: false
 weight: 5
 citation:

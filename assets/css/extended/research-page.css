@@ -13,9 +13,15 @@
    ~102 characters of line to clear in the 800px column. At 0.95rem it fits in
    96 and wraps. The venue sits on its own line underneath for the same reason
    - sharing a line with the title is what pushed titles onto two lines. */
+/* The theme prints .Description under every h1; the pages carry it for
+   <meta name=description> only. */
+.post-description {
+    display: none;
+}
+
 /* Section headers */
 .post-content h2 {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
@@ -82,6 +88,7 @@
 .post-content img {
     max-width: 320px;
     height: auto;
+    aspect-ratio: 320 / 200;
     display: block;
     margin: 0.5rem 0 1.25rem;
     background: var(--bg-primary);
@@ -115,7 +122,7 @@
 
 .paper-links a {
     color: var(--text-primary);
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: -apple-system, sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -225,7 +232,7 @@
 .paper-links details summary {
     cursor: pointer;
     color: var(--text-primary);
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: -apple-system, sans-serif;
     font-weight: 500;
     font-size: 0.8rem;
     text-transform: uppercase;

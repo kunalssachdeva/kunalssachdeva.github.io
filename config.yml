@@ -2,10 +2,7 @@ baseURL: "https://www.kunalsachdeva.com/"
 title: Kunal Sachdeva
 theme: PaperMod
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
-pagination:
-  pagerSize: 50
 
 # No RSS. The feed only ever contained /research/ and /discussions/ - the two
 # regular pages - and neither carries a date, so every pubDate rendered as
@@ -13,6 +10,7 @@ pagination:
 # updating content stream here to feed. Delete these two lines to restore it.
 outputs:
     home: [HTML]
+    section: [HTML]
 
 # No taxonomies. Omitting this key entirely does NOT disable them — Hugo falls
 # back to its defaults and generates empty /tags/ and /categories/ pages.
@@ -46,25 +44,11 @@ params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
     author: Kunal Sachdeva
     hideMeta: true
-    DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
     disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
     disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["research"]
-    ShowToc: false
     disableScrollToTop: false
-    TocOpen: false
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
 
     # Analytics. Both are optional and independently gated - blank means no script
     # is emitted, and with both blank the site loads no third-party requests at
@@ -165,9 +149,6 @@ params:
         favicon: "favicon.ico"
         theme_color: "#ffffff"
         msapplication_TileColor: "#00274C"
-    cover:
-        hiddenInList: true
-        hiddenInSingle: true
     label:
       text: ""
       icon: images/ross-logo.png
@@ -192,10 +173,6 @@ markup:
     highlight:
         guessSyntax: true
         style: github
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
 
 sitemap:
   changefreq: monthly

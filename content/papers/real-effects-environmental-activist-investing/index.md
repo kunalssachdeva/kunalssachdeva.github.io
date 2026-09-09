@@ -1,7 +1,6 @@
 ---
 title: "The Real Effects of Environmental Activist Investing"
 description: "Toxic chemical releases at targeted firms fall 13% after environmental activist campaigns."
-date: 2026-01-01
 draft: false
 weight: 2
 citation:
