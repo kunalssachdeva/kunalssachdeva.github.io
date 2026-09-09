@@ -58,7 +58,7 @@ None. No background jobs running.
 ## 3. Decisions
 
 Made and ratified this session:
-- **DNS moved (verified 2026-09-08)**: the site serves at `www.kunalsachdeva.com`; apex and github.io redirect to it. Custom domain is set in GitHub Pages settings (no `static/CNAME` needed with the Actions deploy). Aliases added for the old Google Sites paths `/home`, `/discussion-slides`, `/code-and-data`, and a static redirect for `/cv`.
+- **DNS moved; canonical host is the apex `kunalsachdeva.com` (2026-09-09)**. GitHub Pages only issues a certificate covering both apex and www when the custom domain is the apex, so with `www` as the custom domain, `https://kunalsachdeva.com` failed with a github.io certificate. Custom domain is set in GitHub Pages settings (no `static/CNAME` needed with the Actions deploy); www and github.io redirect to the apex. Aliases added for the old Google Sites paths `/home`, `/discussion-slides`, `/code-and-data`, and a static redirect for `/cv`.
 - **The CV is authoritative** where CV and site disagreed → RFS "Accepted", Skin or Skim 2024, email `ksach@umich.edu`.
 - **No separate bio page** — the long bio lives on the homepage instead (a `/bio/` page was built, then removed).
 - **Affiliation leads the homepage bio**, reversing an earlier research-first ordering.
