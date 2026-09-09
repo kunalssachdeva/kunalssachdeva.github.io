@@ -7,13 +7,13 @@ MBA and executive education.
 
 ---
 
-### University of Michigan, Stephen M. Ross School of Business
+## University of Michigan, Stephen M. Ross School of Business
 
 **Financial Management (Core)** — MBA, 2024–2026
 
 ---
 
-### Rice University, Jones Graduate School of Business
+## Rice University, Jones Graduate School of Business
 
 **Finance (Core)** — MBA, 2019–2024
 
@@ -27,7 +27,7 @@ Recognized with the Teaching Excellence Award, Jones Graduate School of Business
 
 ---
 
-### Executive and professional education
+## Executive and professional education
 
 **Financial Education for Interns** — Edgewood Management, 2014–2017
 

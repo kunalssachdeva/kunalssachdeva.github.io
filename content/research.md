@@ -5,8 +5,6 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 
 ## Published & Accepted Papers
 
----
-
 ### [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)
 **[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, Kunal Sachdeva**
 
@@ -80,8 +78,6 @@ Funds with greater inside investment outperform on a factor-adjusted basis.
 ---
 
 ## Working Papers
-
----
 
 ### [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**

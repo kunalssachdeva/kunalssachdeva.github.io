@@ -8,7 +8,7 @@ Replication packages and data resources from my research projects.
 
 ---
 
-### [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)
+## [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)
 
 Replication data and code for the *Journal of Financial Economics* paper (with Yael Hochberg, Ali Kakhbod, and Peiyao Li): text-based expected citation measures, actual patent citation counts, and inventor gender classifications.
 
@@ -17,7 +17,7 @@ Replication data and code for the *Journal of Financial Economics* paper (with Y
 
 ---
 
-### [The Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
+## [The Real Effects of Environmental Activist Investing](/papers/real-effects-environmental-activist-investing/)
 
 Replication data and code for the *Review of Financial Studies* paper (with S. Lakshmi Naaraayanan and Varun Sharma) on how environmental shareholder campaigns change plant-level toxic releases.
 
@@ -26,7 +26,7 @@ Replication data and code for the *Review of Financial Studies* paper (with S. L
 
 ---
 
-### [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)
+## [Widespread Revisions of Self-Reported Emissions by Major US Corporations](/papers/emissions-revisions-us-corporations/)
 
 Code and data behind the *Nature Climate Change* paper on restatements of corporate emissions disclosures (with Lauren Cohen and Ethan Rouen).
 
@@ -36,7 +36,7 @@ Code and data behind the *Nature Climate Change* paper on restatements of corpor
 
 ---
 
-### [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)
+## [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)
 
 Data and code for the *Management Science* paper on manager inside investment and hedge fund performance (with Arpit Gupta).
 
@@ -46,7 +46,7 @@ Data and code for the *Management Science* paper on manager inside investment an
 
 ---
 
-### Additional Resources
+## Additional Resources
 
 Replication code and data for other papers are available upon request. Please [contact me](mailto:ksach@umich.edu) for access.
 
