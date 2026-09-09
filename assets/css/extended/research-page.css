@@ -148,7 +148,8 @@ body.list .post-content h2 a:focus-visible {
     clear: both;
 }
 
-.paper-links a {
+.paper-links a,
+.post-content p a.slides {
     color: var(--text-primary);
     font-family: -apple-system, sans-serif;
     font-weight: 500;
@@ -165,10 +166,21 @@ body.list .post-content h2 a:focus-visible {
     transition: all 0.2s ease;
 }
 
-.paper-links a:hover {
+.paper-links a:hover,
+.post-content p a.slides:hover {
     background: var(--text-primary);
     color: white;
     box-shadow: none;
+}
+
+/* Discussion slides: same button as the paper links, sized to sit inline on
+   the venue line so it reads as an action, not as another name link. */
+.post-content p a.slides {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.55rem;
+    margin-left: 0.5rem;
+    vertical-align: 1px;
+    border-bottom: 1px solid var(--text-primary);
 }
 
 /* Regular paragraph links (for author names, etc.).
