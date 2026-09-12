@@ -67,9 +67,11 @@ params:
     #                StatCounter install snippet (sc_project, sc_security).
     analytics:
         goatcounter: ""
+        # Existing StatCounter project from the Google Sites site (project "Kunal Sachdeva").
+        # Visible in page source by design — not a secret.
         statcounter:
-            project: ""
-            security: ""
+            project: "12198570"
+            security: "eb0d64ee"
     # math: set per-page in front matter when a page needs it. Site-wide it pulled
     # 79KB of render-blocking KaTeX from a CDN onto every page, and no page has math.
 
