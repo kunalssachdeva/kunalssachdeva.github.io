@@ -66,7 +66,7 @@ params:
     #                layouts/partials/analytics.html. Both values come from the
     #                StatCounter install snippet (sc_project, sc_security).
     analytics:
-        goatcounter: ""
+        goatcounter: "kunalsachdeva"
         statcounter:
             project: ""
             security: ""
