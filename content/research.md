@@ -17,6 +17,21 @@ We document systematic undercitation of women inventors in the patent system. Us
 <a href="/papers/patents-female-inventors-undercitation.pdf">PDF</a>
 <a href="https://doi.org/10.17632/zz8g5nznhb.2" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.nber.org/papers/w31592" target="_blank" rel="noopener noreferrer">NBER</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{hochberg2026patents,
+  title={Are patents with female inventors under-cited? Evidence from text estimation},
+  author={Hochberg, Yael and Kakhbod, Ali and Li, Peiyao and Sachdeva, Kunal},
+  journal={Journal of Financial Economics},
+  volume={183},
+  pages={104307},
+  year={2026},
+  doi={10.1016/j.jfineco.2026.104307}
+}
+```
+</details>
 </div>
 
 ---
@@ -33,6 +48,20 @@ We examine how environmental activist investors drive firms to reduce their toxi
 <a href="/papers/real-effects-environmental-activist-investing.pdf">PDF</a>
 <a href="https://doi.org/10.7910/DVN/IRDH3L" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://www.ecgi.global/sites/default/files/working_papers/documents/naaraayanansachdevasharmafinal_0.pdf" target="_blank" rel="noopener noreferrer">ECGI</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{naaraayanan2026real,
+  title={The Real Effects of Environmental Activist Investing},
+  author={Naaraayanan, S. Lakshmi and Sachdeva, Kunal and Sharma, Varun},
+  journal={Review of Financial Studies},
+  year={2026},
+  doi={10.1093/rfs/hhag073},
+  note={Advance article, hhag073}
+}
+```
+</details>
 </div>
 
 ---
@@ -48,6 +77,22 @@ Examining 900 emissions disclosures from 276 of the largest U.S. corporations, w
 <a href="https://doi.org/10.1038/s41558-025-02494-9" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="https://doi.org/10.5281/zenodo.17237196" target="_blank" rel="noopener noreferrer">Data</a>
 <a href="https://github.com/kunalssachdeva/correctingcarbon" target="_blank" rel="noopener noreferrer">Code</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{cohen2026emissions,
+  title={Widespread revisions of self-reported emissions by major {US} corporations},
+  author={Cohen, Lauren and Rouen, Ethan and Sachdeva, Kunal},
+  journal={Nature Climate Change},
+  volume={16},
+  number={1},
+  pages={33--36},
+  year={2026},
+  doi={10.1038/s41558-025-02494-9}
+}
+```
+</details>
 </div>
 
 ---
@@ -61,6 +106,21 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 
 <div class="paper-links">
 <a href="https://doi.org/10.1016/j.jfineco.2025.104133" target="_blank" rel="noopener noreferrer">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{sachdeva2025defunding,
+  title={Defunding controversial industries: Can targeted credit rationing choke firms?},
+  author={Sachdeva, Kunal and Silva, Andr{\'e} F. and Slutzky, Pablo and Xu, Billy},
+  journal={Journal of Financial Economics},
+  volume={172},
+  pages={104133},
+  year={2025},
+  doi={10.1016/j.jfineco.2025.104133}
+}
+```
+</details>
 </div>
 
 ---
@@ -75,6 +135,22 @@ Funds with greater inside investment outperform on a factor-adjusted basis.
 <div class="paper-links">
 <a href="https://doi.org/10.1287/mnsc.2024.4984" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="https://www.skinorskim.org" target="_blank" rel="noopener noreferrer">Data</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@article{gupta2024skin,
+  title={Skin or Skim? Inside Investment and Hedge Fund Performance},
+  author={Gupta, Arpit and Sachdeva, Kunal},
+  journal={Management Science},
+  volume={71},
+  number={4},
+  pages={3357--3383},
+  year={2024},
+  doi={10.1287/mnsc.2024.4984}
+}
+```
+</details>
 </div>
 
 ---
@@ -91,6 +167,21 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4707581" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="/papers/opening-the-brown-box.pdf">PDF</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{desimone2026brown,
+  title={Opening the Brown Box: Production Responses to Environmental Regulation},
+  author={De Simone, Rebecca and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
+  year={2026},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4707581},
+  doi={10.2139/ssrn.4707581}
+}
+```
+</details>
 </div>
 
 ---
@@ -104,6 +195,21 @@ ESG reports contain financially material information unique from 10-K filings.
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4227934" target="_blank" rel="noopener noreferrer">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{rouen2026sustainability,
+  title={Sustainability Meets Substance: Evaluating {ESG} Reports in the Context of {10-K}s and Firm Performance},
+  author={Rouen, Ethan and Sachdeva, Kunal and Yoon, Aaron},
+  year={2026},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4227934},
+  doi={10.2139/ssrn.4227934}
+}
+```
+</details>
 </div>
 
 ---
@@ -117,6 +223,21 @@ Survey evidence reveals that respondents underestimate their labor force partici
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4763984" target="_blank" rel="noopener noreferrer">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{an2024missing,
+  title={Missing the Target? Retirement Expectations and Target-Date Funds},
+  author={An, Byeong-Je and Sachdeva, Kunal},
+  year={2024},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4763984},
+  doi={10.2139/ssrn.4763984}
+}
+```
+</details>
 </div>
 
 ---
@@ -130,6 +251,21 @@ ESG funds are more likely to vote against environmental and social proposals whe
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3760753" target="_blank" rel="noopener noreferrer">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{li2023conflicting,
+  title={Conflicting Objectives of {ESG} Funds: Evidence from Proxy Voting},
+  author={Li, Tao and Naaraayanan, S. Lakshmi and Sachdeva, Kunal},
+  year={2023},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={3760753},
+  doi={10.2139/ssrn.3760753}
+}
+```
+</details>
 </div>
 
 ---
@@ -144,6 +280,21 @@ Capital requirements have divergent effects on bank lending depending on the lev
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342126" target="_blank" rel="noopener noreferrer">Paper</a>
 <a href="/papers/agency-meets-stability.pdf">PDF</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{bosshardt2023agency,
+  title={Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending},
+  author={Bosshardt, Joshua and Kakhbod, Ali and Sachdeva, Kunal},
+  year={2023},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={4342126},
+  doi={10.2139/ssrn.4342126}
+}
+```
+</details>
 </div>
 
 ---
@@ -157,6 +308,21 @@ Using the life settlement market as a natural experiment, I find that access to 
 
 <div class="paper-links">
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3620564" target="_blank" rel="noopener noreferrer">Paper</a>
+<details>
+<summary>Cite</summary>
+
+```bibtex
+@techreport{sachdeva2020health,
+  title={Can Health State-Contingent Assets Enable Greater Survival Rates?},
+  author={Sachdeva, Kunal},
+  year={2020},
+  type={SSRN Working Paper},
+  institution={Social Science Research Network},
+  number={3620564},
+  doi={10.2139/ssrn.3620564}
+}
+```
+</details>
 </div>
 
 ---
