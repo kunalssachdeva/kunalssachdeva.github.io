@@ -149,8 +149,8 @@
 <meta property="og:image" content="{{ "profile.jpg" | absURL }}">
 <meta name="twitter:image" content="{{ "profile.jpg" | absURL }}">
 
-{{- /* analytics.html self-gates on params.analytics.goatcounter and emits
-       nothing when unset, so the only gate needed here is "not a local build". */ -}}
+{{- /* analytics.html (GoatCounter) and baseof.html (StatCounter before </body>)
+       both self-gate; the only gate needed here is "not a local build". */ -}}
 {{ if hugo.IsProduction }}
 {{- partial "analytics.html" . }}
 {{ end }}

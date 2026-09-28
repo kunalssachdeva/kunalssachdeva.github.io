@@ -1,36 +1,22 @@
 {{- /*
-  Two independent, independently-gated analytics beacons. Each emits nothing
-  unless its own key is set, so with both blank - as shipped - the site keeps a
-  zero-third-party-request profile.
+  GoatCounter only here (in <head>). StatCounter lives in
+  layouts/partials/statcounter.html and is injected just before </body>,
+  matching the official install snippet placement.
 
-  They are not redundant, they answer different questions:
-
-    GoatCounter   cookieless, stores no IP, keeps full aggregate history.
-                  Country-level location, referrers, browser. Free.
-    StatCounter   stores the IP and sets a cookie, which is how it can show the
-                  per-visitor feed with ISP/organisation and city. The free tier
-                  retains only the last 500 pageviews, so it is a live window,
-                  not an archive.
+  GoatCounter   cookieless, stores no IP, keeps full aggregate history.
+                Country-level location, referrers, browser. Free.
+  StatCounter   stores the IP and sets a cookie (per-visitor ISP/city feed).
+                Free tier retains only the last 500 pageviews.
 
   Running BOTH is a deliberate pairing: StatCounter for the live forensic feed,
   GoatCounter for the durable long-run trend the free StatCounter tier discards.
 
   COMPLIANCE, once StatCounter is enabled: it stores IP addresses and sets a
   cookie, so EU/UK visitors need a consent notice, and the beacon should not
-  fire before consent. GoatCounter alone needs none. Enabling StatCounter is
-  what creates that obligation - adding GoatCounter alongside does not change
-  it either way.
+  fire before consent. GoatCounter alone needs none.
 */ -}}
 
 {{- with site.Params.analytics.goatcounter }}
 <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <noscript><img src="https://{{ . }}.goatcounter.com/count?p={{ $.RelPermalink }}" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
-{{- end }}
-
-{{- with site.Params.analytics.statcounter }}
-{{- if and .project .security }}
-<script>var sc_project={{ .project }};var sc_invisible=1;var sc_security="{{ .security }}";</script>
-<script async src="https://www.statcounter.com/counter/counter.js"></script>
-<noscript><img src="https://c.statcounter.com/{{ .project }}/0/{{ .security }}/1/" alt="" referrerpolicy="no-referrer-when-downgrade" style="display:none"></noscript>
-{{- end }}
 {{- end -}}

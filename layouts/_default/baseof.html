@@ -22,5 +22,10 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    {{- /* StatCounter official snippet goes immediately before </body>.
+           Self-gates on params; production-only so local builds stay clean. */ -}}
+    {{- if hugo.IsProduction }}
+    {{- partial "statcounter.html" . }}
+    {{- end }}
 </body>
 </html>
