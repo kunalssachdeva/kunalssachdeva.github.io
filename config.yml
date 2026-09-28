@@ -67,12 +67,13 @@ params:
     #                StatCounter install snippet (sc_project, sc_security).
     analytics:
         goatcounter: "kunalsachdeva"
-        # Existing StatCounter project from the Google Sites site ("Kunal Sachdeva").
+        # StatCounter project "Kunal Sachdeva" — official install snippet values.
         # project must be a YAML integer so Hugo's JS escaping emits sc_project=12198570
-        # (unquoted), matching StatCounter's install snippet. security is public-by-design.
+        # (unquoted). security is public-by-design (embedded in every page).
+        # Snippet is injected before </body> via layouts/partials/statcounter.html.
         statcounter:
             project: 12198570
-            security: "eb0d64ee"
+            security: "1fdbd9ae"
     # math: set per-page in front matter when a page needs it. Site-wide it pulled
     # 79KB of render-blocking KaTeX from a CDN onto every page, and no page has math.
 
