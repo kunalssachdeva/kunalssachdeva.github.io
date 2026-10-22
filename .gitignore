@@ -3,6 +3,9 @@ public/
 resources/
 .hugo_build.lock
 
+# Local-only reference material (reference/cv.tex symlinks the private CV repo)
+reference/
+
 # macOS
 .DS_Store
 **/.DS_Store
