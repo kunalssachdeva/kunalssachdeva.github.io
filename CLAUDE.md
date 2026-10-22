@@ -37,7 +37,7 @@ content/                # these three files are the entire site
 
 static/
 ├── CNAME               # Custom domain config
-├── cv.pdf              # Linked from nav
+├── cv.pdf              # Linked from nav; GENERATED from the CV repo, see "CV" below
 ├── profile.jpg         # Homepage portrait
 ├── files/slides/       # Discussion slide PDFs (naming convention: YYYY-MM-keyword.pdf)
 └── images/papers/      # Per-paper SVG illustrations referenced from research.md
@@ -118,6 +118,19 @@ Edit `content/discussions.md`. Entries are grouped by year (newest first), with 
 
 ### Code & Data
 Edit `content/data/_index.md` to add a project repo or replication package.
+
+### CV
+The CV source is `cv.tex` in the private repo `kunalssachdeva/Kunal-Sachdeva-CV`. Its
+`publish-cv.yml` workflow compiles it on every push to that repo's `main` and commits the
+PDF here as `static/cv.pdf` (author `github-actions[bot]`, via a write deploy key), which
+triggers the Hugo deploy. Never edit `static/cv.pdf` by hand: change `cv.tex` instead, or
+the next CV push overwrites your change.
+
+`reference/cv.tex` is a local, gitignored symlink to `../Kunal-Sachdeva-CV/cv.tex`, a clone
+sitting next to this repo; read it for current CV facts (titles, dates, awards) when editing
+site content. It is only as fresh as that clone: `git -C ../Kunal-Sachdeva-CV pull` first.
+Never commit the .tex here — this repo is public, the CV repo is not, and the source carries
+commented-out material that the PDF does not.
 
 ## Key Configuration
 
