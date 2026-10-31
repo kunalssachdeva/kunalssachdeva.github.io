@@ -18,7 +18,7 @@ citation:
 
 **[Arpit Gupta](http://arpitgupta.info), Kunal Sachdeva**
 
-*Management Science* 71.4 (2024): 3357-3383
+*Management Science* 71.4 (2024): 3357–3383
 
 ![Hedge funds with more manager inside investment deliver higher performance.](/images/papers/skin-skim.svg)
 

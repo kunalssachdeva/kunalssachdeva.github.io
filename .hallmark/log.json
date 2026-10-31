@@ -1,0 +1,29 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "restyle",
+  "scope": "site",
+  "shape": "kept",
+  "theme": "brand",
+  "axes": "white/grotesk/navy+maize",
+  "hero": "kept",
+  "nav": "kept",
+  "footer": "kept",
+  "imagery": "user photo + paper SVG figures (kept)",
+  "photos": [],
+  "entry": "publication record",
+  "fingerprint": "schibsted-grotesk/white/navy-chips/maize-section-fills",
+  "sections": "kept",
+  "signature": "maize fills on section heads and current nav item",
+  "waived": [
+   "7b",
+   "23",
+   "39b",
+   "49b",
+   "59",
+   "78"
+  ],
+  "prompt": "academic finance professor site, v2 after the owner rejected serif-on-paper: white, Michigan navy and maize",
+  "date": "2026-10-31"
+ }
+]

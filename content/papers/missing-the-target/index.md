@@ -15,7 +15,7 @@ citation:
 
 **[Byeong-Je An](https://sites.google.com/view/byeongje-an), Kunal Sachdeva**
 
-*Working paper, 2024*
+Working paper, 2024
 
 ![Respondents leave the labour force 4.8 years later than expected, costing 4% of wealth at retirement.](/images/papers/target-date.svg)
 

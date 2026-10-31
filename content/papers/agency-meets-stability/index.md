@@ -17,7 +17,7 @@ citation:
 
 **[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
-*Working paper, 2023*
+Working paper, 2023
 
 ![Higher capital requirements cut lending at weakly governed banks but raise it at strongly governed banks.](/images/papers/bank-governance.svg)
 

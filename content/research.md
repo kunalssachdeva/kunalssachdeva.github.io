@@ -8,7 +8,7 @@ description: "Research papers by Kunal Sachdeva on environmental finance, ESG, h
 ### [Are Patents with Female Inventors Under-Cited? Evidence from Text Estimation](/papers/patents-female-inventors-undercitation/)
 **[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, Kunal Sachdeva**
 
-*Journal of Financial Economics* 183 (2026): 104307 · NBER Working Paper No. 31592
+*Journal of Financial Economics* 183 (2026): 104307; NBER Working Paper No. 31592
 
 We document systematic undercitation of women inventors in the patent system. Using causal text estimation, we find that male equivalents of female-invented patents receive 12% more citations and are 16% more likely to become top-decile patents.
 
@@ -128,7 +128,7 @@ We examine Operation Choke Point, a regulatory initiative targeting bank relatio
 ### [Skin or Skim? Inside Investment and Hedge Fund Performance](/papers/skin-or-skim/)
 **[Arpit Gupta](http://arpitgupta.info), Kunal Sachdeva**
 
-*Management Science* 71.4 (2024): 3357-3383
+*Management Science* 71.4 (2024): 3357–3383
 
 Funds with greater inside investment outperform on a factor-adjusted basis.
 
@@ -160,7 +160,7 @@ Funds with greater inside investment outperform on a factor-adjusted basis.
 ### [Opening the Brown Box: Production Responses to Environmental Regulation](/papers/opening-the-brown-box/)
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2026*
+Working paper, 2026
 
 Firms reduce pollution through strategic production choices: sourcing electricity externally and shifting toward higher-margin products.
 
@@ -189,7 +189,7 @@ Firms reduce pollution through strategic production choices: sourcing electricit
 ### [Sustainability Meets Substance: Evaluating ESG Reports in the Context of 10-Ks and Firm Performance](/papers/sustainability-meets-substance/)
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
-*Working paper, 2026*
+Working paper, 2026
 
 ESG reports contain financially material information unique from 10-K filings.
 
@@ -217,7 +217,7 @@ ESG reports contain financially material information unique from 10-K filings.
 ### [Missing the Target? Retirement Expectations and Target-Date Funds](/papers/missing-the-target/)
 **[Byeong-Je An](https://sites.google.com/view/byeongje-an), Kunal Sachdeva**
 
-*Working paper, 2024*
+Working paper, 2024
 
 Survey evidence reveals that respondents underestimate their labor force participation by 4.8 years on average.
 
@@ -245,7 +245,7 @@ Survey evidence reveals that respondents underestimate their labor force partici
 ### [Conflicting Objectives of ESG Funds: Evidence from Proxy Voting](/papers/conflicting-objectives-esg-funds/)
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2023*
+Working paper, 2023
 
 ESG funds are more likely to vote against environmental and social proposals when the outcome is uncertain.
 
@@ -273,7 +273,7 @@ ESG funds are more likely to vote against environmental and social proposals whe
 ### [Agency Meets Stability: The Effect of Corporate Governance and Capital Requirements on Bank Lending](/papers/agency-meets-stability/)
 **[Joshua Bosshardt](https://sites.google.com/view/joshuabosshardt/), [Ali Kakhbod](http://www.akakhbod.com/), Kunal Sachdeva**
 
-*Working paper, 2023*
+Working paper, 2023
 
 Capital requirements have divergent effects on bank lending depending on the level of shareholder protection in bank management.
 
@@ -302,7 +302,7 @@ Capital requirements have divergent effects on bank lending depending on the lev
 ### [Can Health State-Contingent Assets Enable Greater Survival Rates?](/papers/health-state-contingent-assets/)
 **Kunal Sachdeva**
 
-*Working paper, 2020*
+Working paper, 2020
 
 Using the life settlement market as a natural experiment, I find that access to wealth in poor health states increases survival rates.
 
@@ -324,5 +324,3 @@ Using the life settlement market as a natural experiment, I find that access to 
 ```
 </details>
 </div>
-
----

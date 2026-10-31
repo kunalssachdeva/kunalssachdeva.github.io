@@ -17,7 +17,7 @@ citation:
 
 **[Rebecca De Simone](https://www.rebeccadesimone.com/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2026*
+Working paper, 2026
 
 ![Regulated firms outsource power and shift product mix, reducing product variety.](/images/papers/brown-box.svg)
 

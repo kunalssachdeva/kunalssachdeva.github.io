@@ -1,0 +1,14 @@
+{{- /* Overrides the theme's icon row with labelled text links. A mortarboard
+       and a chain link did not say "Google Scholar" or "SSRN", and the icons
+       had no accessible name beyond a title attribute. A mailto shows the
+       address itself, so it can be read and copied. */ -}}
+<p class="social-links">
+    {{- range site.Params.socialIcons }}
+    {{- $url := trim .url " " }}
+    {{- if hasPrefix $url "mailto:" }}
+    <a href="{{ $url | safeURL }}" rel="me">{{ strings.TrimPrefix "mailto:" $url }}</a>
+    {{- else }}
+    <a href="{{ $url | safeURL }}" target="_blank" rel="noopener noreferrer me">{{ .name }}</a>
+    {{- end }}
+    {{- end }}
+</p>

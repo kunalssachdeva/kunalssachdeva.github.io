@@ -16,7 +16,7 @@ citation:
 
 **[Ethan Rouen](https://erouen.academic.blog/), Kunal Sachdeva, Aaron Yoon**
 
-*Working paper, 2026*
+Working paper, 2026
 
 ![ESG reports carry unique material information beyond 10-K filings, linked to lower downside risk.](/images/papers/esg-substance.svg)
 

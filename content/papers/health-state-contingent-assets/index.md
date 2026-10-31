@@ -14,7 +14,7 @@ citation:
 
 **Kunal Sachdeva**
 
-*Working paper, 2020*
+Working paper, 2020
 
 ![Survival probability over time is higher for individuals with life-settlement access than for those without.](/images/papers/health-assets.svg)
 
