@@ -63,13 +63,13 @@
                             {{- $img = $img.Resize "x30" }}
                         {{- end }}
                     {{- end }}
-                    <img src="{{ $img.Permalink }}" alt="Kunal Sachdeva — home"
+                    <img src="{{ $img.Permalink }}" alt="Kunal Sachdeva, home"
                         height="{{- site.Params.label.iconHeight | default "30" -}}"
                         {{/* ross-logo.png is 343x80; width keeps the aspect ratio so the
                          browser reserves space and the header does not shift on load. */}}
                     width="{{ div (mul (int (site.Params.label.iconHeight | default 30)) 343) 80 }}">
                 {{- else }}
-                <img src="{{- site.Params.label.icon | absURL -}}" alt="Kunal Sachdeva — home"
+                <img src="{{- site.Params.label.icon | absURL -}}" alt="Kunal Sachdeva, home"
                     height="{{- site.Params.label.iconHeight | default "30" -}}"
                     {{/* ross-logo.png is 343x80; width keeps the aspect ratio so the
                          browser reserves space and the header does not shift on load. */}}

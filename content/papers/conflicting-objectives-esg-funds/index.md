@@ -16,7 +16,7 @@ citation:
 
 **[Tao Li](https://site.warrington.ufl.edu/tao-li/), [S. Lakshmi Naaraayanan](https://www.lakshmin.com/), Kunal Sachdeva**
 
-*Working paper, 2023*
+Working paper, 2023
 
 ![When vote outcomes are uncertain, ESG funds tilt toward returns over environmental and social goals.](/images/papers/esg-proxy.svg)
 

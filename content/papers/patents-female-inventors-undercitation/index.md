@@ -19,7 +19,7 @@ citation:
 
 **[Yael Hochberg](http://yael-hochberg.com/), [Ali Kakhbod](http://www.akakhbod.com/), Peiyao Li, Kunal Sachdeva**
 
-*Journal of Financial Economics* 183 (2026): 104307 · NBER Working Paper No. 31592
+*Journal of Financial Economics* 183 (2026): 104307; NBER Working Paper No. 31592
 
 ![Male-equivalent patents receive 12% more citations than otherwise identical female-invented patents.](/images/papers/patent-gender.svg)
 

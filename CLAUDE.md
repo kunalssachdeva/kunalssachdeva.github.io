@@ -43,8 +43,8 @@ static/
 └── images/papers/      # Per-paper SVG illustrations referenced from research.md
 
 assets/css/extended/
-├── michigan-theme.css
-├── research-page.css   # Styling for the research and discussions pages
+├── michigan-theme.css  # Tokens (all colours/fonts), @font-face, header, homepage
+├── research-page.css   # Paper/discussion/media entries and paper pages
 └── accessibility.css
 
 layouts/                # every file here overrides themes/PaperMod/<same path>
@@ -114,7 +114,7 @@ One visual system, and the rules are load-bearing:
 The research page has two sections: "Published & Accepted Papers" (sorted with newest acceptance first) and "Working Papers" (R&Rs first, then plain working papers).
 
 ### New discussion
-Edit `content/discussions.md`. Entries are grouped by year (newest first), with the venue and date formatted as `*Conference Name* · Month D, YYYY`. Author links point to faculty pages for professors; PhD students/job-market candidates are listed without a link. Save slides under `static/files/slides/YYYY-MM-keyword.pdf` to match the existing naming convention.
+Edit `content/discussions.md`. Entries are grouped by year (newest first), with the venue and date formatted as `*Conference Name*, Month D, YYYY`. Author links point to faculty pages for professors; PhD students/job-market candidates are listed without a link. Save slides under `static/files/slides/YYYY-MM-keyword.pdf` to match the existing naming convention.
 
 ### Code & Data
 Edit `content/data/_index.md` to add a project repo or replication package.
@@ -142,6 +142,19 @@ commented-out material that the PDF does not.
 ## Deployment
 
 Automatic via GitHub Actions on push to `main`. Workflow at `.github/workflows/hugo.yml`. There is no `gh-pages` branch: the workflow builds into `public/` (gitignored locally), uploads it with `actions/upload-pages-artifact`, and `actions/deploy-pages` publishes the artifact.
+
+## Visual system ("Michigan modern", 2026-10)
+
+Restyled against the Hallmark anti-slop gates (`~/.claude/skills/hallmark`; stamp and waivers at the top of `michigan-theme.css`). The owner chose this from three previews and rejected an all-serif, tinted-paper version: **keep the white background**.
+
+- **One family**: Schibsted Grotesk, self-hosted in `static/fonts/` (variable 400-800, roman and italic, latin and latin-ext; OFL licence alongside). Weights in use: 400, 700, 800 only.
+- **Tokens only**: every colour and font is a `--color-*` / `--font-*` token in the `:root` block of `michigan-theme.css`. No hex literal or `font-family` in a rule.
+- **Navy** `#00274C`: the name, page titles, links, the Research button, chip text. **Maize** `#FFCB05` is a fill only (section heads such as "Published & Accepted Papers" and years, the current nav item), always with navy text.
+- **Actions**: paper links and Slides are sentence-case navy chips on `--color-chip`; homepage Research is the one solid navy button, CV the quiet chip. Never boxed outlines, never uppercase, never letter-spaced.
+- **No `·` separators** in content: venue lines read like citations (`*Venue*, Month D, YYYY`; `[Outlet](url), “Headline,” Date`); lists of awards use semicolons. Working-paper lines are plain (`Working paper, 2026`), not italic: only journal names are italic.
+- **Links** carry an underline at rest (navy on body ink is only 1.46:1, so colour alone fails WCAG 1.4.1). Paper titles too: they are the only link to `/papers/<slug>/`.
+
+Re-lint after a visual change: `node ~/.claude/skills/hallmark/scripts/sloplint.mjs assets/css/extended --genre editorial --render --url http://localhost:1313/ --url http://localhost:1313/research/` (needs `puppeteer-core`; landing-page rules such as 80 words a screen do not apply here). Pass only `assets/css/extended` as a file target, never `layouts/`: given template files it renders them raw and drops `.hallmark/*.png` folders inside `layouts/`, which Hugo then fails to parse, and `hugo server` silently keeps serving the last good build.
 
 ## Accessibility & SEO
 

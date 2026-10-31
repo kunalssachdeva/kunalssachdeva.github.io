@@ -22,7 +22,7 @@ citation:
 
 We examine how environmental activist investors drive firms to reduce their toxic releases, greenhouse-gas emissions, and cancer-causing pollution. Plants of targeted firms reduce their total toxic chemical releases by 13% on average through preventative efforts rather than end-of-pipe treatments. These improvements have real implications for local air quality and public health.
 
-**Awards:** Moskowitz Prize for Best Paper on Socially Responsible Investing, 2020 · Semi-finalist, John L. Weinberg/IRRCI Research Award · Best Paper in Corporate Finance, FMA European Conference, 2021 · European Investment Forum Research Award, 2021 · ICPM Research Award, Second Place, 2022
+**Awards:** Moskowitz Prize for Best Paper on Socially Responsible Investing, 2020; Semi-finalist, John L. Weinberg/IRRCI Research Award; Best Paper in Corporate Finance, FMA European Conference, 2021; European Investment Forum Research Award, 2021; ICPM Research Award, Second Place, 2022
 
 <div class="paper-links">
 <a href="https://doi.org/10.1093/rfs/hhag073" target="_blank" rel="noopener noreferrer">Paper</a>

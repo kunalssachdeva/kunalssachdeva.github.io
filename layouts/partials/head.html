@@ -65,6 +65,10 @@
 {{- else }}
 <link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
 {{- end }}
+{{- /* The roman face is on every page; fetch it with the stylesheet so it is
+       in place at first paint instead of swapping in. The italic and
+       latin-ext files load on demand. */}}
+<link rel="preload" href="{{ "fonts/schibsted-grotesk-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
