@@ -29,8 +29,8 @@ strands:
       - slug: agency-meets-stability
 
   - id: numbers
-    question: "Are reported numbers real?"
-    clause: "whether reported numbers are real"
+    question: "Do the numbers measure what they claim?"
+    clause: "whether the numbers measure what they claim"
     papers:
       - slug: emissions-revisions-us-corporations
         number: "60%"
