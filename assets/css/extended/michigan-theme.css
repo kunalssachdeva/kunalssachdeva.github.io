@@ -83,7 +83,7 @@
     --size-number: clamp(48px, 4.8vw, 68px);
     --size-finding: clamp(19px, 1.5vw, 21px);
     --size-title: clamp(34px, 3.6vw, 52px);   /* inner page titles */
-    --size-section: clamp(24px, 2.2vw, 32px); /* inner page section heads */
+    --size-section: clamp(22px, 1.7vw, 24px); /* inner page section heads, set in the narrow rail */
 
     /* Layout: one 12-column grid, capped and centred */
     --max: 1344px;

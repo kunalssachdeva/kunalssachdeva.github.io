@@ -83,8 +83,11 @@ code { font-family: var(--font-mono); font-size: .8125rem; line-height: 1.5; col
 @media (min-width: 900px) {
     .page-title { grid-column: 1 / 12; }
     .page-intro { grid-column: 1 / 9; }
-    .split-head { grid-column: var(--l-col); position: sticky; top: var(--s-4); align-self: start; padding-right: var(--gap); }
-    .split-body { grid-column: var(--r-col); }
+    /* Inner pages: a narrow sticky label rail (columns 1-3), entries on 4-11.
+       The homepage's 6/6 split suits its poster-size questions; here a short
+       head ("2026") alone in half the page read as empty. */
+    .split-head { grid-column: 1 / 4; position: sticky; top: var(--s-4); align-self: start; padding-right: var(--gap); }
+    .split-body { grid-column: 4 / 12; }
     .paper-lead { grid-column: 1 / 9; }
     .paper-text { grid-column: 1 / 8; grid-row: 1; padding-right: var(--gap); }
     .paper-fig { grid-column: 9 / 13; grid-row: 1; padding-top: 6px; }
