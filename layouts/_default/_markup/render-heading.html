@@ -1,0 +1,9 @@
+{{- /* Headings as Goldmark renders them, except that a hyphenated word in a
+       title ("Under-Cited?", "Self-Reported") never breaks at its hyphen.
+       Only text between tags is touched, never an href. The second pass picks
+       up a second hyphenated word after the first. */ -}}
+{{- $t := .Text -}}
+{{- $w := `(\b\w+-\w+[?]?)` -}}
+{{- $t = replaceRE (printf `(^|>)([^<]*?)%s` $w) `${1}${2}<span class="nw">${3}</span>` $t -}}
+{{- $t = replaceRE (printf `(</span>)([^<]*?)%s` $w) `${1}${2}<span class="nw">${3}</span>` $t -}}
+<h{{ .Level }} id="{{ .Anchor }}">{{ $t | safeHTML }}</h{{ .Level }}>

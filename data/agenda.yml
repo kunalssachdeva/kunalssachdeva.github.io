@@ -1,0 +1,52 @@
+# Homepage research agenda ("promise vs. reality").
+# layouts/index.html renders the statement, the navy band and one section per
+# strand from this file. Each paper's title, finding, authors, venue and link
+# chips are read from its own page (content/papers/<slug>/index.md), so nothing
+# here repeats them. A slug with no paper page fails the build.
+#
+# Papers appear in the order listed: published first, then working papers,
+# newest first. `number` is the headline figure on the maize block; give one
+# only where the paper's finding states it. `unit` is set smaller after it.
+
+statement:
+  plain: "He studies the gap between what finance promises"
+  bold: "and what actually happens."
+
+lead: "Recent work asks"
+
+strands:
+  - id: q1
+    question: "Are reported numbers real?"
+    clause: "whether reported numbers are real"
+    papers:
+      - slug: patents-female-inventors-undercitation
+        number: "+12%"
+      - slug: emissions-revisions-us-corporations
+        number: "60%"
+      - slug: sustainability-meets-substance
+
+  - id: q2
+    question: "Do stated goals match actual choices?"
+    clause: "whether stated goals match actual choices"
+    papers:
+      - slug: skin-or-skim
+      - slug: conflicting-objectives-esg-funds
+      - slug: agency-meets-stability
+
+  - id: q3
+    question: "Does pressure on firms really bite?"
+    clause: "whether pressure on firms really bites"
+    papers:
+      - slug: real-effects-environmental-activist-investing
+        number: "−13%"
+      - slug: defunding-controversial-industries
+      - slug: opening-the-brown-box
+
+  - id: q4
+    question: "Do households get what they plan for?"
+    clause: "whether households get what they plan for"
+    papers:
+      - slug: missing-the-target
+        number: "4.8"
+        unit: "yrs"
+      - slug: health-state-contingent-assets

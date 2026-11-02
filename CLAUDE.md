@@ -42,22 +42,31 @@ static/
 ├── files/slides/       # Discussion slide PDFs (naming convention: YYYY-MM-keyword.pdf)
 └── images/papers/      # Per-paper SVG illustrations referenced from research.md
 
-assets/css/extended/
-├── michigan-theme.css  # Tokens (all colours/fonts), @font-face, header, homepage
-├── research-page.css   # Paper/discussion/media entries and paper pages
-└── accessibility.css
+data/
+└── agenda.yml          # Homepage research agenda: statement, band lead-in, four strands (see "Homepage agenda")
 
-layouts/                # every file here overrides themes/PaperMod/<same path>
+assets/css/extended/    # the ONLY stylesheets loaded (head.html no longer bundles the theme's CSS)
+├── michigan-theme.css  # Tokens (all colours/fonts/sizes), @font-face, base, header, footer, homepage, chips
+├── research-page.css   # Inner pages: page head, h2 sections, entries, Cite toggle, paper pages
+└── accessibility.css   # Skip link, focus rings, reduced motion
+
+layouts/                # every file here overrides or adds to themes/PaperMod/<same path>
+├── index.html                # Homepage: bio block, statement, navy band, one section per strand
+├── papers/single.html        # Paper pages: title, finding as lead, figure beside the record
+├── 404.html
 ├── partials/
-│   ├── index_profile.html    # Homepage profile/bio block (subtitle comes from config.yml); name is the h1
-│   ├── head.html             # SEO meta tags + the site-wide og:image / twitter:image
-│   ├── header.html           # Skip link, nav, Ross logo
-│   ├── footer.html           # Scroll script (skip link deliberately excluded from it)
-│   └── ...
+│   ├── head.html             # SEO meta, og:image / twitter:image, the stylesheet bundle
+│   ├── header.html           # Skip link, Ross logo (home link), nav; maize on the current item
+│   ├── footer.html           # Logo, school, email, section links, copyright; Cite copy button
+│   ├── page.html             # Inner pages: title, intro, then each h2 + its entries as a section
+│   ├── paper_entry.html      # One homepage answer, read from the paper's own page
+│   ├── fn/typeset.html       # Non-breaking first/last words, hyphenated words kept whole
+│   ├── fn/initials.html      # Keeps "Stephen M. Ross", "S. Lakshmi" together
+│   └── scholar_meta.html, analytics.html, statcounter.html, templates/schema_json.html
 └── _default/
     ├── baseof.html           # Base template; carries the #main-content skip target
-    ├── list.html, single.html, _markup/render-link.html
-    └── 404.html
+    ├── single.html, list.html  # Both render partials/page.html
+    └── _markup/render-link.html, render-heading.html
 
 An override that no longer differs meaningfully from the theme is dead weight and
 blocks theme updates — delete it rather than carrying it. Twelve such files were
@@ -65,7 +74,22 @@ removed in the 2026-07 audit (no-op separator tweaks, an unreachable search page
 archetypes for content types that do not exist).
 ```
 
-The homepage bio is rendered from `params.profileMode.subtitle` in `config.yml`, not from a content file.
+The homepage bio is rendered from `params.profileMode.subtitle` in `config.yml`, not from a content file: paragraph 1 large under the name, paragraphs 3 and 4 stacked below it. Paragraph 2 (the research statement) is not shown there; the statement and the band come from `data/agenda.yml`, so keep the two in step when the agenda changes.
+
+### Homepage agenda (`data/agenda.yml`)
+
+The homepage is the research agenda: a statement (`statement.plain` + `statement.bold`, the bold run heavier), the navy band ("`lead`" followed by each strand's `clause`, joined into one sentence: commas, "and" before the last, a full stop), then one section per strand with its `question` pinned on the left.
+
+To put a paper in a strand, add its slug under that strand's `papers`, in reading order (published first, then working papers, newest first):
+
+```yaml
+      - slug: real-effects-environmental-activist-investing
+        number: "−13%"      # optional: only where the paper's finding states the figure
+        unit: "yrs"         # optional: set smaller after the number ("4.8 yrs")
+```
+
+Everything else is read from `content/papers/<slug>/index.md`: the title, the finding (front-matter `description`), the authors (first body paragraph), the venue (second body paragraph) and the link chips (the `<a>`s in `<div class="paper-links">`, before `<details>`). Keep that body order when adding a paper page. A slug with no paper page, or a page missing those parts, fails the build with an `errorf` naming the slug. A strand's `id` is the band link's anchor (`#q1`).
+
 
 ## Adding Content
 
@@ -143,18 +167,21 @@ commented-out material that the PDF does not.
 
 Automatic via GitHub Actions on push to `main`. Workflow at `.github/workflows/hugo.yml`. There is no `gh-pages` branch: the workflow builds into `public/` (gitignored locally), uploads it with `actions/upload-pages-artifact`, and `actions/deploy-pages` publishes the artifact.
 
-## Visual system ("Michigan modern", 2026-10)
+## Visual system ("Promise vs. reality", 2026-11)
 
-Restyled against the Hallmark anti-slop gates (`~/.claude/skills/hallmark`; stamp and waivers at the top of `michigan-theme.css`). The owner chose this from three previews and rejected an all-serif, tinted-paper version: **keep the white background**.
+A full redesign (stamp at the top of `michigan-theme.css`), ported from the owner's chosen mockup "d1a-refined". **Keep the white background**: the owner rejected an all-serif, tinted-paper version and a list-first homepage.
 
-- **One family**: Schibsted Grotesk, self-hosted in `static/fonts/` (variable 400-800, roman and italic, latin and latin-ext; OFL licence alongside). Weights in use: 400, 700, 800 only.
-- **Tokens only**: every colour and font is a `--color-*` / `--font-*` token in the `:root` block of `michigan-theme.css`. No hex literal or `font-family` in a rule.
-- **Navy** `#00274C`: the name, page titles, links, the Research button, chip text. **Maize** `#FFCB05` is a fill only (section heads such as "Published & Accepted Papers" and years, the current nav item), always with navy text.
-- **Actions**: paper links and Slides are sentence-case navy chips on `--color-chip`; homepage Research is the one solid navy button, CV the quiet chip. Never boxed outlines, never uppercase, never letter-spaced.
-- **No `·` separators** in content: venue lines read like citations (`*Venue*, Month D, YYYY`; `[Outlet](url), “Headline,” Date`); lists of awards use semicolons. Working-paper lines are plain (`Working paper, 2026`), not italic: only journal names are italic.
-- **Links** carry an underline at rest (navy on body ink is only 1.46:1, so colour alone fails WCAG 1.4.1). Paper titles too: they are the only link to `/papers/<slug>/`.
+- **One 12-column grid**, capped at 1344px and centred (`.wrap` + `.grid`), left edges aligned from header to footer. The homepage questions and every inner page's h2 sections share one split: the head in columns 1-6, pinned (`position: sticky`) while the entries in columns 7-12 scroll past. Below 900px everything stacks.
+- **One family**: Schibsted Grotesk, self-hosted in `static/fonts/` (variable 400-800, roman and italic, latin and latin-ext; OFL licence alongside). Weights 400, 700, 800 only. The type scale is the `--size-*` tokens (name 68, question 56, page title 52, statement 40, band 24, bio 23, finding 21, body 17, meta 16 at 1440).
+- **Tokens only**: every colour, font and size is a token in the `:root` block of `michigan-theme.css`. No hex literal or `font-family` in a rule.
+- **Navy** `#00274C`: the name, page titles, paper titles, chips, and the one full-bleed band (the agenda). **Maize** `#FFCB05` is a fill only, always with navy text: the headline numbers on the homepage and the current nav item. Never a line, never text on white.
+- **Actions** are chips: sentence-case navy on `--color-chip`, solid navy on hover (Paper, PDF, Data, Code, NBER, ECGI, Cite, Slides). Never boxed outlines, never uppercase, never letter-spaced.
+- **Links in running text** carry a quiet underline at rest (ink at 22%, 1px, offset .15em) and turn navy with a full-strength underline on hover; colour alone would fail WCAG 1.4.1.
+- **No orphans**: heads use `text-wrap: balance`, paragraphs `pretty`; questions bind their first and last two words, findings their last two, initials stay with names, and hyphenated title words never break at the hyphen (`fn/typeset.html`, `fn/initials.html`, `render-heading.html`).
+- **No `·` separators** in content: venue lines read like citations (`*Venue*, Month D, YYYY`; `[Outlet](url), “Headline,” Date`); lists of awards use semicolons. Working-paper lines are plain (`Working paper, 2026`); only journal names are italic.
+- **No motion** beyond link state changes; the 1440x900 homepage fold must not cut a line of type (check after changing anything above the band).
 
-Re-lint after a visual change: `node ~/.claude/skills/hallmark/scripts/sloplint.mjs assets/css/extended --genre editorial --render --url http://localhost:1313/ --url http://localhost:1313/research/` (needs `puppeteer-core`; landing-page rules such as 80 words a screen do not apply here). Pass only `assets/css/extended` as a file target, never `layouts/`: given template files it renders them raw and drops `.hallmark/*.png` folders inside `layouts/`, which Hugo then fails to parse, and `hugo server` silently keeps serving the last good build.
+Re-lint after a visual change: `node ~/.claude/skills/hallmark/scripts/sloplint.mjs assets/css/extended --genre editorial --render --url http://localhost:1313/ --url http://localhost:1313/research/` (needs `puppeteer-core`, or point `HALLMARK_PUPPETEER` at an install; landing-page rules such as 80 words a screen do not apply here). Pass only `assets/css/extended` as a file target, never `layouts/`: given template files it renders them raw and drops `.hallmark/*.png` folders inside `layouts/`, which Hugo then fails to parse, and `hugo server` silently keeps serving the last good build.
 
 ## Accessibility & SEO
 

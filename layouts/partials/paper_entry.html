@@ -1,0 +1,27 @@
+{{- /* One answer on the homepage, built from the paper's own page so nothing is
+       typed twice: title, finding (description), authors (first body paragraph),
+       venue (second body paragraph) and the link chips inside .paper-links.
+       Takes a dict: slug, number (optional headline figure), unit (optional). */ -}}
+{{- $slug := .slug -}}
+{{- $p := site.GetPage (printf "/papers/%s" $slug) -}}
+{{- if not $p }}{{ errorf "data/agenda.yml: no paper page for slug %q (expected content/papers/%s/index.md)" $slug $slug }}{{ end -}}
+{{- $c := string $p.Content -}}
+{{- $ps := findRE `(?s)<p>.*?</p>` $c 2 -}}
+{{- if lt (len $ps) 2 }}{{ errorf "papers/%s: expected an author paragraph and a venue paragraph first" $slug }}{{ end -}}
+{{- $authors := index $ps 0 | plainify | partial "fn/initials.html" -}}
+{{- $venue := replaceRE `^<p>|</p>$` "" (index $ps 1) -}}
+{{- $m := findRESubmatch `(?s)<div class="paper-links">(.*?)(?:<details>|</div>)` $c 1 -}}
+{{- if not $m }}{{ errorf "papers/%s: no <div class=\"paper-links\"> block" $slug }}{{ end -}}
+{{- $links := findRE `(?s)<a [^>]*>.*?</a>` (index (index $m 0) 1) -}}
+<article class="ans">
+  {{- with .number }}
+  <p class="num"><span>{{ . }}{{ with $.unit }}&nbsp;<span class="unit">{{ . }}</span>{{ end }}</span></p>
+  {{- end }}
+  <p class="finding">{{ partial "fn/typeset.html" (dict "text" $p.Description "last" true) }}</p>
+  <h3 id="t-{{ $slug }}"><a href="{{ $p.RelPermalink }}">{{ partial "fn/typeset.html" (dict "text" $p.Title) }}</a></h3>
+  <p class="by">{{ $authors | safeHTML }}</p>
+  <p class="venue">{{ $venue | safeHTML }}</p>
+  <ul class="chips" aria-label="Links">
+    {{- range $links }}<li>{{ replaceRE `^<a ` (printf `<a aria-describedby="t-%s" ` $slug) . | safeHTML }}</li>{{ end -}}
+  </ul>
+</article>

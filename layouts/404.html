@@ -1,8 +1,10 @@
-{{ define "title" }}404{{ end }}
-{{ define "main" }}
-  <div class="not-found">
-    <h1>Page not found</h1>
+{{- define "title" }}404{{ end }}
+{{- define "main" }}
+<header class="wrap grid page-head">
+  <h1 class="page-title">Page not found</h1>
+  <div class="page-intro">
     <p>Sorry, the requested page could not be found.</p>
-    <p><a href="/">Return to the homepage</a></p>
+    <p><a href="{{ "" | absLangURL }}">Return to the homepage</a></p>
   </div>
-{{ end }}
+</header>
+{{- end }}

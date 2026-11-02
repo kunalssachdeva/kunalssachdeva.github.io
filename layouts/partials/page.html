@@ -1,0 +1,20 @@
+{{- /* Inner pages (/research/, /discussions/, /teaching/, /media/, /data/):
+       the title, any text before the first h2 as an intro, then each h2 and what
+       follows it as a section - the head in the left columns (sticky), the
+       entries on the right - the same split as the homepage questions. */ -}}
+{{- $parts := split (partial "fn/initials.html" (string .Content)) "<h2" -}}
+{{- $tidy := `(?s)^\s*(<hr>\s*)*|(\s*<hr>)*\s*$` -}}
+<header class="wrap grid page-head">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{- with replaceRE $tidy "" (index $parts 0) }}
+  <div class="page-intro">{{ . | safeHTML }}</div>
+  {{- end }}
+</header>
+{{- range after 1 $parts }}
+{{- $chunk := printf "<h2%s" . }}
+{{- $head := index (findRE `(?s)^<h2.*?</h2>` $chunk 1) 0 }}
+<section class="wrap grid split">
+  {{ replaceRE `^<h2` `<h2 class="split-head"` $head | safeHTML }}
+  <div class="split-body">{{ replaceRE $tidy "" (strings.TrimPrefix $head $chunk) | safeHTML }}</div>
+</section>
+{{- end }}

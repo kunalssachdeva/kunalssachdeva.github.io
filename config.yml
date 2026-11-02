@@ -36,9 +36,7 @@ menu:
         - name: CV
           url: cv.pdf
           weight: 6
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
-          weight: 7
+        # Google Scholar is in the homepage contact row (socialIcons), not the nav.
 
 params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
@@ -48,7 +46,6 @@ params:
     disableThemeToggle: true
     disableAnchoredHeadings: true
     ShowCodeCopyButtons: true
-    disableScrollToTop: false
 
     # Analytics. Both are optional and independently gated - blank means no script
     # is emitted, and with both blank the site loads no third-party requests at
@@ -83,7 +80,7 @@ params:
           subtitle: |
             Kunal Sachdeva is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), and a faculty affiliate of the [Erb Institute](https://erb.umich.edu/).
 
-            He studies how firms and financial markets respond to environmental regulation and climate risk, and whether those responses are real. Recent work asks whether shareholder campaigns actually cut pollution, whether large corporations report their emissions accurately, and how credit and governance shape what firms do.
+            He studies the gap between what finance promises and what actually happens. Recent work asks whether reported numbers are real, whether stated goals match actual choices, whether pressure on firms really bites, and whether households get what they plan for.
 
             His research is published or forthcoming in the *Journal of Financial Economics*, the *Review of Financial Studies*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research, the Arnold M. and Linda T. Jacob Faculty Fellow Award, and a 2027 NTT Research Fellowship from Ross's Mitsui Life Financial Research Center.
 
@@ -91,17 +88,6 @@ params:
 
           imageUrl: "profile.jpg"
           imageTitle: "Kunal Sachdeva"
-          imageWidth: 280
-          imageHeight: 280
-          # Two, not five. The nav above already carries all five destinations in
-          # the same viewport, so a five-button row repeated them verbatim and
-          # added weight without adding information. These are the two highest
-          # intent for a first-time visitor.
-          buttons:
-            - name: Research
-              url: research/
-            - name: CV
-              url: cv.pdf
 
     # JSON-LD identity. Without publisherType the theme declares the homepage an
     # Organization and puts a mailto: in sameAs, neither of which is true here.
@@ -156,7 +142,6 @@ params:
     label:
       text: ""
       icon: images/ross-logo.png
-      iconHeight: 40
 
     keywords:
       - finance professor

@@ -1,0 +1,6 @@
+{{- /* "Stephen M. Ross", "S. Lakshmi Naaraayanan": keep an initial on the line
+       with its neighbours. Takes an HTML string, returns it with non-breaking
+       spaces around single-letter initials. */ -}}
+{{- $s := replaceRE `(\w) ([A-Z]\.) ` "${1}&nbsp;${2}&nbsp;" . -}}
+{{- $s = replaceRE `(^|, )([A-Z]\.) ` "${1}${2}&nbsp;" $s -}}
+{{- return $s -}}
