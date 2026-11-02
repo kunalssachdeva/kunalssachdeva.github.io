@@ -26,6 +26,7 @@ strands:
         number: "−13%"
       - slug: opening-the-brown-box
       - slug: defunding-controversial-industries
+      - slug: agency-meets-stability
 
   - id: numbers
     question: "Are reported numbers real?"
@@ -37,18 +38,12 @@ strands:
       - slug: patents-female-inventors-undercitation
         number: "+12%"
 
-  - id: goals
-    question: "Do stated goals match actual choices?"
-    clause: "whether stated goals match actual choices"
+  - id: products
+    question: "Do financial products deliver what they promise?"
+    clause: "whether financial products deliver what they promise"
     papers:
       - slug: conflicting-objectives-esg-funds
       - slug: skin-or-skim
-      - slug: agency-meets-stability
-
-  - id: households
-    question: "Do households get what they plan for?"
-    clause: "whether households get what they plan for"
-    papers:
       - slug: missing-the-target
         number: "4.8"
         unit: "yrs"

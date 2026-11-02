@@ -80,7 +80,7 @@ The homepage bio is rendered from `params.profileMode.subtitle` in `config.yml`,
 
 The homepage is the research agenda: a statement (`statement.plain` + `statement.bold`, the bold run heavier), the navy band ("`lead`" followed by each strand's `clause`, joined into one sentence: commas, "and" before the last, a full stop), then one section per strand with its `question` pinned on the left.
 
-Strands and papers render in the order listed. The environmental work leads (the owner's call, 2026-11): the most environmental strands come first ("Does pressure on firms really bite?", then "Are reported numbers real?"), and within each strand environmental papers come first, then the rest, published before working papers. To put a paper in a strand, add its slug under that strand's `papers` in that order:
+Strands and papers render in the order listed. The environmental work leads (the owner's call, 2026-11): the three strands are "Does pressure on firms really bite?", "Are reported numbers real?" and "Do financial products deliver what they promise?", in that order, each opening with an environmental paper, and within each strand environmental papers come first, then the rest, published before working papers. To put a paper in a strand, add its slug under that strand's `papers` in that order:
 
 ```yaml
       - slug: real-effects-environmental-activist-investing
@@ -88,7 +88,7 @@ Strands and papers render in the order listed. The environmental work leads (the
         unit: "yrs"         # optional: set smaller after the number ("4.8 yrs")
 ```
 
-Everything else is read from `content/papers/<slug>/index.md`: the title, the finding (front-matter `description`), the authors (first body paragraph), the venue (second body paragraph) and the link chips (the `<a>`s in `<div class="paper-links">`, before `<details>`). Keep that body order when adding a paper page. A slug with no paper page, or a page missing those parts, fails the build with an `errorf` naming the slug. A strand's `id` is the band link's anchor (`#pressure`, `#numbers`, `#goals`, `#households`).
+Everything else is read from `content/papers/<slug>/index.md`: the title, the finding (front-matter `description`), the authors (first body paragraph), the venue (second body paragraph) and the link chips (the `<a>`s in `<div class="paper-links">`, before `<details>`). Keep that body order when adding a paper page. A slug with no paper page, or a page missing those parts, fails the build with an `errorf` naming the slug. A strand's `id` is the band link's anchor (`#pressure`, `#numbers`, `#products`).
 
 
 ## Adding Content
