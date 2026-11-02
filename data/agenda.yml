@@ -12,8 +12,8 @@
 # `id` is the section's anchor (#pressure etc.), linked from the navy band.
 
 statement:
-  plain: "He studies financial markets, their real effects,"
-  bold: "and when they fall short of what they promise."
+  plain: "He studies financial markets and their real effects,"
+  bold: "and how contracts and incentives shape them."
 
 lead: "Recent work asks"
 
