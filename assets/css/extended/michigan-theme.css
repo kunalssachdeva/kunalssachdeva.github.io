@@ -1,22 +1,18 @@
-/* Hallmark · shape: kept · genre: editorial · theme: brand · redesign: restyle
- * paper: oklch(100% 0 0) · accent: oklch(27.1% 0.080 252) · display: Schibsted Grotesk · body: Schibsted Grotesk · hero: kept · nav: kept · footer: kept · signature: maize fills on the section heads and the current page in the nav
- * axes: white/grotesk/navy+maize · posture: committed (Michigan navy and maize carry the name, titles and section heads) · surface: absolute (white, the owner's choice) · contrast: pass · fold: pass · v2.0.0 */
-/* Hallmark · pre-emit critique: P4 H5 E4 S4 R4 V4 · weakest: R, the maize section labels are a second accent; kept to two places (section heads, current nav item) and never as a line, since maize is 1.52:1 on white */
+/* Hallmark · shape: Promise vs. reality (question-led) · genre: editorial · theme: brand · redesign: full
+ * paper: oklch(100% 0 0) · accent: oklch(27.1% 0.080 252) · display: Schibsted Grotesk · body: Schibsted Grotesk · hero: name, title block, bio and portrait, then the agenda statement · nav: Ross logo and text links, maize on the current item · footer: logo, school, email and SSRN, sections (with CV and Google Scholar), copyright · signature: questions pinned on the left while their answers scroll past, headline numbers on maize blocks, one navy band
+ * axes: white/grotesk/navy+maize · posture: committed (navy name and band, maize behind the numbers) · surface: absolute (white, the owner's choice) · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · waive 7b · the paper and every surface token is #FFFFFF · the owner rejected a tinted paper and asked for the white background */
 /* Hallmark · waive 39b · the short controls are the Paper, PDF, Data and Cite chips under each paper · eleven papers each carry up to five of them, so they stay compact; each still clears the 24px WCAG 2.5.8 target */
-/* Hallmark · waive 23 · the navy is the name Kunal Sachdeva set at display size plus the Research button, about 9% of the first screen · the owner picked the navy name from three previews; navy is the Michigan brand colour, not a decoration */
-/* Hallmark · dismissed F4 · the CV button is the quiet tint variant beside the one navy Research button, not a second primary */
-/* Hallmark · waive 49b · the wrapping links are full paper titles on /research/ and /media/ · a paper title has to wrap on a phone; truncating or nowrap would hide the title */
-/* Hallmark · waive 59 · the gaps measured are the rule between press groups on /media/ and the bio-to-footer margin on the homepage · the research record is a list, kept as it was, not a landing page of sections */
-/* Hallmark · waive 78 · the /media/ h2s are paper titles heading each list of press coverage · they are set as entry titles to match the paper titles on /research/ */
+/* Hallmark · waive 49b · the wrapping links are full paper titles on the homepage, /research/ and /media/, and the navy band's three clauses of one sentence · a paper title or a clause has to wrap on a phone; truncating or nowrap would hide it */
+/* Hallmark · waive 78 · the /media/ and /data/ section heads are paper titles heading each list · they sit in the left column like the homepage questions */
 /* Hallmark · reworded "3357-3383" to "3357–3383" · the Skin or Skim page range takes an en dash like every other range on the research page */
-/* Hallmark · dismissed kept · the before record also rendered raw Hugo templates from layouts/ as pages; the five rendered URLs are the real pages */
 
-/* Restyle (2026-10), "Michigan modern": one newspaper grotesk on white, navy
-   for the name, titles and actions, maize only as a fill. The previous look
-   was PaperMod's defaults - system sans and every action a boxed,
-   tracked-capitals button - which is what read as generated. The layout is
-   unchanged; only the system (type, colour, links, controls) is. */
+/* Redesign (2026-11), "Promise vs. reality": the homepage is the research
+   agenda. Name, title block and bio, then one statement, a navy band that asks three
+   questions, and a section per question: the question pinned in the left
+   columns while its papers scroll past on the right, each led by its headline
+   number on maize where the finding states one. Inner pages use the same
+   12-column split. One family, white page, navy and maize. */
 
 /* Schibsted Grotesk, self-hosted (SIL OFL, static/fonts/OFL.txt). Variable
    weight 400-800, roman and italic (journal names are italic). latin-ext
@@ -60,432 +56,197 @@
 :root {
     /* Surfaces */
     --color-paper: #FFFFFF;
-    --color-chip: #EEF2F6;       /* paper-link chips, code and citation blocks */
+    --color-chip: #EEF2F6;       /* link chips, code and citation blocks; the band's lead-in */
 
     /* Ink */
-    --color-ink: #111827;        /* paper titles */
+    --color-ink: #111827;        /* heads, findings */
     --color-ink-2: #374151;      /* body copy */
-    --color-muted: #6B7280;      /* meta: volume, pages, dates */
+    --color-muted: #6B7280;      /* authors, meta */
     --color-rule: #E5E7EB;       /* hairlines */
 
     /* Brand. Maize is 1.52:1 on white: a FILL only, navy text on top. */
-    --color-accent: #00274C;     /* Michigan navy: name, page titles, links, actions */
+    --color-accent: #00274C;     /* Michigan navy: name, page titles, paper titles, chips, the band */
     --color-accent-ink: #FFFFFF;
     --color-maize: #FFCB05;
-    --color-underline: color-mix(in srgb, var(--color-accent) 35%, transparent);
     --color-underline-quiet: color-mix(in srgb, var(--color-ink) 22%, transparent);
+    --color-underline-on-accent: color-mix(in srgb, var(--color-accent-ink) 40%, transparent);
 
     --font-sans: "Schibsted Grotesk", ui-sans-serif, system-ui, sans-serif;
     --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 
+    /* Type scale (the "refined" setting of the mockups) */
+    --size-name: clamp(44px, 4.8vw, 68px);
+    --size-statement: clamp(26px, 2.8vw, 40px);
+    --size-band: clamp(19px, 1.7vw, 24px);
+    --size-question: clamp(30px, 3.95vw, 56px);
+    --size-number: clamp(48px, 4.8vw, 68px);
+    --size-finding: clamp(19px, 1.5vw, 21px);
+    --size-title: clamp(34px, 3.6vw, 52px);   /* inner page titles */
+    --size-section: clamp(22px, 1.7vw, 24px); /* inner page section heads, set in the narrow rail */
+
+    /* Layout: one 12-column grid, capped and centred */
+    --max: 1344px;
+    --gutter: clamp(16px, 3.4vw, 48px);
+    --gap: 24px;
+    --l-col: 1 / 7;
+    --r-col: 7 / 13;
+    --s-1: 8px; --s-2: 16px; --s-3: 24px; --s-4: 40px; --s-5: 64px; --s-6: 96px; --s-7: 128px;
+
     --radius: 4px;
-    --dur-micro: 120ms;
-
-    /* Legacy names still read by rules below and by theme CSS */
-    --bg-primary: var(--color-paper);
-    --bg-secondary: var(--color-chip);
-    --text-primary: var(--color-ink);
-    --text-body: var(--color-ink-2);
-    --text-muted: var(--color-muted);
-    --accent-navy: var(--color-accent);
-    --accent-gold: var(--color-maize);
-    --border-light: var(--color-rule);
-
-    /* PaperMod theme variables */
-    --theme: var(--color-paper);
-    --entry: var(--color-paper);
-    --primary: var(--color-ink);
-    --secondary: var(--color-ink-2);
-    --tertiary: var(--color-rule);
-    --content: var(--color-ink-2);
-    --code-bg: var(--color-chip);
-    --border: var(--color-rule);
-    --darkcolor: var(--color-accent);
+    --face: 288px;
 }
 
-/* Base */
-html,
+/* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+html, body { overflow-x: clip; }
 body {
-    overflow-x: clip;
-}
-
-body {
-    background: var(--color-paper) !important;
-    color: var(--color-ink-2);
-    font-family: var(--font-sans);
-    font-size: 1.0625rem;
-    line-height: 1.65;
-    font-synthesis: none;
-    -webkit-font-smoothing: antialiased;
-}
-
-::selection {
-    background: var(--color-maize);
-    color: var(--color-accent);
-}
-
-h1, h2, h3, h4 {
+    margin: 0;
+    background: var(--color-paper);
     color: var(--color-ink);
     font-family: var(--font-sans);
-    font-weight: 700;
-    text-wrap: balance;
-    overflow-wrap: break-word;
-    min-width: 0;
+    font-size: 17px;
+    line-height: 1.55;
+    font-weight: 400;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
+h1, h2, h3, h4, p, ol, ul, figure, blockquote { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+h1, h2, h3, h4 { text-wrap: balance; overflow-wrap: break-word; }
+p { text-wrap: pretty; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: var(--color-underline-quiet); text-underline-offset: .15em; }
+a:hover { color: var(--color-accent); text-decoration-color: currentColor; }
+em, i { font-style: italic; }
+strong { font-weight: 700; }
+::selection { background: var(--color-maize); color: var(--color-accent); }
+.nw { white-space: nowrap; }
+.wrap { width: min(100% - 2 * var(--gutter), var(--max)); margin-inline: auto; }
 
-p {
-    text-wrap: pretty;
-}
+/* ---------- header ---------- */
+.top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--s-2) var(--s-4); padding-block: 28px 0; }
+.top .home { display: block; text-decoration: none; }
+/* ross-logo.png has a 1px grey border baked in (a crop artifact) and a white
+   left margin: the clip hides the border, the negative margin aligns the M. */
+.ross { width: 172px; max-width: none; margin-left: -14px; clip-path: inset(1px); } /* max-width:none: inside the home link a percentage cap would resolve against the negative margin */
+.nav { display: flex; flex-wrap: wrap; gap: 4px 28px; font-size: 17px; font-weight: 700; }
+.nav a { color: var(--color-ink); text-decoration: none; }
+.nav a:hover { color: var(--color-accent); text-decoration: underline; }
+/* Current section: a maize block with navy text. The padding is taken back by
+   the margin so the marked item does not shift its neighbours. */
+.nav a[aria-current] { color: var(--color-accent); background: var(--color-maize); padding: 2px 8px; margin: -2px -8px; border-radius: 2px; }
 
-a {
+/* ---------- homepage: who he is ---------- */
+.hero { padding-top: var(--s-5); }
+.name { font-size: var(--size-name); line-height: .98; letter-spacing: -.035em; font-weight: 800; color: var(--color-accent); }
+.role { font-size: 17px; line-height: 1.5; color: var(--color-ink-2); margin-top: var(--s-2); }
+.role span { display: block; }
+.face { width: min(var(--face), 100%); aspect-ratio: 1; object-fit: cover; object-position: 50% 22%; }
+.bio-more { margin-top: var(--s-4); }
+.bio-more p { font-size: 17px; line-height: 1.6; color: var(--color-ink-2); max-width: 70ch; }
+.bio-more p + p { margin-top: 10px; }
+
+/* ---------- homepage: the agenda ---------- */
+/* The statement stands alone, with equal room above and below: at 1440x900
+   the first screen ends on it with a sliver of the navy band as the cue to
+   scroll, and the band's text starts below the fold rather than being cut by
+   it. Phones override this below. */
+.lede { padding-block: var(--s-7); }
+.statement { font-size: var(--size-statement); line-height: 1.12; letter-spacing: -.022em; color: var(--color-ink-2); max-width: 22em; text-wrap: balance; }
+.statement strong { font-weight: 800; color: var(--color-ink); }
+.agenda { background: var(--color-accent); color: var(--color-accent-ink); padding-block: var(--s-4); }
+.asks, .agenda ol { font-size: var(--size-band); line-height: 1.3; letter-spacing: -.012em; }
+.asks { color: var(--color-chip); }
+.agenda ol { font-weight: 700; }
+.agenda a { text-decoration-color: var(--color-underline-on-accent); }
+.agenda a:hover { color: var(--color-accent-ink); text-decoration-color: currentColor; }
+.agenda :focus-visible { outline-color: var(--color-accent-ink); }
+
+/* ---------- homepage: one section per question ---------- */
+.q { padding-top: var(--s-6); scroll-margin-top: var(--s-2); }
+.q + .q { margin-top: var(--s-6); border-top: 1px solid var(--color-rule); }
+.q-head { font-size: var(--size-question); line-height: 1.02; letter-spacing: -.03em; font-weight: 800; color: var(--color-ink); }
+.ans { padding-block: var(--s-4); }
+.ans + .ans { border-top: 1px solid var(--color-rule); }
+.ans:first-child { padding-top: 0; }
+.ans:last-child { padding-bottom: 0; }
+.num { font-size: var(--size-number); line-height: 1; font-weight: 800; letter-spacing: -.04em; color: var(--color-accent); margin-bottom: var(--s-3); font-variant-numeric: lining-nums; }
+.num > span { display: inline-block; background: var(--color-maize); padding: .08em .14em .04em .1em; line-height: .9; }
+.num .unit { font-size: .5em; letter-spacing: -.01em; background: none; padding: 0; } /* "yrs" set smaller than the figure */
+.finding { font-size: var(--size-finding); line-height: 1.32; font-weight: 700; letter-spacing: -.008em; max-width: 30em; }
+.ans h3 { font-size: 17px; line-height: 1.4; font-weight: 700; margin-top: var(--s-2); max-width: 36em; }
+.ans h3 a { color: var(--color-accent); }
+.by { font-size: 16px; line-height: 1.5; color: var(--color-muted); margin-top: 6px; }
+.venue { font-size: 16px; line-height: 1.5; color: var(--color-ink-2); }
+
+/* Link chips: sentence case, navy on the chip tint, solid navy on hover.
+   Shared by the homepage answers (.chips) and every .paper-links row. */
+.chips { display: flex; flex-wrap: wrap; gap: var(--s-1); margin-top: 14px; }
+.chips a,
+.paper-links a,
+.paper-links summary,
+a.slides {
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: var(--radius);
+    background: var(--color-chip);
     color: var(--color-accent);
+    font-size: .875rem;
+    line-height: 1;
+    font-weight: 700;
     text-decoration: none;
 }
+.chips a:hover,
+.paper-links a:hover,
+.paper-links summary:hover,
+a.slides:hover { background: var(--color-accent); color: var(--color-accent-ink); }
 
-/* Header */
-.header,
-.header .nav,
-nav.nav {
-    background: var(--color-paper) !important;
-    box-shadow: none !important;
+/* ---------- footer ---------- */
+.foot { margin-top: var(--s-7); padding-block: var(--s-4) var(--s-5); border-top: 1px solid var(--color-rule); }
+.foot .ross { width: 150px; margin-left: -12px; }
+.foot p { font-size: 16px; line-height: 1.6; color: var(--color-ink-2); }
+.foot .school { margin-top: var(--s-2); text-wrap: balance; }
+.foot-contact { display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 16px; line-height: 1.6; }
+.foot-nav { display: flex; flex-wrap: wrap; gap: 4px var(--s-2); font-size: 16px; font-weight: 700; } /* seven links fit one line at 1440 */
+.foot-nav a { color: var(--color-accent); text-decoration: none; }
+.foot-nav a:hover { text-decoration: underline; }
+.foot .copy { color: var(--color-muted); margin-top: var(--s-3); }
+
+/* ---------- one 12-column grid from tablet up ---------- */
+@media (min-width: 900px) {
+    .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
+    /* opening: name, title block and the two bio paragraphs in the left seven columns; portrait at the top right */
+    .intro, .bio-more { grid-column: 1 / 8; padding-right: var(--gap); }
+    .bio-more { grid-row: 2; }
+    .aside { grid-column: 9 / 13; grid-row: 1 / span 2; align-self: start; padding-top: 10px; }
+    .statement { grid-column: 1 / 12; max-width: 24em; }
+    .statement strong { display: block; } /* the heavy clause takes its own line */
+    .asks { grid-column: 1 / 4; }
+    .agenda ol { grid-column: 4 / 13; }
+    .q-head { grid-column: var(--l-col); position: sticky; top: var(--s-4); align-self: start; padding-right: var(--gap); }
+    .answers { grid-column: var(--r-col); }
+    .foot-id { grid-column: var(--l-col); }
+    .foot-links { grid-column: var(--r-col); }
 }
-
-.header {
-    border-bottom: 1px solid var(--color-rule);
-}
-
-.header .logo a {
-    display: flex;
-    align-items: center;
-}
-
-/* ross-logo.png has a 1px #EDEDED border baked in (a crop artifact); the
-   clip hides it without editing the brand asset or the width maths in
-   header.html. */
-.header .logo a img {
-    height: 40px;
-    width: auto;
-    border-radius: 0;
-    clip-path: inset(1px);
-}
-
-#menu a {
-    color: var(--color-ink-2) !important;
-    font-size: 0.9375rem;
-    font-weight: 400;
-    transition: color var(--dur-micro) ease;
-}
-
-#menu a:hover {
-    color: var(--color-accent) !important;
-}
-
-/* Current page: a maize block with navy text, not an underline. The theme
-   puts .active on a <span> inside the link. */
-#menu .active {
-    border-bottom: 0;
-    color: var(--color-accent);
-    background: var(--color-maize);
-    padding: 0.2rem 0.5rem;
-    border-radius: 2px;
-}
-
-/* The theme scrolls the nav horizontally (overflow-x:auto; white-space:nowrap)
-   and the footer script restores its scroll position from localStorage, so with
-   seven items a phone could load with the first item clipped off the left. Wrap
-   to a second line instead - nothing gets hidden. */
-@media (max-width: 768px) {
-    #menu {
-        flex-wrap: wrap;
-        overflow-x: visible;
-        white-space: normal;
-        gap: 0.35rem 1rem;
-        line-height: 2.25rem; /* the nav's 44px line-height left wrapped rows ~50px apart */
-    }
-
-    #menu li + li {
-        margin-inline-start: 0;
-    }
-
-    #menu a {
-        font-size: 0.9375rem;
-    }
-}
-
-/* Profile */
-.profile {
-    background: var(--color-paper) !important;
-    padding: 2.5rem 1.5rem 2rem;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-/* PaperMod pins the profile to min-height:100vh and vertically centres it, so
-   the homepage was exactly one screen with dead space above and below the bio
-   and nothing beneath it. Top-align and let the page be as tall as its content. */
-.main .profile {
-    min-height: auto;
-    align-items: flex-start;
-}
-
-.profile .profile_inner {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 3rem;
-}
-
-.profile .profile-photo {
-    width: 280px;
-    min-width: 280px;
-    height: auto;
-    border-radius: var(--radius);
-    border: 0 !important;
-    box-shadow: none;
-    flex-shrink: 0;
-}
-
-.profile .profile-text {
-    flex: 1;
-    min-width: 0;
-}
-
-/* The name: heavy, tight, navy. It was a light italic. */
-.profile .about-heading {
-    font-size: 3.5rem;
-    font-weight: 800;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: -0.035em;
-    color: var(--color-accent);
-    margin: 0 0 1.5rem;
-}
-
-/* Bio. Set ragged right: justified text at this measure opened visible
-   rivers ("respond   to"). The 35rem cap keeps lines near 70 characters. */
-.profile .profile_inner .headline {
-    display: block;
-    font-size: 1.0625rem;
-    line-height: 1.7;
-    color: var(--color-ink-2);
-    max-width: 35rem;
-    text-align: left;
-}
-
-.profile .profile_inner .headline p {
-    margin-bottom: 1rem;
-}
-
-.profile .profile_inner .headline a,
-.social-links a {
-    color: var(--color-accent);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 0.2em;
-    text-decoration-color: var(--color-underline);
-    transition: text-decoration-color var(--dur-micro) ease;
-}
-
-.profile .profile_inner .headline a:hover,
-.social-links a:hover {
-    text-decoration-color: currentColor;
-}
-
-/* Homepage actions: one solid navy button (Research), one soft chip (CV).
-   Sentence case; they were boxed, tracked capitals. */
-.profile-buttons {
-    margin-top: 1.75rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-}
-
-.profile .button {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    padding: 0 1.4rem;
-    margin: 0;
-    border: 0 !important;
-    border-radius: var(--radius);
-    background: var(--color-accent) !important;
-    color: var(--color-accent-ink) !important;
-    font-family: var(--font-sans);
-    font-size: 1rem;
-    font-weight: 700;
-    text-transform: none;
-    letter-spacing: 0;
-    transition: background-color var(--dur-micro) ease, color var(--dur-micro) ease;
-}
-
-.profile .button + .button {
-    background: var(--color-chip) !important;
-    color: var(--color-accent) !important;
-}
-
-.profile .button:hover,
-.profile .button + .button:hover {
-    background: var(--color-ink) !important;
-    color: var(--color-accent-ink) !important;
-    transform: none;
-    box-shadow: none;
-}
-
-.profile .button:active {
-    transform: translateY(1px);
-}
-
-/* Contact: labelled text links (layouts/partials/social_icons.html). */
-.social-links {
-    margin: 1rem 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 1.5rem;
-    font-size: 0.9375rem;
-}
-
-/* Content column */
-.main {
-    background: var(--color-paper);
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-}
-
-/* Page titles: "Research", "Discussion Slides", paper titles */
-.post-title,
-.page-header h1 {
-    font-size: 2.75rem;
-    font-weight: 800;
-    line-height: 1.05;
-    letter-spacing: -0.03em;
-    color: var(--color-accent);
-}
-
-.post-single h1 {
-    margin-bottom: 1rem;
-}
-
-.post-single {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.post-content {
-    font-size: 1rem;
-    line-height: 1.65;
-    color: var(--color-ink-2);
-}
-
-/* Footer */
-.footer {
-    background: var(--color-paper) !important;
-    border-top: 1px solid var(--color-rule);
-    color: var(--color-muted);
-    padding: 2rem 0;
-    font-family: var(--font-sans);
-    font-size: 0.875rem;
-}
-
-.footer a {
-    color: var(--color-ink) !important;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-}
-
-.breadcrumbs,
-.breadcrumbs a {
-    color: var(--color-muted);
-    font-size: 0.875rem;
-}
-
-/* Code and citation blocks */
-pre {
-    background: var(--color-chip) !important;
-    border: 0;
-    border-radius: var(--radius);
-}
-
-code {
-    font-family: var(--font-mono);
-}
-
-/* Lists */
-.post-content ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.post-content ul li {
-    padding-left: 1.25rem;
-    position: relative;
-    margin-bottom: 0.5rem;
-}
-
-/* A plain en-rule marker; the arrow read as a UI glyph, not a list. */
-.post-content ul li::before {
-    content: "–";
-    position: absolute;
-    left: 0;
-    color: var(--color-muted);
-}
-
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--color-paper);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--color-rule);
-    border-radius: var(--radius);
-}
-
-@media (max-width: 768px) {
-    .profile {
-        padding: 1.5rem 1rem;
-    }
-
-    .profile .profile_inner {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .profile .profile-photo {
-        width: 200px;
-        min-width: auto;
-        margin: 0 auto;
-    }
-
-    .profile .about-heading {
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    .profile .profile_inner .headline {
-        max-width: none;
-    }
-
-    .post-title,
-    .page-header h1 {
-        font-size: 2.125rem;
-    }
-
-    .main {
-        padding: 1.5rem 1rem;
-    }
+@media (max-width: 899px) {
+    .hero { padding-top: var(--s-4); }
+    .top .ross { width: 140px; margin-left: -11px; }
+    .nav { gap: 4px 22px; }
+    .role { margin-top: 12px; }
+    .aside { margin-top: var(--s-4); }
+    .face { width: 160px; }
+    .lede { padding-block: var(--s-5) var(--s-4); }
+    .asks { margin-bottom: 10px; }
+    .q { padding-top: var(--s-5); }
+    .q + .q { margin-top: var(--s-5); }
+    .answers { margin-top: var(--s-4); }
+    .foot { margin-top: var(--s-6); }
+    .foot-links { margin-top: var(--s-3); }
 }
 
 @media print {
-    .header, .footer, .social-links {
-        display: none;
-    }
-
-    body {
-        font-size: 11pt;
-    }
+    .top nav, .agenda, .foot-links, .chips, .paper-links { display: none; }
+    body { font-size: 11pt; }
 }

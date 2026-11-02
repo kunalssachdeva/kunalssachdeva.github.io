@@ -37,7 +37,7 @@ menu:
           url: cv.pdf
           weight: 6
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ
+          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
           weight: 7
 
 params:
@@ -48,7 +48,6 @@ params:
     disableThemeToggle: true
     disableAnchoredHeadings: true
     ShowCodeCopyButtons: true
-    disableScrollToTop: false
 
     # Analytics. Both are optional and independently gated - blank means no script
     # is emitted, and with both blank the site loads no third-party requests at
@@ -80,10 +79,14 @@ params:
     profileMode:
           enabled: true
           title: Kunal Sachdeva
+          # The title block under the name on the homepage: one line each, markdown.
+          # It replaces the old first bio paragraph, which said the same thing.
+          titleLines:
+            - "[Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and Michael R. and Mary Kay Hallman Faculty Fellow"
+            - "[Stephen M. Ross School of Business](https://michiganross.umich.edu/), [University of Michigan](https://umich.edu/)"
+            - "Faculty Affiliate, [Erb Institute](https://erb.umich.edu/)"
           subtitle: |
-            Kunal Sachdeva is an [Assistant Professor of Finance](https://michiganross.umich.edu/faculty-research/faculty/kunal-sachdeva) and the Michael R. and Mary Kay Hallman Faculty Fellow at the [Stephen M. Ross School of Business](https://michiganross.umich.edu/) at the [University of Michigan](https://umich.edu/), and a faculty affiliate of the [Erb Institute](https://erb.umich.edu/).
-
-            He studies how firms and financial markets respond to environmental regulation and climate risk, and whether those responses are real. Recent work asks whether shareholder campaigns actually cut pollution, whether large corporations report their emissions accurately, and how credit and governance shape what firms do.
+            He studies financial markets and their real effects, and how contracts and incentives shape them. Recent work asks whether pressure on firms really bites, whether the numbers measure what they claim, and whether financial products deliver what they promise.
 
             His research is published or forthcoming in the *Journal of Financial Economics*, the *Review of Financial Studies*, *Management Science*, and *Nature Climate Change*, and has been recognized with the [Moskowitz Prize](https://www.kellogg.northwestern.edu/academics-research/social-impact-sustainability/moskowitz-prize/) for socially responsible investing research, the Arnold M. and Linda T. Jacob Faculty Fellow Award, and a 2027 NTT Research Fellowship from Ross's Mitsui Life Financial Research Center.
 
@@ -91,17 +94,6 @@ params:
 
           imageUrl: "profile.jpg"
           imageTitle: "Kunal Sachdeva"
-          imageWidth: 280
-          imageHeight: 280
-          # Two, not five. The nav above already carries all five destinations in
-          # the same viewport, so a five-button row repeated them verbatim and
-          # added weight without adding information. These are the two highest
-          # intent for a first-time visitor.
-          buttons:
-            - name: Research
-              url: research/
-            - name: CV
-              url: cv.pdf
 
     # JSON-LD identity. Without publisherType the theme declares the homepage an
     # Organization and puts a mailto: in sameAs, neither of which is true here.
@@ -140,11 +132,11 @@ params:
             - "https://erb.umich.edu/kunal-sachdeva"
             - "https://x.com/KunalSSachdeva"
 
+    # The footer's contact links, on every page. Google Scholar and the CV are
+    # in the main menu instead, so they are not listed twice.
     socialIcons:
         - name: Email
           url: mailto:ksach@umich.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
         - name: SSRN
           url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424
 
@@ -156,7 +148,6 @@ params:
     label:
       text: ""
       icon: images/ross-logo.png
-      iconHeight: 40
 
     keywords:
       - finance professor

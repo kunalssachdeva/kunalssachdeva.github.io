@@ -1,0 +1,19 @@
+{{- define "main" }}
+{{- /* A paper page: the title, the finding as a lead, then the figure beside
+       the record (authors, venue, abstract, awards, chips, All research). The
+       figure is lifted out of the body so it can sit in its own column. */ -}}
+{{- $c := partial "fn/initials.html" (string .Content) }}
+{{- $fig := index (findRE `<p><img [^>]*></p>` $c 1) 0 | default "" }}
+<header class="wrap grid page-head paper-head">
+  <h1 class="page-title">{{ partial "fn/typeset.html" (dict "text" .Title) }}</h1>
+  {{- with .Description }}
+  <p class="paper-lead">{{ partial "fn/typeset.html" (dict "text" . "last" true) }}</p>
+  {{- end }}
+</header>
+<div class="wrap grid paper-body">
+  {{- with $fig }}
+  <figure class="paper-fig">{{ replaceRE `^<p>|</p>$` "" . | safeHTML }}</figure>
+  {{- end }}
+  <div class="paper-text">{{ replace $c $fig "" | safeHTML }}</div>
+</div>
+{{- end }}

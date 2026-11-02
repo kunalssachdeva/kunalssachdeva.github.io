@@ -1,0 +1,10 @@
+{{- /* Typesetting for heads, findings and titles. Takes a dict:
+       text   plain text (escaped here)
+       first  bind the first word to the second, so a head never opens with a lone word
+       last   bind the last two words, so a line never ends on one word
+       Hyphenated words never break at the hyphen. Returns safe HTML. */ -}}
+{{- $t := .text | htmlEscape -}}
+{{- if .first }}{{ $t = replaceRE `^(\S+) ` "${1}&nbsp;" $t }}{{ end -}}
+{{- if .last }}{{ $t = replaceRE ` (\S+)$` "&nbsp;${1}" $t }}{{ end -}}
+{{- $t = replaceRE `(\S+-\S+)` `<span class="nw">${1}</span>` $t -}}
+{{- return ($t | safeHTML) -}}

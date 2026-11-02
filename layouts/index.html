@@ -1,0 +1,57 @@
+{{- define "main" }}
+{{- /* Homepage: who he is (the title block from params.profileMode.titleLines,
+       then bio paragraphs 2 and 3 of params.profileMode.subtitle; paragraph 1
+       is the research statement, shown as the statement below instead), then
+       the research agenda from data/agenda.yml: the statement, the navy band of
+       questions, and one section per question whose answers are read from the
+       paper pages (partials/paper_entry.html). */ -}}
+{{- $pm := site.Params.profileMode -}}
+{{- $bio := split (trim $pm.subtitle "\n ") "\n\n" -}}
+{{- $a := hugo.Data.agenda -}}
+
+<section class="wrap grid hero" aria-labelledby="name">
+  <div class="intro">
+    <h1 class="name" id="name">{{ site.Title }}</h1>
+    <p class="role">
+      {{- range $pm.titleLines }}<span>{{ . | markdownify | partial "fn/initials.html" | safeHTML }}</span>{{ end -}}
+    </p>
+  </div>
+  <div class="aside">
+    <img class="face" src="{{ $pm.imageUrl | relURL }}" width="560" height="538" alt="{{ $pm.imageTitle }}">
+  </div>
+  <div class="bio-more">
+    {{- range after 1 $bio }}
+    <p>{{ . | markdownify | partial "fn/initials.html" | safeHTML }}</p>
+    {{- end }}
+  </div>
+</section>
+
+<section class="wrap grid lede" aria-label="Research agenda">
+  <p class="statement">{{ $a.statement.plain }} <strong>{{ $a.statement.bold }}</strong></p>
+</section>
+
+<section class="agenda" aria-label="Research questions">
+  <div class="wrap grid">
+    <p class="asks">{{ $a.lead }}</p>
+    <ol>
+      {{- $n := len $a.strands }}
+      {{- range $i, $q := $a.strands }}
+      {{- $last := eq (add $i 1) $n }}
+      <li><a href="#{{ .id }}">{{ if $last }}and {{ end }}{{ .clause }}{{ cond $last "." "," }}</a></li>
+      {{- end }}
+    </ol>
+  </div>
+</section>
+
+{{- range $a.strands }}
+<section class="wrap grid q" id="{{ .id }}" aria-labelledby="{{ .id }}-h">
+  <h2 class="q-head" id="{{ .id }}-h">{{ partial "fn/typeset.html" (dict "text" .question "first" true "last" true) }}</h2>
+  <div class="answers">
+    {{- range .papers }}
+    {{ partial "paper_entry.html" (dict "slug" .slug "number" .number "unit" .unit) }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+
+{{- end }}

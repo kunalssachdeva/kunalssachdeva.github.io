@@ -1,0 +1,50 @@
+# Homepage research agenda ("promise vs. reality").
+# layouts/index.html renders the statement, the navy band and one section per
+# strand from this file. Each paper's title, finding, authors, venue and link
+# chips are read from its own page (content/papers/<slug>/index.md), so nothing
+# here repeats them. A slug with no paper page fails the build.
+#
+# Strands and papers appear in the order listed. The environmental work leads:
+# the strands most about environmental outcomes come first, and within each
+# strand environmental papers come first, then the rest, published before
+# working papers. `number` is the headline figure on the maize block; give one
+# only where the paper's finding states it. `unit` is set smaller after it.
+# `id` is the section's anchor (#pressure etc.), linked from the navy band.
+
+statement:
+  plain: "He studies financial markets and their real effects,"
+  bold: "and how contracts and incentives shape them."
+
+lead: "Recent work asks"
+
+strands:
+  - id: pressure
+    question: "Does pressure on firms really bite?"
+    clause: "whether pressure on firms really bites"
+    papers:
+      - slug: real-effects-environmental-activist-investing
+        number: "−13%"
+      - slug: opening-the-brown-box
+      - slug: defunding-controversial-industries
+      - slug: agency-meets-stability
+
+  - id: numbers
+    question: "Do the numbers measure what they claim?"
+    clause: "whether the numbers measure what they claim"
+    papers:
+      - slug: emissions-revisions-us-corporations
+        number: "60%"
+      - slug: sustainability-meets-substance
+      - slug: patents-female-inventors-undercitation
+        number: "+12%"
+
+  - id: products
+    question: "Do financial products deliver what they promise?"
+    clause: "whether financial products deliver what they promise"
+    papers:
+      - slug: conflicting-objectives-esg-funds
+      - slug: skin-or-skim
+      - slug: missing-the-target
+        number: "4.8"
+        unit: "yrs"
+      - slug: health-state-contingent-assets
