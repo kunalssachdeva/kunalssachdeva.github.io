@@ -43,7 +43,7 @@ static/
 └── images/papers/      # Per-paper SVG illustrations referenced from research.md
 
 data/
-└── agenda.yml          # Homepage research agenda: statement, band lead-in, four strands (see "Homepage agenda")
+└── agenda.yml          # Homepage research agenda: statement, band lead-in, three strands (see "Homepage agenda")
 
 assets/css/extended/    # the ONLY stylesheets loaded (head.html no longer bundles the theme's CSS)
 ├── michigan-theme.css  # Tokens (all colours/fonts/sizes), @font-face, base, header, footer, homepage, chips
@@ -74,7 +74,7 @@ removed in the 2026-07 audit (no-op separator tweaks, an unreachable search page
 archetypes for content types that do not exist).
 ```
 
-The homepage bio is rendered from `params.profileMode.subtitle` in `config.yml`, not from a content file: paragraph 1 large under the name, paragraphs 3 and 4 stacked below it. Paragraph 2 (the research statement) is not shown there; the statement and the band come from `data/agenda.yml`, so keep the two in step when the agenda changes.
+The homepage opening is rendered from `config.yml`, not from a content file. Under the name sits the title block, `params.profileMode.titleLines` (one markdown line each: rank and fellowship, school and university, Erb affiliation). Below the contact row come paragraphs 2 and 3 of `params.profileMode.subtitle` (publications and awards, then previous positions). Paragraph 1 of the subtitle is the research statement and is not shown there; the statement and the band come from `data/agenda.yml`, so keep the two in step when the agenda changes. Do not repeat the title block as a bio sentence: the owner removed that duplication in 2026-11.
 
 ### Homepage agenda (`data/agenda.yml`)
 

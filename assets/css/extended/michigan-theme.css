@@ -3,12 +3,12 @@
  * axes: white/grotesk/navy+maize · posture: committed (navy name and band, maize behind the numbers) · surface: absolute (white, the owner's choice) · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · waive 7b · the paper and every surface token is #FFFFFF · the owner rejected a tinted paper and asked for the white background */
 /* Hallmark · waive 39b · the short controls are the Paper, PDF, Data and Cite chips under each paper · eleven papers each carry up to five of them, so they stay compact; each still clears the 24px WCAG 2.5.8 target */
-/* Hallmark · waive 49b · the wrapping links are full paper titles on the homepage, /research/ and /media/, and the navy band's four clauses of one sentence · a paper title or a clause has to wrap on a phone; truncating or nowrap would hide it */
+/* Hallmark · waive 49b · the wrapping links are full paper titles on the homepage, /research/ and /media/, and the navy band's three clauses of one sentence · a paper title or a clause has to wrap on a phone; truncating or nowrap would hide it */
 /* Hallmark · waive 78 · the /media/ and /data/ section heads are paper titles heading each list · they sit in the left column like the homepage questions */
 /* Hallmark · reworded "3357-3383" to "3357–3383" · the Skin or Skim page range takes an en dash like every other range on the research page */
 
 /* Redesign (2026-11), "Promise vs. reality": the homepage is the research
-   agenda. Name, title and bio, then one statement, a navy band that asks four
+   agenda. Name, title block and bio, then one statement, a navy band that asks three
    questions, and a section per question: the question pinned in the left
    columns while its papers scroll past on the right, each led by its headline
    number on maize where the finding states one. Inner pages use the same
@@ -76,7 +76,6 @@
 
     /* Type scale (the "refined" setting of the mockups) */
     --size-name: clamp(44px, 4.8vw, 68px);
-    --size-bio1: clamp(19px, 1.6vw, 23px);
     --size-statement: clamp(26px, 2.8vw, 40px);
     --size-band: clamp(19px, 1.7vw, 24px);
     --size-question: clamp(30px, 3.95vw, 56px);
@@ -146,14 +145,17 @@ strong { font-weight: 700; }
 .role span { display: block; }
 .contact-row { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 12px; font-size: 16px; line-height: 1.5; }
 .contact-row a { color: var(--color-ink); }
-.bio1 { font-size: var(--size-bio1); line-height: 1.36; letter-spacing: -.01em; margin-top: var(--s-3); max-width: 30em; }
 .face { width: min(var(--face), 100%); aspect-ratio: 1; object-fit: cover; object-position: 50% 22%; }
 .bio-more { margin-top: var(--s-4); }
 .bio-more p { font-size: 17px; line-height: 1.6; color: var(--color-ink-2); max-width: 70ch; }
 .bio-more p + p { margin-top: 10px; }
 
 /* ---------- homepage: the agenda ---------- */
-.lede { padding-block: var(--s-5); }
+/* More room under the statement than above it: at 1440x900 the first screen
+   ends on the statement with a sliver of the navy band as the cue to scroll,
+   and the band's text starts below the fold rather than being cut by it.
+   Phones override this below. */
+.lede { padding-block: var(--s-6) var(--s-7); }
 .statement { font-size: var(--size-statement); line-height: 1.12; letter-spacing: -.022em; color: var(--color-ink-2); max-width: 22em; text-wrap: balance; }
 .statement strong { font-weight: 800; color: var(--color-ink); }
 .agenda { background: var(--color-accent); color: var(--color-accent-ink); padding-block: var(--s-4); }
@@ -217,7 +219,7 @@ a.slides:hover { background: var(--color-accent); color: var(--color-accent-ink)
 /* ---------- one 12-column grid from tablet up ---------- */
 @media (min-width: 900px) {
     .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-    /* opening: name, title, paragraph 1 and paragraphs 3-4 in the left seven columns; portrait at the top right */
+    /* opening: name, title block, contact row and the two bio paragraphs in the left seven columns; portrait at the top right */
     .intro, .bio-more { grid-column: 1 / 8; padding-right: var(--gap); }
     .bio-more { grid-row: 2; }
     .aside { grid-column: 9 / 13; grid-row: 1 / span 2; align-self: start; padding-top: 10px; }
