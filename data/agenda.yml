@@ -4,9 +4,12 @@
 # chips are read from its own page (content/papers/<slug>/index.md), so nothing
 # here repeats them. A slug with no paper page fails the build.
 #
-# Papers appear in the order listed: published first, then working papers,
-# newest first. `number` is the headline figure on the maize block; give one
+# Strands and papers appear in the order listed. The environmental work leads:
+# the strands most about environmental outcomes come first, and within each
+# strand environmental papers come first, then the rest, published before
+# working papers. `number` is the headline figure on the maize block; give one
 # only where the paper's finding states it. `unit` is set smaller after it.
+# `id` is the section's anchor (#pressure etc.), linked from the navy band.
 
 statement:
   plain: "He studies the gap between what finance promises"
@@ -15,34 +18,34 @@ statement:
 lead: "Recent work asks"
 
 strands:
-  - id: q1
-    question: "Are reported numbers real?"
-    clause: "whether reported numbers are real"
-    papers:
-      - slug: patents-female-inventors-undercitation
-        number: "+12%"
-      - slug: emissions-revisions-us-corporations
-        number: "60%"
-      - slug: sustainability-meets-substance
-
-  - id: q2
-    question: "Do stated goals match actual choices?"
-    clause: "whether stated goals match actual choices"
-    papers:
-      - slug: skin-or-skim
-      - slug: conflicting-objectives-esg-funds
-      - slug: agency-meets-stability
-
-  - id: q3
+  - id: pressure
     question: "Does pressure on firms really bite?"
     clause: "whether pressure on firms really bites"
     papers:
       - slug: real-effects-environmental-activist-investing
         number: "−13%"
-      - slug: defunding-controversial-industries
       - slug: opening-the-brown-box
+      - slug: defunding-controversial-industries
 
-  - id: q4
+  - id: numbers
+    question: "Are reported numbers real?"
+    clause: "whether reported numbers are real"
+    papers:
+      - slug: emissions-revisions-us-corporations
+        number: "60%"
+      - slug: sustainability-meets-substance
+      - slug: patents-female-inventors-undercitation
+        number: "+12%"
+
+  - id: goals
+    question: "Do stated goals match actual choices?"
+    clause: "whether stated goals match actual choices"
+    papers:
+      - slug: conflicting-objectives-esg-funds
+      - slug: skin-or-skim
+      - slug: agency-meets-stability
+
+  - id: households
     question: "Do households get what they plan for?"
     clause: "whether households get what they plan for"
     papers:
