@@ -74,7 +74,7 @@ removed in the 2026-07 audit (no-op separator tweaks, an unreachable search page
 archetypes for content types that do not exist).
 ```
 
-The homepage opening is rendered from `config.yml`, not from a content file. Under the name sits the title block, `params.profileMode.titleLines` (one markdown line each: rank and fellowship, school and university, Erb affiliation). Below the contact row come paragraphs 2 and 3 of `params.profileMode.subtitle` (publications and awards, then previous positions). Paragraph 1 of the subtitle is the research statement and is not shown there; the statement and the band come from `data/agenda.yml`, so keep the two in step when the agenda changes. Do not repeat the title block as a bio sentence: the owner removed that duplication in 2026-11.
+The homepage opening is rendered from `config.yml`, not from a content file. Under the name sits the title block, `params.profileMode.titleLines` (one markdown line each: rank and fellowship, school and university, Erb affiliation). There is no contact row under the name (the owner removed it in 2026-11): CV and Google Scholar are in the main menu (header and footer), and the footer lists the email and SSRN from `params.socialIcons` on every page. Below the title block come paragraphs 2 and 3 of `params.profileMode.subtitle` (publications and awards, then previous positions). Paragraph 1 of the subtitle is the research statement and is not shown there; the statement and the band come from `data/agenda.yml`, so keep the two in step when the agenda changes. Do not repeat the title block as a bio sentence: the owner removed that duplication in 2026-11.
 
 ### Homepage agenda (`data/agenda.yml`)
 

@@ -1,5 +1,5 @@
 /* Hallmark · shape: Promise vs. reality (question-led) · genre: editorial · theme: brand · redesign: full
- * paper: oklch(100% 0 0) · accent: oklch(27.1% 0.080 252) · display: Schibsted Grotesk · body: Schibsted Grotesk · hero: name, title, contact row, bio and portrait, then the agenda statement · nav: Ross logo and text links, maize on the current item · footer: logo, school, email, sections, copyright · signature: questions pinned on the left while their answers scroll past, headline numbers on maize blocks, one navy band
+ * paper: oklch(100% 0 0) · accent: oklch(27.1% 0.080 252) · display: Schibsted Grotesk · body: Schibsted Grotesk · hero: name, title block, bio and portrait, then the agenda statement · nav: Ross logo and text links, maize on the current item · footer: logo, school, email and SSRN, sections (with CV and Google Scholar), copyright · signature: questions pinned on the left while their answers scroll past, headline numbers on maize blocks, one navy band
  * axes: white/grotesk/navy+maize · posture: committed (navy name and band, maize behind the numbers) · surface: absolute (white, the owner's choice) · contrast: pass · fold: pass · v2.0.0 */
 /* Hallmark · waive 7b · the paper and every surface token is #FFFFFF · the owner rejected a tinted paper and asked for the white background */
 /* Hallmark · waive 39b · the short controls are the Paper, PDF, Data and Cite chips under each paper · eleven papers each carry up to five of them, so they stay compact; each still clears the 24px WCAG 2.5.8 target */
@@ -143,19 +143,17 @@ strong { font-weight: 700; }
 .name { font-size: var(--size-name); line-height: .98; letter-spacing: -.035em; font-weight: 800; color: var(--color-accent); }
 .role { font-size: 17px; line-height: 1.5; color: var(--color-ink-2); margin-top: var(--s-2); }
 .role span { display: block; }
-.contact-row { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 12px; font-size: 16px; line-height: 1.5; }
-.contact-row a { color: var(--color-ink); }
 .face { width: min(var(--face), 100%); aspect-ratio: 1; object-fit: cover; object-position: 50% 22%; }
 .bio-more { margin-top: var(--s-4); }
 .bio-more p { font-size: 17px; line-height: 1.6; color: var(--color-ink-2); max-width: 70ch; }
 .bio-more p + p { margin-top: 10px; }
 
 /* ---------- homepage: the agenda ---------- */
-/* More room under the statement than above it: at 1440x900 the first screen
-   ends on the statement with a sliver of the navy band as the cue to scroll,
-   and the band's text starts below the fold rather than being cut by it.
-   Phones override this below. */
-.lede { padding-block: var(--s-6) var(--s-7); }
+/* The statement stands alone, with equal room above and below: at 1440x900
+   the first screen ends on it with a sliver of the navy band as the cue to
+   scroll, and the band's text starts below the fold rather than being cut by
+   it. Phones override this below. */
+.lede { padding-block: var(--s-7); }
 .statement { font-size: var(--size-statement); line-height: 1.12; letter-spacing: -.022em; color: var(--color-ink-2); max-width: 22em; text-wrap: balance; }
 .statement strong { font-weight: 800; color: var(--color-ink); }
 .agenda { background: var(--color-accent); color: var(--color-accent-ink); padding-block: var(--s-4); }
@@ -211,7 +209,7 @@ a.slides:hover { background: var(--color-accent); color: var(--color-accent-ink)
 .foot p { font-size: 16px; line-height: 1.6; color: var(--color-ink-2); }
 .foot .school { margin-top: var(--s-2); text-wrap: balance; }
 .foot-contact { display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 16px; line-height: 1.6; }
-.foot-nav { display: flex; flex-wrap: wrap; gap: 4px var(--s-3); font-size: 16px; font-weight: 700; }
+.foot-nav { display: flex; flex-wrap: wrap; gap: 4px var(--s-2); font-size: 16px; font-weight: 700; } /* seven links fit one line at 1440 */
 .foot-nav a { color: var(--color-accent); text-decoration: none; }
 .foot-nav a:hover { text-decoration: underline; }
 .foot .copy { color: var(--color-muted); margin-top: var(--s-3); }
@@ -219,7 +217,7 @@ a.slides:hover { background: var(--color-accent); color: var(--color-accent-ink)
 /* ---------- one 12-column grid from tablet up ---------- */
 @media (min-width: 900px) {
     .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-    /* opening: name, title block, contact row and the two bio paragraphs in the left seven columns; portrait at the top right */
+    /* opening: name, title block and the two bio paragraphs in the left seven columns; portrait at the top right */
     .intro, .bio-more { grid-column: 1 / 8; padding-right: var(--gap); }
     .bio-more { grid-row: 2; }
     .aside { grid-column: 9 / 13; grid-row: 1 / span 2; align-self: start; padding-top: 10px; }
@@ -239,7 +237,6 @@ a.slides:hover { background: var(--color-accent); color: var(--color-accent-ink)
     .role { margin-top: 12px; }
     .aside { margin-top: var(--s-4); }
     .face { width: 160px; }
-    .contact-row { font-size: 15px; gap: 4px 18px; } /* all four fit one line at 390 */
     .lede { padding-block: var(--s-5) var(--s-4); }
     .asks { margin-bottom: 10px; }
     .q { padding-top: var(--s-5); }

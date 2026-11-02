@@ -1,20 +1,31 @@
-{{- /* Site footer: the Ross logo, the school, the email, the section links and
-       the copyright. Then the theme's copy button for the Cite blocks. */ -}}
+{{- /* Site footer: the Ross logo, the school, the contact links (email and
+       SSRN, from params.socialIcons), the section links (the main menu, which
+       carries CV and Google Scholar) and the copyright. Then the theme's copy
+       button for the Cite blocks. This is the site's contact block: the
+       homepage no longer repeats it under the name. */ -}}
 <footer class="wrap grid foot">
   <div class="foot-id">
     <img class="ross" src="{{ site.Params.label.icon | relURL }}" width="343" height="80" alt="Michigan Ross">
     <p class="school">{{ partial "fn/initials.html" site.Params.schema.worksFor.name | safeHTML }}</p>
     <ul class="foot-contact" aria-label="Contact">
-      {{- range site.Params.socialIcons }}{{ if hasPrefix .url "mailto:" }}
-      <li><a href="{{ .url | safeURL }}">{{ strings.TrimPrefix "mailto:" .url }}</a></li>
-      {{- end }}{{ end }}
+      {{- range site.Params.socialIcons }}
+      {{- $url := trim .url " " }}
+      {{- if hasPrefix $url "mailto:" }}
+      <li><a href="{{ $url | safeURL }}" rel="me">{{ strings.TrimPrefix "mailto:" $url }}</a></li>
+      {{- else }}
+      <li><a href="{{ $url | safeURL }}" target="_blank" rel="noopener noreferrer me">{{ .name }}</a></li>
+      {{- end }}
+      {{- end }}
     </ul>
   </div>
   <div class="foot-links">
     <nav aria-label="Footer">
       <ul class="foot-nav">
         {{- range site.Menus.main }}
-        <li><a href="{{ .URL | absLangURL }}"{{ if strings.HasSuffix (lower .URL) ".pdf" }} target="_blank"{{ end }}>{{ .Name }}</a></li>
+        {{- $ext := findRE "://" .URL }}
+        <li><a href="{{ .URL | absLangURL }}"
+          {{- if or $ext (strings.HasSuffix (lower .URL) ".pdf") }} target="_blank"{{ end }}
+          {{- if $ext }} rel="noopener noreferrer"{{ end }}>{{ .Name }}</a></li>
         {{- end }}
       </ul>
     </nav>

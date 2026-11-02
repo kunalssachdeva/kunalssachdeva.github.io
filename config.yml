@@ -36,7 +36,9 @@ menu:
         - name: CV
           url: cv.pdf
           weight: 6
-        # Google Scholar is in the homepage contact row (socialIcons), not the nav.
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
+          weight: 7
 
 params:
     description: "Kunal Sachdeva - Assistant Professor of Finance at University of Michigan Ross School of Business. Research on climate finance, environmental regulation, and financial intermediation."
@@ -130,11 +132,11 @@ params:
             - "https://erb.umich.edu/kunal-sachdeva"
             - "https://x.com/KunalSSachdeva"
 
+    # The footer's contact links, on every page. Google Scholar and the CV are
+    # in the main menu instead, so they are not listed twice.
     socialIcons:
         - name: Email
           url: mailto:ksach@umich.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=lBWscRoAAAAJ&hl=en
         - name: SSRN
           url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2018424
 

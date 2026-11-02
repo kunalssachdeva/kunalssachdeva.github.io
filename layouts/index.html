@@ -15,17 +15,6 @@
     <p class="role">
       {{- range $pm.titleLines }}<span>{{ . | markdownify | partial "fn/initials.html" | safeHTML }}</span>{{ end -}}
     </p>
-    <ul class="contact-row" aria-label="Contact">
-      {{- range site.Params.socialIcons }}
-      {{- $url := trim .url " " }}
-      {{- if hasPrefix $url "mailto:" }}
-      <li><a href="{{ $url | safeURL }}" rel="me">{{ strings.TrimPrefix "mailto:" $url }}</a></li>
-      <li><a href="{{ "cv.pdf" | relURL }}" target="_blank">CV</a></li>
-      {{- else }}
-      <li><a href="{{ $url | safeURL }}" target="_blank" rel="noopener noreferrer me">{{ .name }}</a></li>
-      {{- end }}
-      {{- end }}
-    </ul>
   </div>
   <div class="aside">
     <img class="face" src="{{ $pm.imageUrl | relURL }}" width="560" height="538" alt="{{ $pm.imageTitle }}">
